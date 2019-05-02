@@ -15,7 +15,7 @@ This repo lists all the different SDK, tools, and services needed to build a gre
 - [Language Understanding](#Language-Understanding)
 - [QnA Maker](#QnA-Maker)
 - [Speech Services](#Speech-Services)  
-- [Conversational Analytics capabilities] (#Analytics)
+- [Analytics](#Analytics)
 
 - [Bot Framework SDK v3](#Bot-Framework-SDK-v3)
 
@@ -109,7 +109,7 @@ We currently provide a preview of Calendar, Email and Task productivity skills, 
 
 ### Analytics
 
-Gain key insights into your bot’s health and behavior with the [Conversational Analytics capabilities](https://github.com/Microsoft/AI). Review available telemetry, sample Application Insights queries, and Power BI dashboards to understand the full breadth of your bot’s conversations with users.
+Gain key insights into your bot’s health and behavior with the [Analytics capabilities](https://github.com/Microsoft/AI). Review available telemetry, sample Application Insights queries, and Power BI dashboards to understand the full breadth of your bot’s conversations with users.
 
 ## Bot Framework Emulator
 The [Bot Framework Emulator][60] is a  cross-platform desktop application that allows bot developers to test and debug bots built using the Bot Framework SDK. You can use the Bot Framework Emulator to test bots running either locally on your machine or connect to bots running remotely.
@@ -130,7 +130,9 @@ The Bot Framework [Web Chat][23], is highly customizable web-based client chat c
 [25]:https://github.com/Microsoft/BotFramework-WebChat/tree/master/doc
 [26]:https://github.com/Microsoft/BotFramework-WebChat/tree/master/samples
 
-## Language Understanding 
+## Cognitive Services
+To create a bot, you can use Microsoft's Cognitive Services, as well as other Open Source and 3P AI solutions. The key cogntive services used to create a bot include: 
+### Language Understanding 
 A machine learning-based service to build natural language experiences. Quickly create enterprise-ready, custom models that continuously improve. [Language Understanding service][30] allows your application to understand what a person wants in their own words.
 
 - [docs][31] | [add language understanding to your bot][32] | use [LUDown][17] and [LUIS][18] command line tools 
@@ -139,7 +141,7 @@ A machine learning-based service to build natural language experiences. Quickly 
 [31]:https://docs.microsoft.com/en-us/azure/cognitive-services/LUIS/Home
 [32]:https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-howto-v4-luis?view=azure-bot-service-4.0&branch=pr-en-us-1325&tabs=csharp
 
-## QnA Maker
+### QnA Maker
 [QnA Maker][33] is a cloud-based API service that creates a conversational, question and answer layer over your data. With QnA Maker, you can build, train and publish a simple question and answer bot based on FAQ URLs, structured documents, product manuals or editorial content in minutes.
 
 - [docs][34]  | [add qnamaker to your bot][35] | use [LUDdown][17] and [QnAMaker][19] command line tools
@@ -148,7 +150,7 @@ A machine learning-based service to build natural language experiences. Quickly 
 [34]:https://aka.ms/qnamaker-docs-home
 [35]:https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-howto-qna?view=azure-bot-service-4.0&branch=pr-en-us-1325&tabs=cs
 
-## Speech Services
+### Speech Services
 [Speech Services] [70] convert audio to text, perform speech translation and text-to-speech with the unified Speech services. With the speech services you can integrate speech into your bot, create custom wake words, and author in multiple languages.
 
 [70]:https://azure.microsoft.com/en-us/services/cognitive-services/speech-services/
