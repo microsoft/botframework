@@ -8,13 +8,13 @@ This repo lists all the different SDK, tools, and services needed to build a gre
 
 - [Azure Bot Service](#Azure-Bot-Service)
 - [Bot Framework SDK v4](#Bot-Framework-SDK-v4)
-- [Bot Framework SDK v3](#Bot-Framework-SDK-v3)
 - [Bot Framework Tools](#Bot-Framework-Tools)
+- [Language Understanding](#Language-Understanding)
+- [Bot Framework Solutions](#Bot-Framework-Solutions)
 - [Bot Framework Emulator](#Bot-Framework-Emulator)
 - [Bot Framework Web Chat](#Bot-Framework-Web-Chat)
-- [Language Understanding](#Language-Understanding)
 - [QnA Maker](#QnA-Maker)
-- [Bot Framework Solutions](#Bot-Framework-Solutions)
+- [Bot Framework SDK v3](#Bot-Framework-SDK-v3)
 - [Speech Services](#Speech-Services) 
 
 ## Azure Bot Service
@@ -100,16 +100,20 @@ A machine learning-based service to build natural language experiences. Quickly 
 
 ## Bot Framework Solutions
 
-The [Bot Framework Solutions repository](https://github.com/Microsoft/AI] is the home for a set of templates, solutions and skills to help build more advanced, assistant-like conversational experiences.
+The [Bot Framework Solutions repository](https://github.com/Microsoft/AI) is the home for a set of templates, solutions and skills to help build more advanced, assistant-like conversational experiences.
 
 ### Bot Framework Virtual Assistant Template
 
-Creation of a high quality conversational experience requires a foundational set of capabilities. To help you succeed with building more complex, assistant-like conversational experiences, we have created an Virtual Assistant Template. This template brings together all of the best practices and supporting components we've identified through building of conversational experiences.
+Creation of a high quality conversational experience requires a foundational set of capabilities. To help you succeed with building more complex, assistant-like conversational experiences, we have created an Virtual Assistant Template. This template brings together all of the best practices and supporting components we've identified through building of conversational experiences. The template is available for both C# and typescript.
 
 ### Bot Framework Skills
 Developers can compose conversational experiences by stitching together re-usable conversational capabilities, known as Skills.
 
-Within an Enterprise, this could be creating one parent bot bringing together multiple sub-bots owned by different teams, or more broadly leveraging common capabilities provided by other developers. 
+Within an Enterprise, this could be creating one parent bot bringing together multiple sub-bots owned by different teams, or more broadly leveraging common capabilities provided by other developers. A number of skills are provided in the [Solutions repository](https://github.com/Microsoft/AI) along with a Skill template for building your own.
+
+### Analytics
+
+Gain key insights into your bot’s health and behavior with the Conversational AI Analytics solutions. Review available telemetry, sample Application Insights queries, and Power BI dashboards to understand the full breadth of your bot’s conversations with users.
 
 ## Bot Framework Emulator
 The [Bot Framework Emulator][60] is a  cross-platform desktop application that allows bot developers to test and debug bots built using the Bot Framework SDK. You can use the Bot Framework Emulator to test bots running either locally on your machine or connect to bots running remotely.
@@ -155,6 +159,10 @@ The Bot Framework SDK v3 includes SDKs that enable developers to model and build
 [15]:https://github.com/Microsoft/BotBuilder-V3/tree/master/Node/examples
 
 > Note: While we actively maintain the v3 SDK, we are focusing out attention on the v4 of the SDK. Read more on [SDK v3 long-term support](https://docs.microsoft.com/en-us/azure/bot-service/bot-service-resources-bot-framework-faq?view=azure-bot-service-3.0#bot-framework-sdk-version-3-lifetime-support).
+
+## Speech Services
+
+TBC
 
 # Contributing
 
