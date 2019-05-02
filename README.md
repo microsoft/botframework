@@ -1,6 +1,6 @@
 
 # Microsoft Bot Framework 
-The Microsoft Bot Framework is a comprehensive framework for building enterprise-grade conversational AI experiences. It includes a set of open source SDKs and tools that enable developers to build, test, and connect bots that interact naturally with users, wherever they are. With the Microsoft Bot Framework, it is easy can create a bot with the ability to speak, listen, understand, and learn from your users with Azure Cognitive Services. 
+The Microsoft Bot Framework is a comprehensive framework for building enterprise-grade conversational AI experiences. It includes a set of open source SDKs, tools, and services that enable developers to build, test, and connect bots that interact naturally with users, wherever they are. With the Microsoft Bot Framework, it is easy can create a bot with the ability to speak, listen, understand, and learn from your users with Azure Cognitive Services. 
 
 ![Bot Framework](./docs/media/Bot-Framework-header.jpg)
 
@@ -9,13 +9,15 @@ This repo lists all the different SDK, tools, and services needed to build a gre
 - [Azure Bot Service](#Azure-Bot-Service)
 - [Bot Framework SDK v4](#Bot-Framework-SDK-v4)
 - [Bot Framework Tools](#Bot-Framework-Tools)
-- [Language Understanding](#Language-Understanding)
 - [Bot Framework Solutions](#Bot-Framework-Solutions)
 - [Bot Framework Emulator](#Bot-Framework-Emulator)
 - [Bot Framework Web Chat](#Bot-Framework-Web-Chat)
+- [Language Understanding](#Language-Understanding)
 - [QnA Maker](#QnA-Maker)
+- [Speech Services](#Speech-Services)  
+- [Conversational Analytics capabilities] (#Analytics)
+
 - [Bot Framework SDK v3](#Bot-Framework-SDK-v3)
-- [Speech Services](#Speech-Services) 
 
 ## Azure Bot Service
 Azure Bot Service enables you to host intelligent, enterprise-grade bots with complete ownership and control of your data. Developers can register and connect their bots to users on Skype, Microsoft Teams, Cortana, Web Chat, and more.
@@ -89,14 +91,6 @@ The Bot Framework [tools](https://github.com/Microsoft/botbuilder-tools) are a c
 [22]:https://github.com/Microsoft/botbuilder-tools/blob/master/packages/MSBot
 [36]:https://docs.microsoft.com/en-us/cli/azure/bot?view=azure-cli-latest
 
-## Language Understanding 
-A machine learning-based service to build natural language experiences. Quickly create enterprise-ready, custom models that continuously improve. [Language Understanding service][30] allows your application to understand what a person wants in their own words.
-
-- [docs][31] | [add language understanding to your bot][32] | use [LUDown][17] and [LUIS][18] command line tools 
-
-[30]:https://www.luis.ai
-[31]:https://docs.microsoft.com/en-us/azure/cognitive-services/LUIS/Home
-[32]:https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-howto-v4-luis?view=azure-bot-service-4.0&branch=pr-en-us-1325&tabs=csharp
 
 ## Bot Framework Solutions
 
@@ -136,14 +130,28 @@ The Bot Framework [Web Chat][23], is highly customizable web-based client chat c
 [25]:https://github.com/Microsoft/BotFramework-WebChat/tree/master/doc
 [26]:https://github.com/Microsoft/BotFramework-WebChat/tree/master/samples
 
+## Language Understanding 
+A machine learning-based service to build natural language experiences. Quickly create enterprise-ready, custom models that continuously improve. [Language Understanding service][30] allows your application to understand what a person wants in their own words.
+
+- [docs][31] | [add language understanding to your bot][32] | use [LUDown][17] and [LUIS][18] command line tools 
+
+[30]:https://www.luis.ai
+[31]:https://docs.microsoft.com/en-us/azure/cognitive-services/LUIS/Home
+[32]:https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-howto-v4-luis?view=azure-bot-service-4.0&branch=pr-en-us-1325&tabs=csharp
+
 ## QnA Maker
-[QnA Maker][33] is a cloud-based API service that creates a conversational, question and answer layer over your data. with QnA Maker, you can build, train and publish a simple question and answer bot based on FAQ URLs, structured documents, product manuals or editorial content in minutes.
+[QnA Maker][33] is a cloud-based API service that creates a conversational, question and answer layer over your data. With QnA Maker, you can build, train and publish a simple question and answer bot based on FAQ URLs, structured documents, product manuals or editorial content in minutes.
 
 - [docs][34]  | [add qnamaker to your bot][35] | use [LUDdown][17] and [QnAMaker][19] command line tools
 
 [33]:https://www.qnamaker.ai/
 [34]:https://aka.ms/qnamaker-docs-home
 [35]:https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-howto-qna?view=azure-bot-service-4.0&branch=pr-en-us-1325&tabs=cs
+
+## Speech Services
+[Speech Services] [70] convert audio to text, perform speech translation and text-to-speech with the unified Speech services. With the speech services you can integrate speech into your bot, create custom wake words, and author in multiple languages.
+
+[70]:https://azure.microsoft.com/en-us/services/cognitive-services/speech-services/
 
 ## Bot Framework SDK v3
 The Bot Framework SDK v3 includes SDKs that enable developers to model and build sophisticated conversation using their favorite programing language.
@@ -162,9 +170,7 @@ The Bot Framework SDK v3 includes SDKs that enable developers to model and build
 
 > Note: While we actively maintain the v3 SDK, we are focusing out attention on the v4 of the SDK. Read more on [SDK v3 long-term support](https://docs.microsoft.com/en-us/azure/bot-service/bot-service-resources-bot-framework-faq?view=azure-bot-service-3.0#bot-framework-sdk-version-3-lifetime-support).
 
-## Speech Services
 
-TBC
 
 # Contributing
 
