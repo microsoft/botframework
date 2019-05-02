@@ -6,6 +6,15 @@ The Microsoft Bot Framework is a comprehensive framework for building enterprise
 
 This repo lists all the different SDK, tools, and services needed to build a great conversational AI experience. Its role is to serve as a landing page and one place to find all the information required to get start building bots. 
 
+## Azure Bot Service
+Azure Bot Service enables you to host intelligent, enterprise-grade bots with complete ownership and control of your data. Developers can register and connect their bots to users on Skype, Microsoft Teams, Cortana, Web Chat, and more.
+
+- [Azure][27]  |  [docs][28] | [connect to channels][29] 
+
+[27]:https://azure.microsoft.com/en-us/services/bot-service/
+[28]:https://docs.microsoft.com/en-us/azure/bot-service/bot-service-overview-introduction?view=azure-bot-service-4.0
+[29]:https://docs.microsoft.com/en-us/azure/bot-service/bot-service-manage-channels?view=azure-bot-service-4.0
+
 ## Bot Framework SDK v4
 The Bot Framework SDK v4 includes SDKs that enable developers to model and build sophisticated conversation using their favorite programing language.
 
@@ -31,8 +40,8 @@ The Bot Framework SDK v4 includes SDKs that enable developers to model and build
 ### Bot Framework SDK v4 - Futures (preview)
 The Bot Framework SDK v4 - Futures includes cool features we are working hard on but are still in preview and are not production ready. 
 
-- [Common Expression Language][40] | [api ref][41] 
-- [Langauge Generation][43] | [docs][44] | samples [C#][45] , [JS][46]
+- [Common Expression Language][40] | [api][41] 
+- [Langauge Generation][43] | [docs][44] | samples: [C#][45] , [JS][46]
 - [Adaptive Dialog][47] | [docs][48] | [C# samples][49] | 
 - [Declarative Dialog][50] 
 
@@ -97,15 +106,6 @@ The Bot Framework [Web Chat][23], is highly customizable web-based client chat c
 [24]:https://www.npmjs.com/package/botframework-webchat
 [25]:https://github.com/Microsoft/BotFramework-WebChat/tree/master/doc
 [26]:https://github.com/Microsoft/BotFramework-WebChat/tree/master/samples
-
-## Azure Bot Service
-Azure Bot Service enables you to host intelligent, enterprise-grade bots with complete ownership and control of your data. Developers can register and connect their bots to users on Skype, Microsoft Teams, Cortana, Web Chat, and more.
-
-- [Azure][27]  |  [docs][28] | [connect to channels][29] 
-
-[27]:https://azure.microsoft.com/en-us/services/bot-service/
-[28]:https://docs.microsoft.com/en-us/azure/bot-service/bot-service-overview-introduction?view=azure-bot-service-4.0
-[29]:https://docs.microsoft.com/en-us/azure/bot-service/bot-service-manage-channels?view=azure-bot-service-4.0
 
 ## Language Understanding 
 A machine learning-based service to build natural language experiences. Quickly create enterprise-ready, custom models that continuously improve. [Language Understanding service][30] allows your application to understand what a person wants in their own words.
