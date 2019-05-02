@@ -84,7 +84,6 @@ The Bot Framework SDK v3 includes SDKs that enable developers to model and build
 
 > Note: While we actively maintain the v3 SDK, we are focusing out attention on the v4 of the SDK. Read more on [SDK v3 long-term support](https://docs.microsoft.com/en-us/azure/bot-service/bot-service-resources-bot-framework-faq?view=azure-bot-service-3.0#bot-framework-sdk-version-3-lifetime-support).
 
-
 ## Bot Framework Tools
 The Bot Framework [tools](https://github.com/Microsoft/botbuilder-tools) are a collection of cross-platform command line tools designed to cover end-to-end bot development workflow.
 
@@ -107,6 +106,19 @@ The Bot Framework [tools](https://github.com/Microsoft/botbuilder-tools) are a c
 [21]:https://github.com/Microsoft/botbuilder-tools/blob/master/packages/LUISGen
 [22]:https://github.com/Microsoft/botbuilder-tools/blob/master/packages/MSBot
 [36]:https://docs.microsoft.com/en-us/cli/azure/bot?view=azure-cli-latest
+
+## Bot Framework Solutions
+
+The [Bot Framework Solutions repository](https://github.com/Microsoft/AI] is the home for a set of templates, solutions and skills to help build more advanced, assistant-like conversational experiences.
+
+### Bot Framework Virtual Assistant Template
+
+Creation of a high quality conversational experience requires a foundational set of capabilities. To help you succeed with building more complex, assistant-like conversational experiences, we have created an Virtual Assistant Template. This template brings together all of the best practices and supporting components we've identified through building of conversational experiences.
+
+### Bot Framework Skills
+Developers can compose conversational experiences by stitching together re-usable conversational capabilities, known as Skills.
+
+Within an Enterprise, this could be creating one parent bot bringing together multiple sub-bots owned by different teams, or more broadly leveraging common capabilities provided by other developers. 
 
 ## Bot Framework Emulator
 The [Bot Framework Emulator][60] is a  cross-platform desktop application that allows bot developers to test and debug bots built using the Bot Framework SDK. You can use the Bot Framework Emulator to test bots running either locally on your machine or connect to bots running remotely.
@@ -146,21 +158,6 @@ A machine learning-based service to build natural language experiences. Quickly 
 [33]:https://www.qnamaker.ai/
 [34]:https://aka.ms/qnamaker-docs-home
 [35]:https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-howto-qna?view=azure-bot-service-4.0&branch=pr-en-us-1325&tabs=cs
-
-
-## Bot Framework Solutions
-The bot Framework solutions is the home for a set of templates and solutions to help build conversational experiences.
-
-TBD
-
-### Bot Framework Virtual Assistant Solution Accelerator
-TBD
-
-### Bot Framework Skills
-TBD
-
-## Speech Services
-TBD
 
 # Contributing
 
