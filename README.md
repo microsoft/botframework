@@ -100,7 +100,7 @@ A machine learning-based service to build natural language experiences. Quickly 
 
 ## Bot Framework Solutions
 
-The [Bot Framework Solutions repository](https://github.com/Microsoft/AI) is the home for a set of templates, solutions and skills to help build more advanced, assistant-like conversational experiences.
+The [Bot Framework Solutions repository](https://github.com/Microsoft/AI) is the home for a set of templates, solution accelerators and skills to help build more advanced, assistant-like conversational experiences.
 
 ### Bot Framework Virtual Assistant Template
 
