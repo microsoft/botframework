@@ -28,6 +28,24 @@ The Bot Framework SDK v4 includes SDKs that enable developers to model and build
 [10]:https://github.com/Microsoft/BotBuilder-Samples/tree/master/samples/csharp_webapi
 
 
+### Bot Framework SDK v4 - Futures (preview)
+The Bot Framework SDK v4 - Futures includes cool features we are working hard on but are still in preview and are not production ready. 
+
+- [Common Expression Language][40] | [api ref][41] 
+- [Langauge Generation][43] | [docs][44] | samples [C#][45] , [JS][46]
+- [Adaptive Dialog][47] | [docs][48] | [C# samples][49] | 
+- [Declarative Dialog][50] 
+
+[40]:https://github.com/Microsoft/BotBuilder-Samples/tree/master/experimental/common-expression-language
+[41]:https://github.com/Microsoft/BotBuilder-Samples/blob/master/experimental/common-expression-language/api-reference.md
+[43]:https://github.com/Microsoft/BotBuilder-Samples/tree/master/experimental/language-generation
+[44]:https://github.com/Microsoft/BotBuilder-Samples/tree/master/experimental/language-generation/docs
+[45]:https://github.com/Microsoft/BotBuilder-Samples/tree/master/experimental/language-generation/csharp_dotnetcore
+[46]:https://github.com/Microsoft/BotBuilder-Samples/tree/master/experimental/language-generation/javascript_nodejs/13.core-bot
+[47]:https://github.com/Microsoft/BotBuilder-Samples/tree/master/experimental/adaptive-dialog
+[48]:https://github.com/Microsoft/BotBuilder-Samples/tree/master/experimental/adaptive-dialog/docs
+[49]:https://github.com/Microsoft/BotBuilder-Samples/tree/master/experimental/adaptive-dialog/csharp_dotnetcore
+[50]:https://github.com/Microsoft/BotBuilder-Samples/tree/master/experimental/adaptive-dialog/declarative
 
 ## Bot Framework SDK v3
 The Bot Framework SDK v3 includes SDKs that enable developers to model and build sophisticated conversation using their favorite programing language.
@@ -57,7 +75,8 @@ The Bot Framework [tools](https://github.com/Microsoft/botbuilder-tools) are a c
 | [LUIS][18]| Create and manage your [LUIS.ai](http://luis.ai) applications |
 | [QnAMaker][19] | Create and manage [QnAMaker.ai](http://qnamaker.ai) Knowledge Bases. |
 | [Dispatch][20] | Build language models allowing you to dispatch between disparate components (such as QnA, LUIS and custom code)|
-| [LUISGen][21] | Auto generate backing C#/Typescript classes for your LUIS intents and entities.|
+| [LUISGen][21] | Auto generate backing C# / Typescript classes for your LUIS intents and entities.|
+| [az bot][36] | Manage Azure Bot Service using Azure cli|
 | [MSBot][22]| Create and manage connected services in your bot configuration file|
 
 [16]:https://github.com/Microsoft/botbuilder-tools/blob/master/packages/Chatdown
@@ -67,11 +86,12 @@ The Bot Framework [tools](https://github.com/Microsoft/botbuilder-tools) are a c
 [20]:https://github.com/Microsoft/botbuilder-tools/blob/master/packages/Dispatch
 [21]:https://github.com/Microsoft/botbuilder-tools/blob/master/packages/LUISGen
 [22]:https://github.com/Microsoft/botbuilder-tools/blob/master/packages/MSBot
+[36]:https://docs.microsoft.com/en-us/cli/azure/bot?view=azure-cli-latest
 
 ## Bot Framework Web Chat
-A highly customizable web-based client for Azure Bot Services. The Web Chat is a web chat control, which provides the ability for users to interact with your bot directly in a web page.
+The Bot Framework [Web Chat][23], is highly customizable web-based client chat control for Azure Bot Services, which provides the ability for users to interact with your bot directly in a web page.
 
-- [stable release][23] |  [repo][24]  | [docs][25]  | [samples][26]
+- [stable release][24] | [docs][25]  | [samples][26]
 
 [23]:https://github.com/Microsoft/BotFramework-WebChat
 [24]:https://www.npmjs.com/package/botframework-webchat
@@ -79,7 +99,7 @@ A highly customizable web-based client for Azure Bot Services. The Web Chat is a
 [26]:https://github.com/Microsoft/BotFramework-WebChat/tree/master/samples
 
 ## Azure Bot Service
-Azure Bot Service enables you to build intelligent, enterprise-grade bots with complete ownership and control of your data. Developers can register and connect their bots to users on Skype, Microsoft Teams, Cortana, Web Chat, and more.
+Azure Bot Service enables you to host intelligent, enterprise-grade bots with complete ownership and control of your data. Developers can register and connect their bots to users on Skype, Microsoft Teams, Cortana, Web Chat, and more.
 
 - [Azure][27]  |  [docs][28] | [connect to channels][29] 
 
