@@ -112,18 +112,18 @@ We currently provide a preview of Calendar, Email and Task productivity skills, 
 Gain key insights into your bot’s health and behavior with [Analytics](https://github.com/Microsoft/AI). Review available telemetry, sample Application Insights queries, and Power BI dashboards to understand the full breadth of your bot’s conversations with users.
 
 ## Bot Framework Emulator
-The [Bot Framework Emulator][60] is a  cross-platform desktop application that allows bot developers to test and debug bots built using the Bot Framework SDK. You can use the Bot Framework Emulator to test bots running either locally on your machine or connect to bots running remotely.
+The [Bot Framework Emulator][60] is a  cross-platform desktop application that allows bot developers to test and debug bots built using the Bot Framework SDK. You can use the Bot Framework Emulator to test bots running locally on your machine or to connect to bots running remotely.
 
-- [downlad latest][61] | [docs][62]
+- [Downlad latest][61] | [Docs][62]
 
 [60]:https://github.com/Microsoft/BotFramework-Emulator
 [61]:https://github.com/Microsoft/BotFramework-Emulator/releases/latest
 [62]:https://docs.microsoft.com/en-us/azure/bot-service/bot-service-debug-emulator?view=azure-bot-service-4.0
 
 ## Bot Framework Web Chat
-The Bot Framework [Web Chat][23], is highly customizable web-based client chat control for Azure Bot Services, which provides the ability for users to interact with your bot directly in a web page.
+The Bot Framework [Web Chat][23] is a highly customizable web-based client chat control for Azure Bot Service that provides the ability for users to interact with your bot directly in a web page.
 
-- [stable release][24] | [docs][25]  | [samples][26]
+- [Stable release][24] | [Docs][25]  | [Samples][26]
 
 [23]:https://github.com/Microsoft/BotFramework-WebChat
 [24]:https://www.npmjs.com/package/botframework-webchat
@@ -131,36 +131,39 @@ The Bot Framework [Web Chat][23], is highly customizable web-based client chat c
 [26]:https://github.com/Microsoft/BotFramework-WebChat/tree/master/samples
 
 ## Cognitive Services
-To create a bot, you can use Microsoft's Cognitive Services, as well as other Open Source and 3P AI solutions. The key cogntive services used to create a bot include: 
+To create a bot, you can use Microsoft Cognitive Services, as well as other open source and third-party AI solutions. The key cogntive services used to create a bot include: 
 ### Language Understanding 
-A machine learning-based service to build natural language experiences. Quickly create enterprise-ready, custom models that continuously improve. [Language Understanding service][30] allows your application to understand what a person wants in their own words.
+A machine learning-based service to build natural language experiences. Quickly create enterprise-ready, custom models that continuously improve. [Language Understanding Service(LUIS)][30] allows your application to understand what a person wants in their own words.
 
-- [docs][31] | [add language understanding to your bot][32] | use [LUDown][17] and [LUIS][18] command line tools 
+- [Docs][31] | [Add language understanding to your bot][32] | use [LUDown][17] and [LUIS][18] command line tools 
 
 [30]:https://www.luis.ai
 [31]:https://docs.microsoft.com/en-us/azure/cognitive-services/LUIS/Home
 [32]:https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-howto-v4-luis?view=azure-bot-service-4.0&branch=pr-en-us-1325&tabs=csharp
 
 ### QnA Maker
-[QnA Maker][33] is a cloud-based API service that creates a conversational, question and answer layer over your data. With QnA Maker, you can build, train and publish a simple question and answer bot based on FAQ URLs, structured documents, product manuals or editorial content in minutes.
+[QnA Maker][33] is a cloud-based API service that creates a conversational, question-and-answer layer over your data. With QnA Maker, you can build, train and publish a simple question and answer bot based on FAQ URLs, structured documents, product manuals or editorial content in minutes.
 
-- [docs][34]  | [add qnamaker to your bot][35] | use [LUDdown][17] and [QnAMaker][19] command line tools
+- [Docs][34]  | [add qnamaker to your bot][35] | use [LUDdown][17] and [QnAMaker][19] command line tools
 
 [33]:https://www.qnamaker.ai/
 [34]:https://aka.ms/qnamaker-docs-home
 [35]:https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-howto-qna?view=azure-bot-service-4.0&branch=pr-en-us-1325&tabs=cs
 
 ### Speech Services
-[Speech Services] [70] convert audio to text, perform speech translation and text-to-speech with the unified Speech services. With the speech services you can integrate speech into your bot, create custom wake words, and author in multiple languages.
+[Speech Services][70] convert audio to text, perform speech translation and text-to-speech with the unified Speech services. With the speech services, you can integrate speech into your bot, create custom wake words, and author in multiple languages.
 
 [70]:https://azure.microsoft.com/en-us/services/cognitive-services/speech-services/
 
 ## Bot Framework SDK v3
+
+> Note: While we actively maintain the v3 SDK, we are focusing out attention on the v4 of the SDK. Read more on [SDK v3 long-term support](https://docs.microsoft.com/en-us/azure/bot-service/bot-service-resources-bot-framework-faq?view=azure-bot-service-3.0#bot-framework-sdk-version-3-lifetime-support).
+
 The Bot Framework SDK v3 includes SDKs that enable developers to model and build sophisticated conversation using their favorite programing language.
 
 |  | C# | JS |  
 |---|:---:|:---:|
-|stable release |[3.20.1][11] | [3.16.0][12] | 
+|Stable release |[3.20.1][11] | [3.16.0][12] | 
 |Docs | [docs][13] |[docs][13] | 
 |Samples |[C#][14] |[Node.js][15] |
 
@@ -169,10 +172,6 @@ The Bot Framework SDK v3 includes SDKs that enable developers to model and build
 [13]:https://docs.microsoft.com/en-us/azure/bot-service/?view=azure-bot-service-3.0
 [14]:https://github.com/Microsoft/BotBuilder-V3/tree/master/CSharp/Samples
 [15]:https://github.com/Microsoft/BotBuilder-V3/tree/master/Node/examples
-
-> Note: While we actively maintain the v3 SDK, we are focusing out attention on the v4 of the SDK. Read more on [SDK v3 long-term support](https://docs.microsoft.com/en-us/azure/bot-service/bot-service-resources-bot-framework-faq?view=azure-bot-service-3.0#bot-framework-sdk-version-3-lifetime-support).
-
-
 
 # Contributing
 
