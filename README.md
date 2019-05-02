@@ -109,7 +109,14 @@ The Bot Framework [tools](https://github.com/Microsoft/botbuilder-tools) are a c
 [36]:https://docs.microsoft.com/en-us/cli/azure/bot?view=azure-cli-latest
 
 ## Bot Framework Emulator
-TBD
+The [Bot Framework Emulator][60] is a  cross-platform desktop application that allows bot developers to test and debug bots built using the Bot Framework SDK. You can use the Bot Framework Emulator to test bots running either locally on your machine or connect to bots running remotely.
+
+- [downlad latest][61] | [docs][62]
+
+[60]:https://github.com/Microsoft/BotFramework-Emulator
+[61]:https://github.com/Microsoft/BotFramework-Emulator/releases/latest
+[62]:https://docs.microsoft.com/en-us/azure/bot-service/bot-service-debug-emulator?view=azure-bot-service-4.0
+
 
 ## Bot Framework Web Chat
 The Bot Framework [Web Chat][23], is highly customizable web-based client chat control for Azure Bot Services, which provides the ability for users to interact with your bot directly in a web page.
