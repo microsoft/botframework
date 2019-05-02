@@ -2,7 +2,7 @@
 # Microsoft Bot Framework 
 The Microsoft Bot Framework is a comprehensive framework for building enterprise-grade conversational AI experiences. It includes a set of open source SDKs and tools that enable developers to build, test, and connect bots that interact naturally with users, wherever they are. With the Microsoft Bot Framework, it is easy can create a bot with the ability to speak, listen, understand, and learn from your users with Azure Cognitive Services. 
 
-![Conversational AI Solutions](./docs/media/bot-framework-header.jpg)
+![Bot Framework](./docs/media/Bot-Framework-header.jpg)
 
 This repo lists all the different SDK, tools, and services needed to build a great conversational AI experience. Its role is to serve as a landing page and one place to find all the information required to get start building bots. 
 
