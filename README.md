@@ -107,13 +107,15 @@ The [Bot Framework Solutions repository](https://github.com/Microsoft/AI) is the
 Creation of a high quality conversational experience requires a foundational set of capabilities. To help you succeed with building more complex, assistant-like conversational experiences, we have created an Virtual Assistant Template. This template brings together all of the best practices and supporting components we've identified through building of conversational experiences. The template is available for both C# and typescript.
 
 ### Bot Framework Skills
-Developers can compose conversational experiences by stitching together re-usable conversational capabilities, known as Skills.
 
-Within an Enterprise, this could be creating one parent bot bringing together multiple sub-bots owned by different teams, or more broadly leveraging common capabilities provided by other developers. A number of skills are provided in the [Solutions repository](https://github.com/Microsoft/AI) along with a Skill template for building your own.
+Developers can compose conversational experiences by stitching together re-usable conversational capabilities, known as Skills.
+Within an Enterprise, this could be creating one parent bot bringing together multiple sub-bots owned by different teams, or more broadly leveraging common capabilities provided by other developers.
+
+We currently provide a preview of Calendar, Email and Task productivity skills, Point of Interest, and Automotive Skills, along with new experimental skills including Weather and News. Skills include LUIS models, Dialogs, and Integration code delivered in source code form so developers can customize and extend as required. These can all be found in the [Solutions repository](https://github.com/Microsoft/AI) along with a Skill template for building your own skills.
 
 ### Analytics
 
-Gain key insights into your bot’s health and behavior with the Conversational AI Analytics solutions. Review available telemetry, sample Application Insights queries, and Power BI dashboards to understand the full breadth of your bot’s conversations with users.
+Gain key insights into your bot’s health and behavior with the [Conversational Analytics capabilities](https://github.com/Microsoft/AI). Review available telemetry, sample Application Insights queries, and Power BI dashboards to understand the full breadth of your bot’s conversations with users.
 
 ## Bot Framework Emulator
 The [Bot Framework Emulator][60] is a  cross-platform desktop application that allows bot developers to test and debug bots built using the Bot Framework SDK. You can use the Bot Framework Emulator to test bots running either locally on your machine or connect to bots running remotely.
