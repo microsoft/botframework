@@ -29,12 +29,12 @@ Azure Bot Service enables you to host intelligent, enterprise-grade bots with co
 [29]:https://docs.microsoft.com/en-us/azure/bot-service/bot-service-manage-channels?view=azure-bot-service-4.0
 
 ## Bot Framework SDK v4
-The Bot Framework SDK v4 includes SDKs that enable developers to model and build sophisticated conversation using their favorite programing language.
+The Bot Framework SDK v4 includes SDKs that enable developers to model and build sophisticated conversation using their favorite programming language.
 
 
 |   | C#  | JS  | Python |  Java | 
 |---|:---:|:---:|:------:|:-----:|
-|stable release |[4.3.2][1] | [4.3.4][2] | [4.0.0a6 (preview)][3] | |
+|Stable release |[4.3.2][1] | [4.3.4][2] | [4.0.0a6 (preview)][3] | |
 |Docs | [docs][5] |[docs][5] | | |
 |Samples |[.NET Core][6], [WebAPI][10] |[Node.js][7] , [TypeScript][8], [es6][9]  | | | 
 
@@ -49,12 +49,12 @@ The Bot Framework SDK v4 includes SDKs that enable developers to model and build
 [9]:https://github.com/Microsoft/BotBuilder-Samples/tree/master/samples/javascript_es6
 [10]:https://github.com/Microsoft/BotBuilder-Samples/tree/master/samples/csharp_webapi
 
-### Bot Framework SDK v4 - Futures (preview)
-The Bot Framework SDK v4 - Futures includes cool features we are working hard on but are still in preview and are not production ready. 
+### Bot Framework SDK v4 - Future (preview)
+The Bot Framework SDK v4 - Future includes cool features we are working hard on but are still in preview and are not production ready. 
 
 - [Common Expression Language][40] | [api][41] 
 - [Langauge Generation][43] | [docs][44] | samples: [C#][45] , [JS][46]
-- [Adaptive Dialog][47] | [docs][48] | [C# samples][49] | 
+- [Adaptive Dialog][47] | [docs][48] | [C# samples][49]  
 - [Declarative Dialog][50] 
 
 [40]:https://github.com/Microsoft/BotBuilder-Samples/tree/master/experimental/common-expression-language
@@ -79,7 +79,7 @@ The Bot Framework [tools](https://github.com/Microsoft/botbuilder-tools) are a c
 | [QnAMaker][19] | Create and manage [QnAMaker.ai](http://qnamaker.ai) Knowledge Bases. |
 | [Dispatch][20] | Build language models allowing you to dispatch between disparate components (such as QnA, LUIS and custom code)|
 | [LUISGen][21] | Auto generate backing C# / Typescript classes for your LUIS intents and entities.|
-| [az bot][36] | Manage Azure Bot Service using Azure cli|
+| [az bot][36] | Manage Azure Bot Service using Azure CLI|
 | [MSBot][22]| Create and manage connected services in your bot configuration file|
 
 [16]:https://github.com/Microsoft/botbuilder-tools/blob/master/packages/Chatdown
@@ -94,22 +94,22 @@ The Bot Framework [tools](https://github.com/Microsoft/botbuilder-tools) are a c
 
 ## Bot Framework Solutions
 
-The [Bot Framework Solutions repository](https://github.com/Microsoft/AI) is the home for a set of templates, solution accelerators and skills to help build more advanced, assistant-like conversational experiences.
+The [Bot Framework Solutions repository](https://github.com/Microsoft/AI) is the home for a set of templates, solution accelerators and skills to help build advanced, assistant-like conversational experiences.
 
 ### Bot Framework Virtual Assistant Template
 
-Creation of a high quality conversational experience requires a foundational set of capabilities. To help you succeed with building more complex, assistant-like conversational experiences, we have created an Virtual Assistant Template. This template brings together all of the best practices and supporting components we've identified through building of conversational experiences. The template is available for both C# and typescript.
+Creation of a high quality conversational experience requires a foundational set of capabilities. To help you succeed with building more complex, assistant-like conversational experiences, we have created an Virtual Assistant Template. This template brings together all of the best practices and supporting components we've identified through building of conversational experiences. The template is available for both C# and TypeScript.
 
 ### Bot Framework Skills
 
 Developers can compose conversational experiences by stitching together re-usable conversational capabilities, known as Skills.
-Within an Enterprise, this could be creating one parent bot bringing together multiple sub-bots owned by different teams, or more broadly leveraging common capabilities provided by other developers.
+Within an enterprise, this could be creating one parent bot bringing together multiple sub-bots owned by different teams or more broadly leveraging common capabilities provided by other developers.
 
-We currently provide a preview of Calendar, Email and Task productivity skills, Point of Interest, and Automotive Skills, along with new experimental skills including Weather and News. Skills include LUIS models, Dialogs, and Integration code delivered in source code form so developers can customize and extend as required. These can all be found in the [Solutions repository](https://github.com/Microsoft/AI) along with a Skill template for building your own skills.
+We currently provide a preview of Calendar, Email and Task productivity skills, Point of Interest, and Automotive skills, along with new experimental skills including Weather and News. Skills include LUIS models, Dialogs, and integration code delivered in source code form so developers can customize and extend as required. These can all be found in the [Solutions repository](https://github.com/Microsoft/AI) along with a Skill template for building your own skills.
 
 ### Analytics
 
-Gain key insights into your bot’s health and behavior with the [Analytics capabilities](https://github.com/Microsoft/AI). Review available telemetry, sample Application Insights queries, and Power BI dashboards to understand the full breadth of your bot’s conversations with users.
+Gain key insights into your bot’s health and behavior with [Analytics](https://github.com/Microsoft/AI). Review available telemetry, sample Application Insights queries, and Power BI dashboards to understand the full breadth of your bot’s conversations with users.
 
 ## Bot Framework Emulator
 The [Bot Framework Emulator][60] is a  cross-platform desktop application that allows bot developers to test and debug bots built using the Bot Framework SDK. You can use the Bot Framework Emulator to test bots running either locally on your machine or connect to bots running remotely.
