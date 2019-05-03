@@ -75,18 +75,12 @@ The Bot Framework [tools](https://github.com/Microsoft/botbuilder-tools) are a c
 |------|--------------|
 | [Chatdown][16] | Prototype mock conversations in markdown and convert the markdown to transcripts you can load and view in the new V4 Bot Framework Emulator |
 | [LUDown][17]| Build LUIS language understanding models using markdown files|
-| [LUIS][18]| Create and manage your [LUIS.ai](http://luis.ai) applications |
-| [QnAMaker][19] | Create and manage [QnAMaker.ai](http://qnamaker.ai) Knowledge Bases. |
-| [Dispatch][20] | Build language models allowing you to dispatch between disparate components (such as QnA, LUIS and custom code)|
 | [LUISGen][21] | Auto generate backing C# / Typescript classes for your LUIS intents and entities.|
 | [az bot][36] | Manage Azure Bot Service using Azure CLI|
 | [MSBot][22]| Create and manage connected services in your bot configuration file|
 
 [16]:https://github.com/Microsoft/botbuilder-tools/blob/master/packages/Chatdown
 [17]:https://github.com/Microsoft/botbuilder-tools/blob/master/packages/Ludown
-[18]:https://github.com/Microsoft/botbuilder-tools/blob/master/packages/LUIS
-[19]:https://github.com/Microsoft/botbuilder-tools/blob/master/packages/QnAMaker
-[20]:https://github.com/Microsoft/botbuilder-tools/blob/master/packages/Dispatch
 [21]:https://github.com/Microsoft/botbuilder-tools/blob/master/packages/LUISGen
 [22]:https://github.com/Microsoft/botbuilder-tools/blob/master/packages/MSBot
 [36]:https://docs.microsoft.com/en-us/cli/azure/bot?view=azure-cli-latest
@@ -149,6 +143,11 @@ A machine learning-based service to build natural language experiences. Quickly 
 [33]:https://www.qnamaker.ai/
 [34]:https://aka.ms/qnamaker-docs-home
 [35]:https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-howto-qna?view=azure-bot-service-4.0&branch=pr-en-us-1325&tabs=cs
+
+### Dispatch
+[Dispatch][20] lets you build language models that allow you to dispatch between disparate components (such as QnA, LUIS and custom code).
+
+[20]:https://github.com/Microsoft/botbuilder-tools/blob/master/packages/Dispatch
 
 ### Speech Services
 [Speech Services][70] convert audio to text, perform speech translation and text-to-speech with the unified Speech services. With the speech services, you can integrate speech into your bot, create custom wake words, and author in multiple languages.
