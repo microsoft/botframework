@@ -1,10 +1,10 @@
 
 # Microsoft Bot Framework 
-The Microsoft Bot Framework is a comprehensive framework for building enterprise-grade conversational AI experiences. It includes a set of open source SDKs, tools, and services that enable developers to build, test, and connect bots that interact naturally with users, wherever they are. With the Microsoft Bot Framework, it is easy can create a bot with the ability to speak, listen, understand, and learn from your users with Azure Cognitive Services. 
+The Microsoft Bot Framework is a comprehensive framework for building enterprise-grade conversational AI experiences. It includes a set of open source SDKs, tools, and services that enable developers to build, test, and connect bots that interact naturally with users, wherever they are. With the Microsoft Bot Framework, it is easy to create a bot with the ability to speak, listen, understand, and learn from your users with Azure Cognitive Services. 
 
 ![Bot Framework](./docs/media/Bot-Framework-header.jpg)
 
-This repo lists the SDK, tools, and services needed to build a great conversational AI experience. Its role is to serve as a landing page and one place to find all the information required to get start building bots. 
+This repo lists the SDK, tools, and services needed to build a great conversational AI experience. Its role is to serve as a landing page and one place to find all the information required to get started. 
 
 - [Azure Bot Service](#Azure-Bot-Service)
 - [Bot Framework SDK v4](#Bot-Framework-SDK-v4)
@@ -53,7 +53,7 @@ The Bot Framework SDK v4 includes SDKs that enable developers to model and build
 The Bot Framework SDK v4 - Future includes cool features we are working hard on but are still in preview and are not production ready. 
 
 - [Common Expression Language][40] | [api][41] 
-- [Langauge Generation][43] | [docs][44] | samples: [C#][45] , [JS][46]
+- [Langauge Generation][43] | [docs][44] | [C# samples][45]
 - [Adaptive Dialog][47] | [docs][48] | [C# samples][49]  
 - [Declarative Dialog][50] 
 
@@ -131,6 +131,8 @@ A machine learning-based service to build natural language experiences. Quickly 
 
 - [Docs][31] | [Add language understanding to your bot][32] | use [LUDown][17] and [LUIS][18] command line tools 
 
+[18]:https://github.com/Microsoft/botbuilder-tools/tree/master/packages/LUIS
+[19]:https://github.com/Microsoft/botbuilder-tools/tree/master/packages/QnAMaker
 [30]:https://www.luis.ai
 [31]:https://docs.microsoft.com/en-us/azure/cognitive-services/LUIS/Home
 [32]:https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-howto-v4-luis?view=azure-bot-service-4.0&branch=pr-en-us-1325&tabs=csharp
