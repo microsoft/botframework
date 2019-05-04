@@ -12,6 +12,7 @@ This repo lists the SDK, tools, and services needed to build a great conversatio
 - [Bot Framework Solutions](#Bot-Framework-Solutions)
 - [Bot Framework Emulator](#Bot-Framework-Emulator)
 - [Bot Framework Web Chat](#Bot-Framework-Web-Chat)
+- [Botkit](#Botkit)
 - [Language Understanding](#Language-Understanding)
 - [QnA Maker](#QnA-Maker)
 - [Speech Services](#Speech-Services)  
@@ -177,11 +178,21 @@ A machine learning-based service to build natural language experiences. Quickly 
 
 [70]:https://azure.microsoft.com/en-us/services/cognitive-services/speech-services/
 
-## BotKit
-[Botkit][100] is the leading developer tool for building chat bots, apps and custom integrations for major messaging platforms. BotKit is part of Microsoft Bot Framework and is released under the [MIT Open Source license][101]
+## Botkit
+[Botkit][100] is a developer tool and SDK for building chat bots, apps and custom integrations for major messaging platforms. Botkit bots `hear()` triggers, `ask()` questions and `say()` replies. Developers can use this syntax to build dialogs - now cross compatible with the latest version of Bot Framework SDK. 
 
-[100]:https://github.com/howdyai/botkit
+In addition, Botkit brings with it 6 platform adapters allowing Javascript bot applications to communicate directly with messaging platforms: [Slack][102], [Webex Teams][103], [Google Hangouts][104], [Facebook Messenger][105], [Twilio][106], and [Web chat][107].
+
+Botkit is part of Microsoft Bot Framework and is released under the [MIT Open Source license][101]
+
+[100]:https://github.com/howdyai/botkit#readme
 [101]:https://github.com/howdyai/botkit/blob/master/LICENSE.md
+[102]:https://github.com/howdyai/botkit/tree/master/packages/botbuilder-adapter-slack#readme
+[103]:https://github.com/howdyai/botkit/tree/master/packages/botbuilder-adapter-webex#readme
+[104]:https://github.com/howdyai/botkit/tree/master/packages/botbuilder-adapter-hangouts#readme
+[105]:https://github.com/howdyai/botkit/tree/master/packages/botbuilder-adapter-facebook#readme
+[106]:https://github.com/howdyai/botkit/tree/master/packages/botbuilder-adapter-twilio-sms#readme
+[107]:https://github.com/howdyai/botkit/tree/master/packages/botbuilder-adapter-web#readme
 
 ## Bot Framework SDK v3
 
