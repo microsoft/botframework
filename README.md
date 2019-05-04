@@ -49,7 +49,7 @@ The Bot Framework SDK v4 includes SDKs that enable developers to model and build
 [9]:https://github.com/Microsoft/BotBuilder-Samples/tree/master/samples/javascript_es6
 [10]:https://github.com/Microsoft/BotBuilder-Samples/tree/master/samples/csharp_webapi
 
-### Bot Framework SDK v4 - Future (preview)
+### Bot Framework SDK v4 - (preview)
 The Bot Framework SDK v4 - Future includes cool features still in preview. We would like to hear your feedback. 
 
 - [Common Expression Language][40] | [api][41] 
