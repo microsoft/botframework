@@ -14,12 +14,14 @@ This page lists what's new with Bot Framework.
 - [The Microsoft Office 365 Platform][3] by Rajesh Jha, EVP, EXPERIENCES + DEVICES
 - [How to use Azure Conversational AI to scale your business for the next generation - A deep dive into La Liga’s story][4] by Tulasi Menon, Nayer Wanas, Jesus Serrano Castro
 - [Your App, Your Device, Your Assistant - How to build a branded, voice-first Virtual Assistant][5] by Darren Jefford, Travis Wilson, Khuram Shahid. 
+- [Microsoft Research APIs – Project Personality Chat in action][6], by Tulasi Menon
 
 [1]:https://mybuild.techcommunity.microsoft.com/sessions/77571?source=sessions#top-anchor
 [2]:https://mybuild.techcommunity.microsoft.com/sessions/77310?source=sessions#top-anchor
 [3]:https://mybuild.techcommunity.microsoft.com/sessions/77573?source=sessions#top-anchor
 [4]:https://mybuild.techcommunity.microsoft.com/sessions/76965?source=sessions#top-anchor
 [5]:https://mybuild.techcommunity.microsoft.com/sessions/76969?source=sessions#top-anchor
+[6]:https://mybuild.techcommunity.microsoft.com/sessions/77258?source=sessions#top-anchor
 
 ### Whats new
 - [Bot Framework SDK V4](./README.md#V4-whats-new)
