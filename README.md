@@ -12,6 +12,7 @@ This repo lists the SDK, tools, and services needed to build a great conversatio
 - [Bot Framework Solutions](#Bot-Framework-Solutions)
 - [Bot Framework Emulator](#Bot-Framework-Emulator)
 - [Bot Framework Web Chat](#Bot-Framework-Web-Chat)
+- [Botkit](#Botkit)
 - [Language Understanding](#Language-Understanding)
 - [QnA Maker](#QnA-Maker)
 - [Speech Services](#Speech-Services)  
