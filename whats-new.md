@@ -46,9 +46,9 @@ This page lists what's new with Bot Framework.
 
 - [Language Understanding](./README.md#LUIS-whats-new)
     - **Roles, External Entities and Dynamic Entities** :: Extract more detailed information from text and build more intelligent solutions with less effort. 
-        - Roles are now available for all entity types. This enables you to identify different entity subtype based on context. 
-        - [New] External entities gives you the ability to use external context for classification.
-        - [New] Dynamic lists help append synonyms to list entities, at prediction time. This enables you to use dynamic, user-specific information to get matched exactly. 
+        - Entity Roles are now available for all entity types which enables you to identify subtypes based on context, such as from and to which are both types of location.
+        - [New] External entities gives you the ability to use external context for more accurate understanding of user intent.
+        - [New] Dynamic lists help append synonyms to list entities, at prediction time enabling dynamic, user-specific information to get matched exactly. 
     - **Analytics dashboard** :: Provides insight into your models’ quality and potential data problems. Gives guidance to help solve issues and adopt best practices. 
 
 - [QnA Maker](./README.md#QnA-whats-new)
