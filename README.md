@@ -144,7 +144,7 @@ The enhanced developer experience and debuggability
     - get more insights about the performance of each model in their applications. 
     - guidance on how to fix problems like class imbalance or the lack of enough informative labeled data.
 
-- [Docs][31] | [Add language understanding to your bot][32] | use [LUDown][17] and [LUIS][18] command line tools 
+[Docs][31] | [Add language understanding to your bot][32] | use [LUDown][17] and [LUIS][18] command line tools 
 
 [18]:https://github.com/Microsoft/botbuilder-tools/tree/master/packages/LUIS
 [19]:https://github.com/Microsoft/botbuilder-tools/tree/master/packages/QnAMaker
@@ -160,7 +160,7 @@ The enhanced developer experience and debuggability
 - Intelligence: Contextual ranking models, active learning suggestions
 - Conversation: Multi-turn conversations in QnA Maker.
 
-- [Docs][34]  | [add qnamaker to your bot][35] | use [LUDdown][17] and [QnAMaker][19] command line tools
+[Docs][34]  | [add qnamaker to your bot][35] | use [LUDdown][17] and [QnAMaker][19] command line tools
 
 [33]:https://www.qnamaker.ai/
 [34]:https://aka.ms/qnamaker-docs-home
