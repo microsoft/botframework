@@ -17,7 +17,7 @@ This page lists what's new with Bot Framework.
 - [Microsoft Research APIs – Project Personality Chat in action][6], by Tulasi Menon
 
 [1]:https://mybuild.techcommunity.microsoft.com/sessions/77571?source=sessions#top-anchor
-[2]:https://mybuild.techcommunity.microsoft.com/sessions/77310?source=sessions#top-anchor
+[2]:https://mybuild.techcommunity.microsoft.com/sessions/77572?source=sessions#top-anchor
 [3]:https://mybuild.techcommunity.microsoft.com/sessions/77573?source=sessions#top-anchor
 [4]:https://mybuild.techcommunity.microsoft.com/sessions/76965?source=sessions#top-anchor
 [5]:https://mybuild.techcommunity.microsoft.com/sessions/76969?source=sessions#top-anchor
