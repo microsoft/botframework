@@ -34,7 +34,7 @@ The Bot Framework SDK v4 includes SDKs that enable developers to model and build
 
 |   | C#  | JS  | Python |  Java | 
 |---|:---:|:---:|:------:|:-----:|
-|Stable release |[4.3.2][1] | [4.3.4][2] | [4.0.0a6 (preview)][3] | |
+|Stable Release |[4.3.2][1] | [4.3.4][2] | [4.0.0a6 (preview)][3] | |
 |Docs | [docs][5] |[docs][5] | | |
 |Samples |[.NET Core][6], [WebAPI][10] |[Node.js][7] , [TypeScript][8], [es6][9]  | | | 
 
@@ -50,7 +50,7 @@ The Bot Framework SDK v4 includes SDKs that enable developers to model and build
 [10]:https://github.com/Microsoft/BotBuilder-Samples/tree/master/samples/csharp_webapi
 
 ### Bot Framework SDK v4 - Future (preview)
-The Bot Framework SDK v4 - Future includes cool features we are working hard on but are still in preview and are not production ready. 
+The Bot Framework SDK v4 - Future includes cool features still in preview. We would like to hear your feedback. 
 
 - [Common Expression Language][40] | [api][41] 
 - [Langauge Generation][43] | [docs][44] | [C# samples][45]
@@ -155,7 +155,7 @@ The Bot Framework SDK v3 includes SDKs that enable developers to model and build
 
 |  | C# | JS |  
 |---|:---:|:---:|
-|Stable release |[3.20.1][11] | [3.16.0][12] | 
+|Stable Release |[3.20.1][11] | [3.16.0][12] | 
 |Docs | [docs][13] |[docs][13] | 
 |Samples |[C#][14] |[Node.js][15] |
 
