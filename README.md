@@ -176,6 +176,12 @@ The enhanced developer experience and debuggability
 
 [70]:https://azure.microsoft.com/en-us/services/cognitive-services/speech-services/
 
+## BotKit
+[Botkit][100] is the leading developer tool for building chat bots, apps and custom integrations for major messaging platforms. BotKit is part of Microsoft Bot Framework and is released under the [MIT Open Source license][101]
+
+[100]:https://github.com/howdyai/botkit
+[101]:https://github.com/howdyai/botkit/blob/master/LICENSE.md
+
 ## Bot Framework SDK v3
 
 > Note: While we actively maintain the v3 SDK, we are focusing out attention on the v4 of the SDK. Read more on [SDK v3 long-term support](https://docs.microsoft.com/en-us/azure/bot-service/bot-service-resources-bot-framework-faq?view=azure-bot-service-3.0#bot-framework-sdk-version-3-lifetime-support).
