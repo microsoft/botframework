@@ -180,7 +180,7 @@ A machine learning-based service to build natural language experiences. Quickly 
 ## Botkit
 [Botkit][100] is a developer tool and SDK for building chat bots, apps and custom integrations for major messaging platforms. Botkit bots `hear()` triggers, `ask()` questions and `say()` replies. Developers can use this syntax to build dialogs - now cross compatible with the latest version of Bot Framework SDK. 
 
-In addition, Botkit brings with it 6 platform adapters allowing Javascript bot applications to communicate directly with messaging platforms: [Slack][102], [Webx][103], [Google Hangouts][104], [Facebook Messenger][105], [Twilio][106], and [Web chat][107].
+In addition, Botkit brings with it 6 platform adapters allowing Javascript bot applications to communicate directly with messaging platforms: [Slack][102], [Webex Teams][103], [Google Hangouts][104], [Facebook Messenger][105], [Twilio][106], and [Web chat][107].
 
 Botkit is part of Microsoft Bot Framework and is released under the [MIT Open Source license][101]
 
