@@ -41,9 +41,9 @@ The Bot Framework SDK v4 is an [open source SDK][1a] that enable developers to m
 
 |   | C#  | JS  | Python |  Java | 
 |---|:---:|:---:|:------:|:-----:|
-|Stable Release |[4.3.2][1] | [4.3.4][2] | [4.0.0a6 (preview)][3] | [4.0.0a6 (preview)][3a]|
-|Docs | [docs][5] |[docs][5] | | |
-|Samples |[.NET Core][6], [WebAPI][10] |[Node.js][7] , [TypeScript][8], [es6][9]  | | | 
+|Stable Release |[4.4.3][1] | [4.4.0][2] | [4.4.0b1 (preview)][3] | [4.0.0a6 (preview)][3a]|
+|Docs | [docs][5] |[docs][5] |  | |
+|Samples |[.NET Core][6], [WebAPI][10] |[Node.js][7] , [TypeScript][8], [es6][9]  | [Python][111] | | 
 
 [1a]:https://github.com/microsoft/botframework-sdk
 [1]:https://github.com/Microsoft/botbuilder-dotnet/#packages
@@ -57,6 +57,7 @@ The Bot Framework SDK v4 is an [open source SDK][1a] that enable developers to m
 [8]:https://github.com/Microsoft/BotBuilder-Samples/tree/master/samples/javascript_typescript
 [9]:https://github.com/Microsoft/BotBuilder-Samples/tree/master/samples/javascript_es6
 [10]:https://github.com/Microsoft/BotBuilder-Samples/tree/master/samples/csharp_webapi
+[111]:https://github.com/Microsoft/botbuilder-python/tree/master/samples
 
 <a name="V4-whats-new"></a>
 ### Bot Framework SDK v4 - (New! - version 4.5 preview)
