@@ -49,8 +49,8 @@ The Bot Framework SDK v4 includes SDKs that enable developers to model and build
 [9]:https://github.com/Microsoft/BotBuilder-Samples/tree/master/samples/javascript_es6
 [10]:https://github.com/Microsoft/BotBuilder-Samples/tree/master/samples/csharp_webapi
 
-### Bot Framework SDK v4 - (New! - preview)
-The Bot Framework SDK v4 - New capabilites in preview. 
+### Bot Framework SDK v4 - (New! - version 4.5 preview)
+The Bot Framework SDK v4 - Version 4.5 new capabilites in preview. 
 
 - [Adaptive Dialog][47] | [docs][48] | [C# samples][49]  
 - [Declarative Dialog][50] 
@@ -91,6 +91,12 @@ The Bot Framework [tools](https://github.com/Microsoft/botbuilder-tools) are a c
 
 The [Bot Framework Solutions repository](https://github.com/Microsoft/AI) is the home for a set of templates, solution accelerators and skills to help build advanced, assistant-like conversational experiences.
 
+### Bot Framework Solutions (New! - preview)
+
+The Bot Framework solutions includes the following new features in preview:
+- [Skills](https://github.com/Microsoft/AI/blob/master/docs/overview/skills.md)   
+
+
 | Name | Description |  
 |:------------:|------------| 
 |[<img src="https://raw.githubusercontent.com/Microsoft/AI/4.4/docs/media/vatemplateintrocard.png" width="1250"> **Virtual Assistant**](/docs/) | Customers and partners have a significant need to deliver a conversational assistant tailored to their brand, personalized to their users, and made available across a broad range of canvases and devices. <br/><br/> Continuing Microsoft's open-sourced approach towards the Bot Framework SDK, the open-source Virtual Assistant solution provides you with a set of core foundational capabilities and full control over the end user experience. <br/><br/> This template incorporates the previous Enterprise Template and brings together all of the best practices and supporting components identified through building conversational experiences and greatly simplifies the creation of a new bot project including: basic conversational intents, Dispatch integration, QnA Maker, Application Insights and an automated deployment.|
@@ -101,6 +107,11 @@ The [Bot Framework Solutions repository](https://github.com/Microsoft/AI) is the
 The [Bot Framework Emulator][60] is a  cross-platform desktop application that allows bot developers to test and debug bots built using the Bot Framework SDK. You can use the Bot Framework Emulator to test bots running locally on your machine or to connect to bots running remotely.
 
 - [Downlad latest][61] | [Docs][62]
+
+### Bot Inspector (New! - Preview)
+The Bot Framework Emulator has released a Beta of the new Bot Inspector feature: a way to debug and test your Bot Framework SDK v4 bots on channels like Microsoft Teams, Slack, Cortana, Facebook Messenger, Skype, etc. As you have the conversation, messages will be mirrored to the Bot Framework Emulator where you can inspect the message data that the bot received. Additionally, a snapshot of the bot state for any given turn between the channel and the bot is rendered as well. You can inspect this data by clicking on the "Bot State" element in the conversation mirror. Read more about [Bot Inspector](https://github.com/Microsoft/BotFramework-Emulator/blob/master/content/CHANNELS.md#bot-state-inspection)
+
+
 
 [60]:https://github.com/Microsoft/BotFramework-Emulator
 [61]:https://github.com/Microsoft/BotFramework-Emulator/releases/latest
