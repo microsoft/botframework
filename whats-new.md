@@ -2,7 +2,7 @@
 
 > See [here](./README.md) to learn more about Microsoft Bot Framework
 
-This page lists what's new with Bot Framework. 
+This page lists the latest updates to Bot Framework. 
 
 ## //BUILD 2019
 - [Sessions](#Sessions)
