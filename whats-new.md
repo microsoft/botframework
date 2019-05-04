@@ -6,18 +6,20 @@ This page lists what's new with Bot Framework.
 
 ## //BUILD 2019
 - [Sessions](#Sessions)
-- [Partner demos](#Partner-demos)
 - [What's new](#whats-new)
 
 ### Sessions
 - [**Vision Keynote**][1] by Satya Nadella
 - [**Microsoft Azure**][2] - Technical keynote by Scott Guthrie
-- [**Microsoft Office 365**][3] - Technical keynote by Rajesh Jha
+- [**The Microsoft Office 365 Platform**][3] - Technical keynote by Rajesh Jha
 - [**Session: BRK3003***][4] How to use Azure Conversational AI to scale your business for the next generation - A deep dive into La Liga’s story, Tulasi Menon, Nayer Wanas, Jesus Serrano Castro
 - [**Sesssion: BRK4001**][5] Your App, Your Device, Your Assistant -  How to build a branded, voice-first Virtual Assistant, Darren Jefford, Travis Wilson, Khuram Shahid. 
 
-### Partner demos
-
+[1]:https://mybuild.techcommunity.microsoft.com/sessions/77571?source=sessions#top-anchor
+[2]:https://mybuild.techcommunity.microsoft.com/sessions/77310?source=sessions#top-anchor
+[3]:https://mybuild.techcommunity.microsoft.com/sessions/77573?source=sessions#top-anchor
+[4]:https://mybuild.techcommunity.microsoft.com/sessions/76965?source=sessions#top-anchor
+[5]:https://mybuild.techcommunity.microsoft.com/sessions/76969?source=sessions#top-anchor
 
 ### Whats new
 - [Azure Bot Service](./README.md#ABS-whats-new)
