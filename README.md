@@ -81,7 +81,7 @@ The Bot Framework SDK v4 - Version 4.5 new capabilites in preview.
 [50]:https://github.com/Microsoft/BotBuilder-Samples/tree/master/experimental/adaptive-dialog/declarative
 
 ## Bot Framework Tools
-The Bot Framework [tools](https://github.com/Microsoft/botbuilder-tools) are a collection of cross-platform command line tools designed to cover end-to-end bot development workflow.
+The Bot Framework SDK tools is an [open source](https://github.com/Microsoft/botbuilder-tools) collection of cross-platform command line tools designed to support building robust end-to-end development workflows.
 
 | Tool | Description |
 |------|--------------|
