@@ -6,14 +6,14 @@ The Microsoft Bot Framework is a comprehensive platform for building enterprise-
 
 This repo lists the SDK, tools, and services needed to build a great conversational AI experience. Its role is to serve as a landing page and one place to find all the information required to get started. 
 
-- [Azure Bot Service](#Azure-Bot-Service)
-- [Bot Framework SDK v4](#Bot-Framework-SDK-v4)
+- [Azure Bot Service](#Azure-Bot-Service) | [What's new](#ABS-whats-new)
+- [Bot Framework SDK v4](#Bot-Framework-SDK-v4) | [What's new](#V4-whats-new)
 - [Bot Framework Tools](#Bot-Framework-Tools)
 - [Bot Framework Solutions](#Bot-Framework-Solutions)
-- [Bot Framework Emulator](#Bot-Framework-Emulator)
+- [Bot Framework Emulator](#Bot-Framework-Emulator) | [What's new](#Emulator-whats-new)
 - [Bot Framework Web Chat](#Bot-Framework-Web-Chat)
-- [Language Understanding](#Language-Understanding)
-- [QnA Maker](#QnA-Maker)
+- [Language Understanding](#Language-Understanding) | [What's new](#LUIS-whats-new)
+- [QnA Maker](#QnA-Maker) | [What's new](#QnA-whats-new)
 - [Speech Services](#Speech-Services)  
 - [Analytics](#Analytics)
 
@@ -23,6 +23,9 @@ This repo lists the SDK, tools, and services needed to build a great conversatio
 Azure Bot Service enables you to host intelligent, enterprise-grade bots with complete ownership and control of your data. Developers can register and connect their bots to users on Skype, Microsoft Teams, Cortana, Web Chat, and more.
 
 - [Azure][27]  |  [docs][28] | [connect to channels][29] 
+
+<a name="ABS-whats-new"></a>
+### What's new
 
 [27]:https://azure.microsoft.com/en-us/services/bot-service/
 [28]:https://docs.microsoft.com/en-us/azure/bot-service/bot-service-overview-introduction?view=azure-bot-service-4.0
@@ -49,6 +52,7 @@ The Bot Framework SDK v4 includes SDKs that enable developers to model and build
 [9]:https://github.com/Microsoft/BotBuilder-Samples/tree/master/samples/javascript_es6
 [10]:https://github.com/Microsoft/BotBuilder-Samples/tree/master/samples/csharp_webapi
 
+<a name="V4-whats-new"></a>
 ### Bot Framework SDK v4 - (New! - version 4.5 preview)
 The Bot Framework SDK v4 - Version 4.5 new capabilites in preview. 
 
@@ -109,6 +113,7 @@ The [Bot Framework Emulator][60] is a  cross-platform desktop application that a
 
 - [Downlad latest][61] | [Docs][62]
 
+<a name="Emulator-whats-new"></a>
 ### Bot Inspector (New! - Preview)
 The Bot Framework Emulator has released a Beta of the new Bot Inspector feature: a way to debug and test your Bot Framework SDK v4 bots on channels like Microsoft Teams, Slack, Cortana, Facebook Messenger, Skype, etc. As you have the conversation, messages will be mirrored to the Bot Framework Emulator where you can inspect the message data that the bot received. Additionally, a snapshot of the bot state for any given turn between the channel and the bot is rendered as well. You can inspect this data by clicking on the "Bot State" element in the conversation mirror. Read more about [Bot Inspector](https://github.com/Microsoft/BotFramework-Emulator/blob/master/content/CHANNELS.md#bot-state-inspection)
 
@@ -133,6 +138,7 @@ To create a bot, you can use Microsoft Cognitive Services, as well as other open
 ### Language Understanding 
 A machine learning-based service to build natural language experiences. Quickly create enterprise-ready, custom models that continuously improve. [Language Understanding Service(LUIS)][30] allows your application to understand what a person wants in their own words.
 
+<a name="LUIS-whats-new"></a>
 #### What's new
 - **Roles, External Entities and Dynamic Entities** :: LUIS has added several features that let developers extract more detailed information from text, so users can now build more intelligent solutions with less effort. LUIS also extended roles to all entity types, which allows the same entities to be classified with different subtypes based on context. Developers now have more granular control of what they can do with LUIS, including being able to identify and update models at runtime through dynamic lists and external entities. Dynamic lists are used to append to list entities at prediction time, permitting user-specific information to get matched exactly. Separate supplementary entity extractors are run with external entities, and that information can be appended to LUIS as strong signals for other models.
 
@@ -149,6 +155,7 @@ A machine learning-based service to build natural language experiences. Quickly 
 ### QnA Maker
 [QnA Maker][33] is a cloud-based API service that creates a conversational, question-and-answer layer over your data. With QnA Maker, you can build, train and publish a simple question and answer bot based on FAQ URLs, structured documents, product manuals or editorial content in minutes.
 
+<a name="QnA-whats-new"></a>
 #### What's new
 - Extraction pipeline: Now you can extract hierarchical information from URLs, files and sharepoint
 - Intelligence: Contextual ranking models, active learning suggestions
