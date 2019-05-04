@@ -134,12 +134,9 @@ To create a bot, you can use Microsoft Cognitive Services, as well as other open
 A machine learning-based service to build natural language experiences. Quickly create enterprise-ready, custom models that continuously improve. [Language Understanding Service(LUIS)][30] allows your application to understand what a person wants in their own words.
 
 #### What's new
-The enhanced developer experience and debuggability
-- New capabilities to define entities
-- A new version of the LUIS response API that is easier and more robust to consume in the developer application
-- Brand new analytics page where developers 
-    - get more insights about the performance of each model in their applications. 
-    - guidance on how to fix problems like class imbalance or the lack of enough informative labeled data.
+- **Roles, External Entities and Dynamic Entities** :: LUIS has added several features that let developers extract more detailed information from text, so users can now build more intelligent solutions with less effort. LUIS also extended roles to all entity types, which allows the same entities to be classified with different subtypes based on context. Developers now have more granular control of what they can do with LUIS, including being able to identify and update models at runtime through dynamic lists and external entities. Dynamic lists are used to append to list entities at prediction time, permitting user-specific information to get matched exactly. Separate supplementary entity extractors are run with external entities, and that information can be appended to LUIS as strong signals for other models.
+
+- **Analytics Page** :: LUIS is releasing a more detailed, visually-rich comprehensive analytics dashboard. Its user-friendly design highlights common issues most users face when designing applications, by providing simple explanations on how to resolve them to help users gain more insight into their models’ quality, potential data problems, and guidance to adopt best practices.
 
 [Docs][31] | [Add language understanding to your bot][32] | use [LUDown][17] and [LUIS][18] command line tools 
 
