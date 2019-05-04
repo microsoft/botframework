@@ -1,5 +1,8 @@
 
 # Microsoft Bot Framework 
+
+> See [here](./whats-new.md) to learn more about what's new with Bot Framework.
+
 The Microsoft Bot Framework is a comprehensive platform for building enterprise-grade conversational AI experiences. It includes a set of open source SDKs, tools, and services which enable developers to **build**, **test**, and **connect** bots that interact naturally with users, wherever they are. With the Microsoft Bot Framework, it is easy to create a bot with the ability to speak, listen, understand, and learn from your users with Azure Cognitive Services. 
 
 ![Bot Framework](./docs/media/Bot-Framework-header.jpg)
@@ -12,7 +15,6 @@ This repo lists the SDK, tools, and services needed to build a great conversatio
 - [Bot Framework Solutions](#Bot-Framework-Solutions)
 - [Bot Framework Emulator](#Bot-Framework-Emulator)
 - [Bot Framework Web Chat](#Bot-Framework-Web-Chat)
-- [Botkit](#Botkit)
 - [Language Understanding](#Language-Understanding)
 - [QnA Maker](#QnA-Maker)
 - [Speech Services](#Speech-Services)  
@@ -33,18 +35,20 @@ Azure Bot Service enables you to host intelligent, enterprise-grade bots with co
 [29]:https://docs.microsoft.com/en-us/azure/bot-service/bot-service-manage-channels?view=azure-bot-service-4.0
 
 ## Bot Framework SDK v4
-The Bot Framework SDK v4 includes SDKs that enable developers to model and build sophisticated conversation using their favorite programming language.
+The Bot Framework SDK v4 is an [open source SDK][1a] that enable developers to model and build sophisticated conversation using their favorite programming language.
 
 
 |   | C#  | JS  | Python |  Java | 
 |---|:---:|:---:|:------:|:-----:|
-|Stable Release |[4.3.2][1] | [4.3.4][2] | [4.0.0a6 (preview)][3] | |
+|Stable Release |[4.3.2][1] | [4.3.4][2] | [4.0.0a6 (preview)][3] | [4.0.0a6 (preview)][3a]|
 |Docs | [docs][5] |[docs][5] | | |
 |Samples |[.NET Core][6], [WebAPI][10] |[Node.js][7] , [TypeScript][8], [es6][9]  | | | 
 
+[1a]:https://github.com/microsoft/botframework-sdk
 [1]:https://github.com/Microsoft/botbuilder-dotnet/#packages
 [2]:https://github.com/Microsoft/botbuilder-js#packages
 [3]:https://github.com/Microsoft/botbuilder-python#packages
+[3a]:https://github.com/Microsoft/botbuilder-java#packages
 [4]:https://github.com/Microsoft/botbuilder-java#packages
 [5]:https://docs.microsoft.com/en-us/azure/bot-service/?view=azure-bot-service-4.0
 [6]:https://github.com/Microsoft/BotBuilder-Samples/tree/master/samples/csharp_dotnetcore
@@ -57,9 +61,9 @@ The Bot Framework SDK v4 includes SDKs that enable developers to model and build
 ### Bot Framework SDK v4 - (New! - version 4.5 preview)
 The Bot Framework SDK v4 - Version 4.5 new capabilites in preview. 
 
-- [Adaptive Dialog][47] | [docs][48] | [C# samples][49] :: The new **Adaptive dialog** and the event model simplify sophisticated conversation modelling primitives, eliminate much of the boiler plate code and helps you **focus on the model of the conversation** rather than the mechanics of conversation and dialog management. This new way to model conversations that takes the best of waterfall dialogs and prompts and simplifies sophisticated conversation modelling primitives like building a dialog dispatcher and ability to handle interruptions elegantly.  Adaptive dialog, ground up is built to be [declaratively configurable][50].
+- [Adaptive Dialog][47] | [docs][48] | [C# samples][49] :: Adaptive Dialogs enable developers to build conversations that can be dynamically changed as the conversation progresses.  Traditionally developers have mapped out the entire flow of a conversation up front, which limits the flexibility of the conversation.  Adaptive dialogs allow them to be more flexible, to respond to changes in context and insert new steps or entire sub-dialogs into the conversation as it progresses. Additionally as with other SDK V4 concepts, we have defined adaptive dialogs such that they can be defined via [metadata files][50] that are interpreted at runtime; which allows us to have tooling on top of this and integrate with services. 
 
-- [Language Generation][43] | [docs][44] | [C# samples][45] :: Language generation is the umbrella term for generating appropriate output to the user. In some sense, language generation is reverse of language understanding. While language understanding goes from user input to extracting meaningful information such as intent and entities, language generation helps construct meaningful, variable and grammatically correct responses that a bot can send back to the user.
+- [Language Generation][43] | [docs][44] | [C# samples][45] :: Learning from our customers experiences and bringing together capabilities first implemented by Cortana and Cognition teams, we are introducing Language Generation; which allows the developer to extract the embedded strings from their code and resource files and manage them through a Language Generation runtime and file format.  Language Generation enable customers to define multiple variations on a phrase, execute simple expressions based on context, refer to conversational memory, and over time will enable us to bring additional capabilities all leading to a more natural conversational experience.
 
 - [Common Expression Language][40] | [api][41] :: Both Adaptive dialogs and Language Generation rely on and use a common expression language to power bot conversations.
 
