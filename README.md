@@ -136,6 +136,14 @@ To create a bot, you can use Microsoft Cognitive Services, as well as other open
 ### Language Understanding 
 A machine learning-based service to build natural language experiences. Quickly create enterprise-ready, custom models that continuously improve. [Language Understanding Service(LUIS)][30] allows your application to understand what a person wants in their own words.
 
+#### What's new
+The enhanced developer experience and debuggability
+- New capabilities to define entities
+- A new version of the LUIS response API that is easier and more robust to consume in the developer application
+- Brand new analytics page where developers 
+    - get more insights about the performance of each model in their applications. 
+    - guidance on how to fix problems like class imbalance or the lack of enough informative labeled data.
+
 - [Docs][31] | [Add language understanding to your bot][32] | use [LUDown][17] and [LUIS][18] command line tools 
 
 [18]:https://github.com/Microsoft/botbuilder-tools/tree/master/packages/LUIS
@@ -146,6 +154,11 @@ A machine learning-based service to build natural language experiences. Quickly 
 
 ### QnA Maker
 [QnA Maker][33] is a cloud-based API service that creates a conversational, question-and-answer layer over your data. With QnA Maker, you can build, train and publish a simple question and answer bot based on FAQ URLs, structured documents, product manuals or editorial content in minutes.
+
+#### What's new
+- Extraction pipeline: Now you can extract hierarchical information from URLs, files and sharepoint
+- Intelligence: Contextual ranking models, active learning suggestions
+- Conversation: Multi-turn conversations in QnA Maker.
 
 - [Docs][34]  | [add qnamaker to your bot][35] | use [LUDdown][17] and [QnAMaker][19] command line tools
 
