@@ -45,11 +45,11 @@ This page lists the latest updates to Bot Framework.
     - New ability to debug live conversations in your bots on any channel or adapter - Microsoft Teams, Slack, Cortana, Facebook Messenger, Skype, etc.
 
 - [Language Understanding](./README.md#LUIS-whats-new)
-    - **Roles, External Entities and Dynamic Entities** :: Extract more detailed information from text and build more intelligent solutions with less effort. 
+    - Roles, External Entities and Dynamic Entities :: Extract more detailed information from text and build more intelligent solutions with less effort. 
         - Entity Roles are now available for all entity types which enables you to identify subtypes based on context, such as from and to which are both types of location.
-        - [New] External entities gives you the ability to use external context for more accurate understanding of user intent.
-        - [New] Dynamic lists help append synonyms to list entities, at prediction time enabling dynamic, user-specific information to get matched exactly. 
-    - **Analytics dashboard** :: Provides insight into your models’ quality and potential data problems. Gives guidance to help solve issues and adopt best practices. 
+        - External entities gives you the ability to use external context for more accurate understanding of user intent.
+        - Dynamic lists help append synonyms to list entities, at prediction time enabling dynamic, user-specific information to get matched exactly. 
+    - Analytics dashboard :: Provides insight into your models’ quality and potential data problems. Gives guidance to help solve issues and adopt best practices. 
 
 - [QnA Maker](./README.md#QnA-whats-new)
     - Extraction pipeline: Extract hierarchical information from URLs, files and sharepoint
