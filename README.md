@@ -29,6 +29,7 @@ Azure Bot Service enables you to host intelligent, enterprise-grade bots with co
 
 <a name="ABS-whats-new"></a>
 ### What's new
+Direct Line Speech Channel – (new) Almost every enterprise bot customer is looking at least one or more scenario involving voice enabled assistants, whether it be customer care or virtual assistant, often via IoT.  Quality of experience, minimal latency, and custom wake words are all critical to a great experience. We are bringing together the Bot Framework and Microsoft's Speech Services to provide a channel that enables streamed speech and text bi-directionally from the client to the bot application. This also brings together our development communities for Virtual Assistants and Mixed Reality around our common developer offering. To sign up, add the 'Direct Line Speech' channel to your Azure Bot Service.
 
 [27]:https://azure.microsoft.com/en-us/services/bot-service/
 [28]:https://docs.microsoft.com/en-us/azure/bot-service/bot-service-overview-introduction?view=azure-bot-service-4.0
@@ -101,6 +102,7 @@ The Bot Framework [tools](https://github.com/Microsoft/botbuilder-tools) are a c
 
 The [Bot Framework Solutions repository](https://github.com/Microsoft/AI) is the home for a set of templates, solution accelerators and skills to help build advanced, assistant-like conversational experiences.
 
+<a name="Solutions-whats-new"></a>
 ### Bot Framework Solutions (New! - preview)
 
 The Bot Framework solutions includes the following new features in preview:
