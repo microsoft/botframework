@@ -52,14 +52,11 @@ The Bot Framework SDK v4 includes SDKs that enable developers to model and build
 ### Bot Framework SDK v4 - (New! - version 4.5 preview)
 The Bot Framework SDK v4 - Version 4.5 new capabilites in preview. 
 
-- [Adaptive Dialog][47] | [docs][48] | [C# samples][49]  
-The new **Adaptive dialog** and the event model simplify sophisticated conversation modelling primitives, eliminate much of the boiler plate code and helps you **focus on the model of the conversation** rather than the mechanics of conversation and dialog management. This new way to model conversations that takes the best of waterfall dialogs and prompts and simplifies sophisticated conversation modelling primitives like building a dialog dispatcher and ability to handle interruptions elegantly.  Adaptive dialog, ground up is built to be [declaratively configurable][50].
+- [Adaptive Dialog][47] | [docs][48] | [C# samples][49] :: The new **Adaptive dialog** and the event model simplify sophisticated conversation modelling primitives, eliminate much of the boiler plate code and helps you **focus on the model of the conversation** rather than the mechanics of conversation and dialog management. This new way to model conversations that takes the best of waterfall dialogs and prompts and simplifies sophisticated conversation modelling primitives like building a dialog dispatcher and ability to handle interruptions elegantly.  Adaptive dialog, ground up is built to be [declaratively configurable][50].
 
-- [Language Generation][43] | [docs][44] | [C# samples][45]
-Language generation is the umbrella term for generating appropriate output to the user. In some sense, language generation is reverse of language understanding. While language understanding goes from user input to extracting meaningful information such as intent and entities, language generation helps construct meaningful, variable and grammatically correct responses that a bot can send back to the user.
+- [Language Generation][43] | [docs][44] | [C# samples][45] :: Language generation is the umbrella term for generating appropriate output to the user. In some sense, language generation is reverse of language understanding. While language understanding goes from user input to extracting meaningful information such as intent and entities, language generation helps construct meaningful, variable and grammatically correct responses that a bot can send back to the user.
 
-- [Common Expression Language][40] | [api][41] 
-Both Adaptive dialogs and Language Generation rely on and use a common expression language to power bot conversations.
+- [Common Expression Language][40] | [api][41] :: Both Adaptive dialogs and Language Generation rely on and use a common expression language to power bot conversations.
 
 
 [40]:https://github.com/Microsoft/BotBuilder-Samples/tree/master/experimental/common-expression-language
