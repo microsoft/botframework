@@ -12,8 +12,8 @@ This page lists what's new with Bot Framework.
 - [**Vision Keynote**][1] by Satya Nadella
 - [**Microsoft Azure**][2] - Technical keynote by Scott Guthrie
 - [**The Microsoft Office 365 Platform**][3] - Technical keynote by Rajesh Jha
-- [**Session: BRK3003***][4] How to use Azure Conversational AI to scale your business for the next generation - A deep dive into La Liga’s story, Tulasi Menon, Nayer Wanas, Jesus Serrano Castro
-- [**Sesssion: BRK4001**][5] Your App, Your Device, Your Assistant -  How to build a branded, voice-first Virtual Assistant, Darren Jefford, Travis Wilson, Khuram Shahid. 
+- [**Session: BRK3003**][4] How to use Azure Conversational AI to scale your business for the next generation - A deep dive into La Liga’s story; Tulasi Menon, Nayer Wanas, Jesus Serrano Castro
+- [**Sesssion: BRK4001**][5] Your App, Your Device, Your Assistant - How to build a branded, voice-first Virtual Assistant; Darren Jefford, Travis Wilson, Khuram Shahid. 
 
 [1]:https://mybuild.techcommunity.microsoft.com/sessions/77571?source=sessions#top-anchor
 [2]:https://mybuild.techcommunity.microsoft.com/sessions/77310?source=sessions#top-anchor
