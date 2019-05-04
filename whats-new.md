@@ -34,7 +34,7 @@ This page lists the latest updates to Bot Framework.
     - [BotKit][b1] :: Major version update with support for Bot Framework Emulator, Azure Bot Service. New model for handling interruptions and composable dialogs. 
 
 - [Bot Framework Channels](./README.md#ABS-whats-new)
-    - Enhanced Speech capabilities, Direct Line Speech Channel – (private preview) Streamlined integration of the Bot Framework and Microsoft's Speech Services in [Azure Bot Service](./README.md#ABS-whats-new) as a new channel, with support for custom wake words and bi-directional speech and text. To sign up, add the **'Direct Line Speech' channel to your Azure Bot Service.**
+    - Enhanced Speech capabilities, Direct Line Speech Channel – (private preview) Streamlined integration of the Bot Framework and Microsoft's Speech Services in [Azure Bot Service](./README.md#ABS-whats-new) as a new channel, with support for custom wake words and bi-directional speech and text. To sign up, add the Direct Line Speech channel to your Azure Bot Service.
 
     - SDK Channel adapters available [here][b1] - New platform adapters for Web chat, Slack, Webex, Facebook, Google Hangouts and Twilio SMS. Work with Bot Framework V4 SDK (JS only). Additional new adapters put together by the [BotBuilderCommunity][b2]
 
