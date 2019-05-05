@@ -105,6 +105,8 @@ The Bot Framework solutions includes the following new features in preview:
 ## Azure Bot Service
 Azure Bot Service enables you to host intelligent, enterprise-grade bots with complete ownership and control of your data. Developers can register and connect their bots to users on Skype, Microsoft Teams, Cortana, Web Chat, and more. [Azure][27]  |  [docs][28] | [connect to channels][29] 
 
+* **Direct Line JS Client**: If you want to use the Direct Line channel in Azure Bot Service and are not using the WebChat client, the Direct Line JS client can be used in your custom application. [Github][30]
+
 <a name="ABS-whats-new"></a>
 
 * **New! Direct Line Speech Channel**: We are bringing together the Bot Framework and Microsoft's Speech Services to provide a channel that enables streamed speech and text bi-directionally from the client to the bot application.  To sign up, add the 'Direct Line Speech' channel to your Azure Bot Service.
@@ -112,6 +114,7 @@ Azure Bot Service enables you to host intelligent, enterprise-grade bots with co
 [27]:https://azure.microsoft.com/en-us/services/bot-service/
 [28]:https://docs.microsoft.com/en-us/azure/bot-service/bot-service-overview-introduction?view=azure-bot-service-4.0
 [29]:https://docs.microsoft.com/en-us/azure/bot-service/bot-service-manage-channels?view=azure-bot-service-4.0
+[30]:https://github.com/Microsoft/BotFramework-DirectLineJS/blob/master/README.md
 
 
 ## Bot Framework Emulator
