@@ -81,23 +81,31 @@ The Bot Framework SDK v4 - Version 4.5 new capabilites in preview.
 [49]:https://github.com/Microsoft/BotBuilder-Samples/tree/master/experimental/adaptive-dialog/csharp_dotnetcore
 [50]:https://github.com/Microsoft/BotBuilder-Samples/tree/master/experimental/adaptive-dialog/declarative
 
-## Bot Framework Tools
-The Bot Framework SDK tools is an [open source](https://github.com/Microsoft/botbuilder-tools) collection of cross-platform command line tools designed to support building robust end-to-end development workflows.
+## Adaptive Cards
+[Adaptive Cards](https://adaptivecards.io) are an open standard for developers to exchange card content in a common and consistent way, 
+and are used by Bot Framework developers to create great cross-channel conversatational experiences.
+![Adaptive Cards](https://adaptivecards.io/content/overview.jpg)
 
-| Tool | Description |
-|------|--------------|
-| [Chatdown][16] | Prototype mock conversations in markdown and convert the markdown to transcripts you can load and view in the new V4 Bot Framework Emulator |
-| [LUDown][17]| Build LUIS language understanding models using markdown files|
-| [LUISGen][21] | Auto generate backing C# / Typescript classes for your LUIS intents and entities.|
-| [az bot][36] | Manage Azure Bot Service using Azure CLI|
-| [MSBot][22]| Create and manage connected services in your bot configuration file|
+* **Express yourself** - Break outside the box of templated cards. Adaptive Cards let you describe your content as you see fit and deliver it beautifully wherever your customers are.
+* **Open framework, native performance** - A simple open card format enables an ecosystem of shared tooling, seamless integration between apps, and native cross-platform performance on any device.
+* **Speech enabled from day one** - We live in an exciting era where users can talk to their devices. Adaptive Cards embrace this new world and were designed from the ground up to support these new experiences.
+* **Tap into a growing ecosystem of content** - It's never been easier to safely integrate UI from a vast network of content producers. With our open-source cross-platform libraries you will have the freedom to create high-performing, great-looking experiences for your users.
 
-[16]:https://github.com/Microsoft/botbuilder-tools/blob/master/packages/Chatdown
-[17]:https://github.com/Microsoft/botbuilder-tools/blob/master/packages/Ludown
-[21]:https://github.com/Microsoft/botbuilder-tools/blob/master/packages/LUISGen
-[22]:https://github.com/Microsoft/botbuilder-tools/blob/master/packages/MSBot
-[36]:https://docs.microsoft.com/en-us/cli/azure/bot?view=azure-cli-latest
+## Botkit
+[Botkit][100] is a developer tool and SDK for building chat bots, apps and custom integrations for major messaging platforms. Botkit bots `hear()` triggers, `ask()` questions and `say()` replies. Developers can use this syntax to build dialogs - now cross compatible with the latest version of Bot Framework SDK. 
 
+In addition, Botkit brings with it 6 platform adapters allowing Javascript bot applications to communicate directly with messaging platforms: [Slack][102], [Webex Teams][103], [Google Hangouts][104], [Facebook Messenger][105], [Twilio][106], and [Web chat][107].
+
+Botkit is part of Microsoft Bot Framework and is released under the [MIT Open Source license][101]
+
+[100]:https://github.com/howdyai/botkit#readme
+[101]:https://github.com/howdyai/botkit/blob/master/LICENSE.md
+[102]:https://github.com/howdyai/botkit/tree/master/packages/botbuilder-adapter-slack#readme
+[103]:https://github.com/howdyai/botkit/tree/master/packages/botbuilder-adapter-webex#readme
+[104]:https://github.com/howdyai/botkit/tree/master/packages/botbuilder-adapter-hangouts#readme
+[105]:https://github.com/howdyai/botkit/tree/master/packages/botbuilder-adapter-facebook#readme
+[106]:https://github.com/howdyai/botkit/tree/master/packages/botbuilder-adapter-twilio-sms#readme
+[107]:https://github.com/howdyai/botkit/tree/master/packages/botbuilder-adapter-web#readme
 
 ## Bot Framework Solutions
 
@@ -140,6 +148,25 @@ The Bot Framework [Web Chat][23] is a highly customizable web-based client chat 
 [24]:https://www.npmjs.com/package/botframework-webchat
 [25]:https://github.com/Microsoft/BotFramework-WebChat/tree/master/doc
 [26]:https://github.com/Microsoft/BotFramework-WebChat/tree/master/samples
+
+
+## Bot Framework Tools
+The Bot Framework SDK tools is an [open source](https://github.com/Microsoft/botbuilder-tools) collection of cross-platform command line tools designed to support building robust end-to-end development workflows.
+
+| Tool | Description |
+|------|--------------|
+| [Chatdown][16] | Prototype mock conversations in markdown and convert the markdown to transcripts you can load and view in the new V4 Bot Framework Emulator |
+| [LUDown][17]| Build LUIS language understanding models using markdown files|
+| [LUISGen][21] | Auto generate backing C# / Typescript classes for your LUIS intents and entities.|
+| [az bot][36] | Manage Azure Bot Service using Azure CLI|
+| [MSBot][22]| Create and manage connected services in your bot configuration file|
+
+[16]:https://github.com/Microsoft/botbuilder-tools/blob/master/packages/Chatdown
+[17]:https://github.com/Microsoft/botbuilder-tools/blob/master/packages/Ludown
+[21]:https://github.com/Microsoft/botbuilder-tools/blob/master/packages/LUISGen
+[22]:https://github.com/Microsoft/botbuilder-tools/blob/master/packages/MSBot
+[36]:https://docs.microsoft.com/en-us/cli/azure/bot?view=azure-cli-latest
+
 
 ## Cognitive Services
 To create a bot, you can use Microsoft Cognitive Services, as well as other open source and third-party AI solutions. The key cogntive services used to create a bot include: 
@@ -185,31 +212,6 @@ A machine learning-based service to build natural language experiences. Quickly 
 
 [70]:https://azure.microsoft.com/en-us/services/cognitive-services/speech-services/
 
-## Adaptive Cards
-[Adaptive Cards](https://adaptivecards.io) are an open standard for developers to exchange card content in a common and consistent way, 
-and are used by Bot Framework developers to create great cross-channel conversatational experiences.
-![Adaptive Cards](https://adaptivecards.io/content/overview.jpg)
-
-* **Express yourself** - Break outside the box of templated cards. Adaptive Cards let you describe your content as you see fit and deliver it beautifully wherever your customers are.
-* **Open framework, native performance** - A simple open card format enables an ecosystem of shared tooling, seamless integration between apps, and native cross-platform performance on any device.
-* **Speech enabled from day one** - We live in an exciting era where users can talk to their devices. Adaptive Cards embrace this new world and were designed from the ground up to support these new experiences.
-* **Tap into a growing ecosystem of content** - It's never been easier to safely integrate UI from a vast network of content producers. With our open-source cross-platform libraries you will have the freedom to create high-performing, great-looking experiences for your users.
-
-## Botkit
-[Botkit][100] is a developer tool and SDK for building chat bots, apps and custom integrations for major messaging platforms. Botkit bots `hear()` triggers, `ask()` questions and `say()` replies. Developers can use this syntax to build dialogs - now cross compatible with the latest version of Bot Framework SDK. 
-
-In addition, Botkit brings with it 6 platform adapters allowing Javascript bot applications to communicate directly with messaging platforms: [Slack][102], [Webex Teams][103], [Google Hangouts][104], [Facebook Messenger][105], [Twilio][106], and [Web chat][107].
-
-Botkit is part of Microsoft Bot Framework and is released under the [MIT Open Source license][101]
-
-[100]:https://github.com/howdyai/botkit#readme
-[101]:https://github.com/howdyai/botkit/blob/master/LICENSE.md
-[102]:https://github.com/howdyai/botkit/tree/master/packages/botbuilder-adapter-slack#readme
-[103]:https://github.com/howdyai/botkit/tree/master/packages/botbuilder-adapter-webex#readme
-[104]:https://github.com/howdyai/botkit/tree/master/packages/botbuilder-adapter-hangouts#readme
-[105]:https://github.com/howdyai/botkit/tree/master/packages/botbuilder-adapter-facebook#readme
-[106]:https://github.com/howdyai/botkit/tree/master/packages/botbuilder-adapter-twilio-sms#readme
-[107]:https://github.com/howdyai/botkit/tree/master/packages/botbuilder-adapter-web#readme
 
 ## Bot Framework SDK v3
 
