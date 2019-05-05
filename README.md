@@ -149,6 +149,9 @@ The Bot Framework SDK tools is an [open source](https://github.com/Microsoft/bot
 | [LUDown][17]| Build LUIS language understanding models using markdown files|
 | [LUISGen][21] | Auto generate backing C# / Typescript classes for your LUIS intents and entities.|
 | [az bot][36] | Manage Azure Bot Service using Azure CLI|
+|[LUIS][LUISCLI] | Create and manage your [LUIS.ai](http://luis.ai) applications |
+|[QnAMaker][QNACLI] | Create and manage [QnAMaker.ai](http://qnamaker.ai) Knowledge Bases. |
+| [Dispatch][DispatchCLI] | Build language models allowing you to dispatch between disparate components (such as QnA, LUIS and custom code)|
 | [MSBot][22]| Create and manage connected services in your bot configuration file|
 
 [16]:https://github.com/Microsoft/botbuilder-tools/blob/master/packages/Chatdown
@@ -156,7 +159,9 @@ The Bot Framework SDK tools is an [open source](https://github.com/Microsoft/bot
 [21]:https://github.com/Microsoft/botbuilder-tools/blob/master/packages/LUISGen
 [22]:https://github.com/Microsoft/botbuilder-tools/blob/master/packages/MSBot
 [36]:https://docs.microsoft.com/en-us/cli/azure/bot?view=azure-cli-latest
-
+[LUISCLI]:https://github.com/Microsoft/botbuilder-tools/blob/master/packages/LUIS
+[QNACLI]:https://github.com/Microsoft/botbuilder-tools/blob/master/packages/QnAMaker
+[DispatchCLI]:https://github.com/Microsoft/botbuilder-tools/tree/master/packages/Dispatch
 
 ## Related Services
 
