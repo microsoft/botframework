@@ -68,7 +68,7 @@ The Bot Framework SDK v4 - Version 4.5 new capabilites in preview.
 [49]:https://github.com/Microsoft/BotBuilder-Samples/tree/master/experimental/adaptive-dialog/csharp_dotnetcore
 [50]:https://github.com/Microsoft/BotBuilder-Samples/tree/master/experimental/adaptive-dialog/declarative
 
-## Botkit
+#### Botkit
 [Botkit][100] is a developer tool and SDK for building chat bots, apps and custom integrations for major messaging platforms. Botkit bots `hear()` triggers, `ask()` questions and `say()` replies. Developers can use this syntax to build dialogs - now cross compatible with the latest version of Bot Framework SDK. 
 
 In addition, Botkit brings with it 6 platform adapters allowing Javascript bot applications to communicate directly with messaging platforms: [Slack][102], [Webex Teams][103], [Google Hangouts][104], [Facebook Messenger][105], [Twilio][106], and [Web chat][107].
@@ -157,8 +157,8 @@ The Bot Framework SDK tools is an [open source](https://github.com/Microsoft/bot
 [36]:https://docs.microsoft.com/en-us/cli/azure/bot?view=azure-cli-latest
 
 
-## Cognitive Services
-To create a bot, you can use Microsoft Cognitive Services, as well as other open source and third-party AI solutions. The key cogntive services used to create a bot include: 
+## Related Services
+
 ### Language Understanding 
 A machine learning-based service to build natural language experiences. Quickly create enterprise-ready, custom models that continuously improve. [Language Understanding Service(LUIS)][30] allows your application to understand what a person wants in their own words.
 
@@ -201,7 +201,7 @@ A machine learning-based service to build natural language experiences. Quickly 
 
 [70]:https://azure.microsoft.com/en-us/services/cognitive-services/speech-services/
 
-## Adaptive Cards
+### Adaptive Cards
 [Adaptive Cards](https://adaptivecards.io) are an open standard for developers to exchange card content in a common and consistent way, 
 and are used by Bot Framework developers to create great cross-channel conversatational experiences.
 
