@@ -28,8 +28,8 @@ Azure Bot Service enables you to host intelligent, enterprise-grade bots with co
 - [Azure][27]  |  [docs][28] | [connect to channels][29] 
 
 <a name="ABS-whats-new"></a>
-### What's new
-Direct Line Speech Channel – (new) Almost every enterprise bot customer is looking at least one or more scenario involving voice enabled assistants, whether it be customer care or virtual assistant, often via IoT.  Quality of experience, minimal latency, and custom wake words are all critical to a great experience. We are bringing together the Bot Framework and Microsoft's Speech Services to provide a channel that enables streamed speech and text bi-directionally from the client to the bot application. This also brings together our development communities for Virtual Assistants and Mixed Reality around our common developer offering. To sign up, add the 'Direct Line Speech' channel to your Azure Bot Service.
+
+* **New! Direct Line Speech Channel**: We are bringing together the Bot Framework and Microsoft's Speech Services to provide a channel that enables streamed speech and text bi-directionally from the client to the bot application.  To sign up, add the 'Direct Line Speech' channel to your Azure Bot Service.
 
 [27]:https://azure.microsoft.com/en-us/services/bot-service/
 [28]:https://docs.microsoft.com/en-us/azure/bot-service/bot-service-overview-introduction?view=azure-bot-service-4.0
@@ -164,10 +164,10 @@ To create a bot, you can use Microsoft Cognitive Services, as well as other open
 A machine learning-based service to build natural language experiences. Quickly create enterprise-ready, custom models that continuously improve. [Language Understanding Service(LUIS)][30] allows your application to understand what a person wants in their own words.
 
 <a name="LUIS-whats-new"></a>
-#### What's new
-- **Roles, External Entities and Dynamic Entities** :: LUIS has added several features that let developers extract more detailed information from text, so users can now build more intelligent solutions with less effort. LUIS also extended roles to all entity types, which allows the same entities to be classified with different subtypes based on context. Developers now have more granular control of what they can do with LUIS, including being able to identify and update models at runtime through dynamic lists and external entities. Dynamic lists are used to append to list entities at prediction time, permitting user-specific information to get matched exactly. Separate supplementary entity extractors are run with external entities, and that information can be appended to LUIS as strong signals for other models.
 
-- **Analytics dashboard** :: LUIS is releasing a more detailed, visually-rich comprehensive analytics dashboard. Its user-friendly design highlights common issues most users face when designing applications, by providing simple explanations on how to resolve them to help users gain more insight into their models’ quality, potential data problems, and guidance to adopt best practices.
+- **New! Roles, External Entities and Dynamic Entities** :: LUIS has added several features that let developers extract more detailed information from text, so users can now build more intelligent solutions with less effort. LUIS also extended roles to all entity types, which allows the same entities to be classified with different subtypes based on context. Developers now have more granular control of what they can do with LUIS, including being able to identify and update models at runtime through dynamic lists and external entities. Dynamic lists are used to append to list entities at prediction time, permitting user-specific information to get matched exactly. Separate supplementary entity extractors are run with external entities, and that information can be appended to LUIS as strong signals for other models.
+
+- **New! Analytics dashboard** :: LUIS is releasing a more detailed, visually-rich comprehensive analytics dashboard. Its user-friendly design highlights common issues most users face when designing applications, by providing simple explanations on how to resolve them to help users gain more insight into their models’ quality, potential data problems, and guidance to adopt best practices.
 
 [Docs][31] | [Add language understanding to your bot][32] | use [LUDown][17] and [LUIS][18] command line tools 
 
@@ -181,10 +181,10 @@ A machine learning-based service to build natural language experiences. Quickly 
 [QnA Maker][33] is a cloud-based API service that creates a conversational, question-and-answer layer over your data. With QnA Maker, you can build, train and publish a simple question and answer bot based on FAQ URLs, structured documents, product manuals or editorial content in minutes.
 
 <a name="QnA-whats-new"></a>
-#### What's new
-- Extraction pipeline: Now you can extract hierarchical information from URLs, files and sharepoint
-- Intelligence: Contextual ranking models, active learning suggestions
-- Conversation: Multi-turn conversations in QnA Maker.
+
+- **New! Extraction pipeline**: Now you can extract hierarchical information from URLs, files and sharepoint
+- **New! Intelligence**: Contextual ranking models, active learning suggestions
+- **New! Conversation**: Multi-turn conversations in QnA Maker.
 
 [Docs][34]  | [add qnamaker to your bot][35] | use [LUDdown][17] and [QnAMaker][19] command line tools
 
@@ -206,11 +206,8 @@ A machine learning-based service to build natural language experiences. Quickly 
 [Adaptive Cards](https://adaptivecards.io) are an open standard for developers to exchange card content in a common and consistent way, 
 and are used by Bot Framework developers to create great cross-channel conversatational experiences.
 
-* **Express yourself** - Break outside the box of templated cards. Adaptive Cards let you describe your content as you see fit and deliver it beautifully wherever your customers are.
 * **Open framework, native performance** - A simple open card format enables an ecosystem of shared tooling, seamless integration between apps, and native cross-platform performance on any device.
 * **Speech enabled from day one** - We live in an exciting era where users can talk to their devices. Adaptive Cards embrace this new world and were designed from the ground up to support these new experiences.
-* **Tap into a growing ecosystem of content** - It's never been easier to safely integrate UI from a vast network of content producers. With our open-source cross-platform libraries you will have the freedom to create high-performing, great-looking experiences for your users.
-
 
 ## Bot Framework SDK v3
 
