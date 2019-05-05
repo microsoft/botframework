@@ -33,7 +33,7 @@ The Bot Framework SDK v4 is an [open source SDK][1a] that enable developers to m
 |Docs | [docs][5] |[docs][5] |  | |
 |Samples |[.NET Core][6], [WebAPI][10] |[Node.js][7] , [TypeScript][8], [es6][9]  | [Python][111] | | 
 
-[1a]:https://github.com/microsoft/botframework-sdk
+[1a]:https://github.com/microsoft/botframework-sdk/#readme
 [1]:https://github.com/Microsoft/botbuilder-dotnet/#packages
 [2]:https://github.com/Microsoft/botbuilder-js#packages
 [3]:https://github.com/Microsoft/botbuilder-python#packages
@@ -58,13 +58,13 @@ The Bot Framework SDK v4 - Version 4.5 new capabilites in preview.
 - [Common Expression Language][40] | [api][41] :: Both Adaptive dialogs and Language Generation rely on and use a common expression language to power bot conversations.
 
 
-[40]:https://github.com/Microsoft/BotBuilder-Samples/tree/master/experimental/common-expression-language
+[40]:https://github.com/Microsoft/BotBuilder-Samples/tree/master/experimental/common-expression-language#readme
 [41]:https://github.com/Microsoft/BotBuilder-Samples/blob/master/experimental/common-expression-language/api-reference.md
-[43]:https://github.com/Microsoft/BotBuilder-Samples/tree/master/experimental/language-generation
+[43]:https://github.com/Microsoft/BotBuilder-Samples/tree/master/experimental/language-generation#readme
 [44]:https://github.com/Microsoft/BotBuilder-Samples/tree/master/experimental/language-generation/docs
 [45]:https://github.com/Microsoft/BotBuilder-Samples/tree/master/experimental/language-generation/csharp_dotnetcore
 [46]:https://github.com/Microsoft/BotBuilder-Samples/tree/master/experimental/language-generation/javascript_nodejs/13.core-bot
-[47]:https://github.com/Microsoft/BotBuilder-Samples/tree/master/experimental/adaptive-dialog
+[47]:https://github.com/Microsoft/BotBuilder-Samples/tree/master/experimental/adaptive-dialog#readme
 [48]:https://github.com/Microsoft/BotBuilder-Samples/tree/master/experimental/adaptive-dialog/docs
 [49]:https://github.com/Microsoft/BotBuilder-Samples/tree/master/experimental/adaptive-dialog/csharp_dotnetcore
 [50]:https://github.com/Microsoft/BotBuilder-Samples/tree/master/experimental/adaptive-dialog/declarative
@@ -87,7 +87,7 @@ Botkit is part of Microsoft Bot Framework and is released under the [MIT Open So
 
 ## Bot Framework Solutions
 
-The [Bot Framework Solutions repository](https://github.com/Microsoft/AI) is the home for a set of templates, solution accelerators and skills to help build advanced, assistant-like conversational experiences.
+The [Bot Framework Solutions repository](https://github.com/Microsoft/AI#readme) is the home for a set of templates, solution accelerators and skills to help build advanced, assistant-like conversational experiences.
 
 <a name="Solutions-whats-new"></a>
 ### Bot Framework Solutions (New! - preview)
@@ -98,7 +98,7 @@ The Bot Framework solutions includes the following new features in preview:
 
 | Name | Description |  
 |:------------:|------------| 
-|[<img src="https://raw.githubusercontent.com/Microsoft/AI/4.4/docs/media/vatemplateintrocard.png" width="1250"> **Virtual Assistant**](https://github.com/Microsoft/AI/blob/master/docs/readme.md) | Customers and partners have a significant need to deliver a conversational assistant tailored to their brand, personalized to their users, and made available across a broad range of canvases and devices. <br/><br/> Continuing Microsoft's open-sourced approach towards the Bot Framework SDK, the open-source Virtual Assistant solution provides you with a set of core foundational capabilities and full control over the end user experience. <br/><br/> This template incorporates the previous Enterprise Template and brings together all of the best practices and supporting components identified through building conversational experiences and greatly simplifies the creation of a new bot project including: basic conversational intents, Dispatch integration, QnA Maker, Application Insights and an automated deployment.|
+|[<img src="https://raw.githubusercontent.com/Microsoft/AI/4.4/docs/media/vatemplateintrocard.png" width="1250"> **Virtual Assistant**](https://github.com/Microsoft/AI/blob/master/docs#readme) | Customers and partners have a significant need to deliver a conversational assistant tailored to their brand, personalized to their users, and made available across a broad range of canvases and devices. <br/><br/> Continuing Microsoft's open-sourced approach towards the Bot Framework SDK, the open-source Virtual Assistant solution provides you with a set of core foundational capabilities and full control over the end user experience. <br/><br/> This template incorporates the previous Enterprise Template and brings together all of the best practices and supporting components identified through building conversational experiences and greatly simplifies the creation of a new bot project including: basic conversational intents, Dispatch integration, QnA Maker, Application Insights and an automated deployment.|
 |[<img src="https://raw.githubusercontent.com/Microsoft/AI/4.4/docs/media/calendarskillcardexample.png" width="1250">**Skills**]((https://github.com/Microsoft/AI/blob/master/docs/readme.md))|Developers can compose conversational experiences by stitching together re-usable conversational capabilities, known as Skills. Skills are themselves Bots, invoked remotely and a Skill developer template (.NET, TS) is available to facilitate creation of new Skills. This can be a complex Virtual Assistant or perhaps an Enterprise Bot seeking to stitch together multiple bots within an organization.<br/><br/>A library of re-usable conversational skill building-blocks covering conversational use-cases enabling you to add extensive functionality to a Bot within minutes. Skills include LUIS models, Dialogs and Integration code and delivered in source code form enabling you to customise and extend as required. We currently provide a preview of Calendar, Email and Task productivity skills, Point of Interest, and Automotive skills, along with new experimental skills including Weather and News. Skills include LUIS models, Dialogs, and integration code delivered in source code form so developers can customize and extend as required. These can all be found in the [Solutions repository](https://github.com/Microsoft/AI) along with a Skill template for building your own skills. |
 |[<img src="https://raw.githubusercontent.com/Microsoft/AI/4.4/docs/media/powerbi-conversationanalytics-luisintents.png" width="1250">**Analytics**](https://github.com/Microsoft/AI/blob/master/docs/readme.md)| Gain key insights into your bot’s health and behavior with the Conversational AI Analytics solutions. Review available telemetry, sample Application Insights queries, and Power BI dashboards to understand the full breadth of your bot’s conversations with users. |
 
@@ -124,7 +124,7 @@ The [Bot Framework Emulator][60] is a  cross-platform desktop application that a
 The Bot Framework Emulator has released a Beta of the new Bot Inspector feature: a way to debug and test your Bot Framework SDK v4 bots on channels like Microsoft Teams, Slack, Cortana, Facebook Messenger, Skype, etc. As you have the conversation, messages will be mirrored to the Bot Framework Emulator where you can inspect the message data that the bot received. Additionally, a snapshot of the bot state for any given turn between the channel and the bot is rendered as well. You can inspect this data by clicking on the "Bot State" element in the conversation mirror. Read more about [Bot Inspector](https://github.com/Microsoft/BotFramework-Emulator/blob/master/content/CHANNELS.md)
 
 
-[60]:https://github.com/Microsoft/BotFramework-Emulator
+[60]:https://github.com/Microsoft/BotFramework-Emulator#readme
 [61]:https://github.com/Microsoft/BotFramework-Emulator/releases/latest
 [62]:https://docs.microsoft.com/en-us/azure/bot-service/bot-service-debug-emulator?view=azure-bot-service-4.0
 
@@ -133,7 +133,7 @@ The Bot Framework [Web Chat][23] is a highly customizable web-based client chat 
 
 - [Stable release][24] | [Docs][25]  | [Samples][26]
 
-[23]:https://github.com/Microsoft/BotFramework-WebChat
+[23]:https://github.com/Microsoft/BotFramework-WebChat#readme
 [24]:https://www.npmjs.com/package/botframework-webchat
 [25]:https://github.com/Microsoft/BotFramework-WebChat/tree/master/doc
 [26]:https://github.com/Microsoft/BotFramework-WebChat/tree/master/samples
@@ -153,14 +153,14 @@ The Bot Framework SDK tools is an [open source](https://github.com/Microsoft/bot
 | [Dispatch][DispatchCLI] | Build language models allowing you to dispatch between disparate components (such as QnA, LUIS and custom code)|
 | [MSBot][22]| Create and manage connected services in your bot configuration file|
 
-[16]:https://github.com/Microsoft/botbuilder-tools/blob/master/packages/Chatdown
-[17]:https://github.com/Microsoft/botbuilder-tools/blob/master/packages/Ludown
-[21]:https://github.com/Microsoft/botbuilder-tools/blob/master/packages/LUISGen
-[22]:https://github.com/Microsoft/botbuilder-tools/blob/master/packages/MSBot
+[16]:https://github.com/Microsoft/botbuilder-tools/blob/master/packages/Chatdown#readme
+[17]:https://github.com/Microsoft/botbuilder-tools/blob/master/packages/Ludown#readme
+[21]:https://github.com/Microsoft/botbuilder-tools/blob/master/packages/LUISGen#readme
+[22]:https://github.com/Microsoft/botbuilder-tools/blob/master/packages/MSBot#readme
 [36]:https://docs.microsoft.com/en-us/cli/azure/bot?view=azure-cli-latest
-[LUISCLI]:https://github.com/Microsoft/botbuilder-tools/blob/master/packages/LUIS
-[QNACLI]:https://github.com/Microsoft/botbuilder-tools/blob/master/packages/QnAMaker
-[DispatchCLI]:https://github.com/Microsoft/botbuilder-tools/tree/master/packages/Dispatch
+[LUISCLI]:https://github.com/Microsoft/botbuilder-tools/blob/master/packages/LUIS#readme
+[QNACLI]:https://github.com/Microsoft/botbuilder-tools/blob/master/packages/QnAMaker#readme
+[DispatchCLI]:https://github.com/Microsoft/botbuilder-tools/tree/master/packages/Dispatch#readme
 
 ## Related Services
 
@@ -175,8 +175,8 @@ A machine learning-based service to build natural language experiences. Quickly 
 
 [Docs][31] | [Add language understanding to your bot][32] | use [LUDown][17] and [LUIS][18] command line tools 
 
-[18]:https://github.com/Microsoft/botbuilder-tools/tree/master/packages/LUIS
-[19]:https://github.com/Microsoft/botbuilder-tools/tree/master/packages/QnAMaker
+[18]:https://github.com/Microsoft/botbuilder-tools/tree/master/packages/LUIS#readme
+[19]:https://github.com/Microsoft/botbuilder-tools/tree/master/packages/QnAMaker#readme
 [30]:https://www.luis.ai
 [31]:https://docs.microsoft.com/en-us/azure/cognitive-services/LUIS/Home
 [32]:https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-howto-v4-luis?view=azure-bot-service-4.0&branch=pr-en-us-1325&tabs=csharp
@@ -199,7 +199,7 @@ A machine learning-based service to build natural language experiences. Quickly 
 ### Dispatch
 [Dispatch][20] lets you build language models that allow you to dispatch between disparate components (such as QnA, LUIS and custom code).
 
-[20]:https://github.com/Microsoft/botbuilder-tools/blob/master/packages/Dispatch
+[20]:https://github.com/Microsoft/botbuilder-tools/blob/master/packages/Dispatch#readme
 
 ### Speech Services
 [Speech Services][70] convert audio to text, perform speech translation and text-to-speech with the unified Speech services. With the speech services, you can integrate speech into your bot, create custom wake words, and author in multiple languages.
