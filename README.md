@@ -81,16 +81,6 @@ The Bot Framework SDK v4 - Version 4.5 new capabilites in preview.
 [49]:https://github.com/Microsoft/BotBuilder-Samples/tree/master/experimental/adaptive-dialog/csharp_dotnetcore
 [50]:https://github.com/Microsoft/BotBuilder-Samples/tree/master/experimental/adaptive-dialog/declarative
 
-## Adaptive Cards
-[Adaptive Cards](https://adaptivecards.io) are an open standard for developers to exchange card content in a common and consistent way, 
-and are used by Bot Framework developers to create great cross-channel conversatational experiences.
-![Adaptive Cards](https://adaptivecards.io/content/overview.jpg)
-
-* **Express yourself** - Break outside the box of templated cards. Adaptive Cards let you describe your content as you see fit and deliver it beautifully wherever your customers are.
-* **Open framework, native performance** - A simple open card format enables an ecosystem of shared tooling, seamless integration between apps, and native cross-platform performance on any device.
-* **Speech enabled from day one** - We live in an exciting era where users can talk to their devices. Adaptive Cards embrace this new world and were designed from the ground up to support these new experiences.
-* **Tap into a growing ecosystem of content** - It's never been easier to safely integrate UI from a vast network of content producers. With our open-source cross-platform libraries you will have the freedom to create high-performing, great-looking experiences for your users.
-
 ## Botkit
 [Botkit][100] is a developer tool and SDK for building chat bots, apps and custom integrations for major messaging platforms. Botkit bots `hear()` triggers, `ask()` questions and `say()` replies. Developers can use this syntax to build dialogs - now cross compatible with the latest version of Bot Framework SDK. 
 
@@ -211,6 +201,15 @@ A machine learning-based service to build natural language experiences. Quickly 
 [Speech Services][70] convert audio to text, perform speech translation and text-to-speech with the unified Speech services. With the speech services, you can integrate speech into your bot, create custom wake words, and author in multiple languages.
 
 [70]:https://azure.microsoft.com/en-us/services/cognitive-services/speech-services/
+
+## Adaptive Cards
+[Adaptive Cards](https://adaptivecards.io) are an open standard for developers to exchange card content in a common and consistent way, 
+and are used by Bot Framework developers to create great cross-channel conversatational experiences.
+
+* **Express yourself** - Break outside the box of templated cards. Adaptive Cards let you describe your content as you see fit and deliver it beautifully wherever your customers are.
+* **Open framework, native performance** - A simple open card format enables an ecosystem of shared tooling, seamless integration between apps, and native cross-platform performance on any device.
+* **Speech enabled from day one** - We live in an exciting era where users can talk to their devices. Adaptive Cards embrace this new world and were designed from the ground up to support these new experiences.
+* **Tap into a growing ecosystem of content** - It's never been easier to safely integrate UI from a vast network of content producers. With our open-source cross-platform libraries you will have the freedom to create high-performing, great-looking experiences for your users.
 
 
 ## Bot Framework SDK v3
