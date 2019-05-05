@@ -40,8 +40,11 @@ This page lists the latest updates to Bot Framework.
 
     - SDK Channel adapters available [here][b1] - New platform adapters for Web chat, Slack, Webex, Facebook, Google Hangouts and Twilio SMS. Work with Bot Framework V4 SDK (JS only). Additional new adapters put together by the [BotBuilderCommunity][b2]
 
-- [Bot Framework Skills](https://github.com/Microsoft/AI/blob/master/docs/overview/skills.md)
+- [Bot Framework Skills](https://github.com/Microsoft/AI/docs)
     - Skills include language models, dialogs, and cards that can be reusable across bots. Examples include productivity (calendar, email and task productivity- powered by Microsoft Graph), industry (point of interest, and automotive), and custom. 
+    
+- [Virtual Assistant Template](https://github.com/Microsoft/AI/docs)
+    - This template incorporates the previous Enterprise Template and brings together all of the best practices and supporting components identified through building advnaced assistant-like conversational experiences. It greatly simplifies the creation of a new bot project including: basic conversational intents, Dispatch integration, QnA Maker, Application Insights and an automated deployment.
     
 - [Bot Framework Emulator](./README.md#Emulator-whats-new)
     - New ability to debug live conversations in your bots on any channel or adapter - Microsoft Teams, Slack, Cortana, Facebook Messenger, Skype, etc.
