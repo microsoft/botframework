@@ -9,17 +9,18 @@ The Microsoft Bot Framework is a comprehensive platform for building enterprise-
 
 This repo lists the SDK, tools, and services needed to build a great conversational AI experience. Its role is to serve as a landing page and one place to find all the information required to get started. 
 
-- [Azure Bot Service](#Azure-Bot-Service)
 - [Bot Framework SDK v4](#Bot-Framework-SDK-v4)
-- [Bot Framework Tools](#Bot-Framework-Tools)
 - [Bot Framework Solutions](#Bot-Framework-Solutions)
+- [Azure Bot Service](#Azure-Bot-Service)
 - [Bot Framework Emulator](#Bot-Framework-Emulator)
 - [Bot Framework Web Chat](#Bot-Framework-Web-Chat)
+- [Bot Framework Tools](#Bot-Framework-Tools)
 - [Language Understanding](#Language-Understanding)
 - [QnA Maker](#QnA-Maker)
+- [Dispatch](#Dispatch)
 - [Speech Services](#Speech-Services)  
+- [Adaptive cards](#Adaptive-Cards)
 - [Analytics](#Analytics)
-
 - [Bot Framework SDK v3](#Bot-Framework-SDK-v3)
 
 ## Bot Framework SDK v4
