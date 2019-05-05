@@ -85,20 +85,16 @@ Botkit is part of Microsoft Bot Framework and is released under the [MIT Open So
 [106]:https://github.com/howdyai/botkit/tree/master/packages/botbuilder-adapter-twilio-sms#readme
 [107]:https://github.com/howdyai/botkit/tree/master/packages/botbuilder-adapter-web#readme
 
-## Bot Framework Solutions
+## Bot Framework Solutions (New! - preview)
 
-The [Bot Framework Solutions repository](https://github.com/Microsoft/AI#readme) is the home for a set of templates, solution accelerators and skills to help build advanced, assistant-like conversational experiences.
+The [Bot Framework Solutions repository](https://github.com/Microsoft/AI#readme) provides a set of templates, solution accelerators and skills to help build sophisticated conversational experiences.
 
 <a name="Solutions-whats-new"></a>
-### Bot Framework Solutions (New! - preview)
-
-The Bot Framework solutions includes the following new features in preview:
-
 
 | Name | Description |  
 |:------------:|------------| 
 |<img src="https://raw.githubusercontent.com/Microsoft/AI/4.4/docs/media/vatemplateintrocard.png" width="1250"> | [**Virtual Assistant.**](https://github.com/Microsoft/AI/blob/master/docs/overview/virtualassistant.md) Customers and partners have a significant need to deliver a conversational assistant tailored to their brand, personalized to their users, and made available across a broad range of canvases and devices. <br/><br/>  This brings together all of the supporting components and greatly simplifies the creation of a new bot project including: basic conversational intents, Dispatch integration, QnA Maker, Application Insights and an automated deployment.|
-|[<img src="https://raw.githubusercontent.com/Microsoft/AI/4.4/docs/media/calendarskillcardexample.png" width="1250">]((https://github.com/Microsoft/AI/blob/master/docs/readme.md))| [**Skills.**](https://github.com/Microsoft/AI/blob/master/docs/overview/skills.md) A library of re-usable conversational skill building-blocks enabling you to add functionality to a Bot. We currently provide: Calendar, Email, Task, Point of Interest, Automotive, Weather and News skills. Skills include LUIS models, Dialogs, and integration code delivered in source code form to customize and extend as required. These can all be found in the [Solutions repository](https://github.com/Microsoft/AI) along with a Skill template for building your own skills.|
+|[<img src="https://raw.githubusercontent.com/Microsoft/AI/4.4/docs/media/calendarskillcardexample.png" width="1250">]((https://github.com/Microsoft/AI/blob/master/docs/readme.md))| [**Skills.**](https://github.com/Microsoft/AI/blob/master/docs/overview/skills.md) A library of re-usable conversational skill building-blocks enabling you to add functionality to a Bot. We currently provide: Calendar, Email, Task, Point of Interest, Automotive, Weather and News skills. Skills include LUIS models, Dialogs, and integration code delivered in source code form to customize and extend as required.|
 |<img src="https://raw.githubusercontent.com/Microsoft/AI/4.4/docs/media/powerbi-conversationanalytics-luisintents.png" width="1250">| [**Analytics.**](https://github.com/Microsoft/AI/blob/master/docs/readme.md#analytics) Gain key insights into your bot’s health and behavior with the Bot Framework Analytics solutions, which includes: sample Application Insights queries, and Power BI dashboards to understand the full breadth of your bot’s conversations with users.|
 
 ## Azure Bot Service
