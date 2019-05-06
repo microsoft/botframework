@@ -25,7 +25,7 @@ This page lists the latest updates to Bot Framework.
 [sdkv4]:https://github.com/microsoft/botframework-sdk#readme
 [channelsv4]:https://github.com/microsoft/botframework-sdk#channels-and-adapters
 
-### Whats new
+### What's new
 - [Bot Framework SDK V4][sdkv4]
     - [Adaptive Dialog][47] | [docs][48] | [C# samples][49] :: Simplify the development of sophisticated dialogs by dynamically updating as the conversation unfolds. This is especially useful when the context of conversation is switched or if there are interruptions in the middle of a conversation.
 
@@ -47,7 +47,7 @@ This page lists the latest updates to Bot Framework.
     - This template incorporates the previous Enterprise Template and brings together all of the best practices and supporting components identified through building advnaced assistant-like conversational experiences. It greatly simplifies the creation of a new bot project including: basic conversational intents, Dispatch integration, QnA Maker, Application Insights and an automated deployment.
     
 - [Bot Framework Emulator](./README.md#Emulator-whats-new)
-    - New ability to debug live conversations in your bots on any channel or adapter - Microsoft Teams, Slack, Cortana, Facebook Messenger, Skype, etc.
+    - Bot Inspector, a new ability to debug live conversations in your bots on any channel or adapter - Microsoft Teams, Slack, Cortana, Facebook Messenger, Skype, etc.
 
 - [Language Understanding](./README.md#LUIS-whats-new)
     - Roles, External Entities and Dynamic Entities :: Extract more detailed information from text and build more intelligent solutions with less effort. 
