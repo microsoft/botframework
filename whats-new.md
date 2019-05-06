@@ -33,7 +33,7 @@ This page lists the latest updates to Bot Framework.
 
     - [Common Expression Language][40] | [api][41] :: Both Adaptive dialogs and Language Generation rely on and use a common expression language to power bot conversations.
     
-    - [BotKit][b1] :: Major version update with support for Bot Framework Emulator, Azure Bot Service. New model for handling interruptions and composable dialogs. 
+    - [Botkit][b1] :: Major version update with support for Bot Framework Emulator, Azure Bot Service. New model for handling interruptions and composable dialogs. 
 
 - [Bot Framework Channels][channelsv4]
     - Enhanced Speech capabilities, Direct Line Speech Channel – (private preview) Streamlined integration of the Bot Framework and Microsoft's Speech Services in [Azure Bot Service](./README.md#ABS-whats-new) as a new channel, with support for custom wake words and bi-directional speech and text. To sign up, add the Direct Line Speech channel to your Azure Bot Service.
