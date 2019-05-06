@@ -57,9 +57,7 @@ This page lists the latest updates to Bot Framework.
     - Analytics dashboard :: Provides insight into your models’ quality and potential data problems. Gives guidance to help solve issues and adopt best practices. 
 
 - [QnA Maker](./README.md#QnA-whats-new)
-    - Extraction pipeline: Extract hierarchical information from URLs, files and sharepoint
-    - Intelligence: Contextual ranking models, active learning suggestions
-    - Conversation: Multi-turn conversations in QnA Maker.
+Multi-turn Conversations (Public Preview): Extract information from URL or .pdf, .docx files to create multi-turn conversational flows. You can edit and author your own multi-turn flows and test them using the new contextual ranker. See this [sample](https://github.com/Microsoft/BotBuilder-Samples/tree/master/experimental/qnamaker-prompting) to create a multi-turn QnA Maker bot.
 
 
 [b1]:https://github.com/howdyai/botkit#readme
