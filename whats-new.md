@@ -15,6 +15,7 @@ This page lists the latest updates to Bot Framework.
 - [How to use Azure Conversational AI to scale your business for the next generation - A deep dive into La Liga’s story][4] by Tulasi Menon, Nayer Wanas, Jesus Serrano Castro
 - [Your App, Your Device, Your Assistant - How to build a branded, voice-first Virtual Assistant][5] by Darren Jefford, Travis Wilson, Khuram Shahid. 
 - [Microsoft Research APIs – Project Personality Chat in action][6], by Tulasi Menon
+- [Designing for Speech][7] by Jessica Engström
 
 [1]:https://mybuild.techcommunity.microsoft.com/sessions/77571?source=sessions#top-anchor
 [2]:https://mybuild.techcommunity.microsoft.com/sessions/77572?source=sessions#top-anchor
@@ -22,6 +23,7 @@ This page lists the latest updates to Bot Framework.
 [4]:https://mybuild.techcommunity.microsoft.com/sessions/76965?source=sessions#top-anchor
 [5]:https://mybuild.techcommunity.microsoft.com/sessions/76969?source=sessions#top-anchor
 [6]:https://mybuild.techcommunity.microsoft.com/sessions/77258?source=sessions#top-anchor
+[7]:https://mybuild.techcommunity.microsoft.com/sessions/77154?source=sessions#top-anchor
 [sdkv4]:https://github.com/microsoft/botframework-sdk#readme
 [channelsv4]:https://github.com/microsoft/botframework-sdk#channels-and-adapters
 
