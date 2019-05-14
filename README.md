@@ -87,7 +87,7 @@ Botkit is part of Microsoft Bot Framework and is released under the [MIT Open So
 
 ## Bot Framework Solutions (New! - preview)
 
-The [Bot Framework Solutions repository](https://github.com/Microsoft/AI#readme) provides a set of templates, solution accelerators and skills to help build sophisticated conversational experiences.
+The [Bot Framework Solutions repository](https://github.com/Microsoft/botframework-solutions#readme) provides a set of templates, solution accelerators and skills to help build sophisticated conversational experiences.
 
 <a name="Solutions-whats-new"></a>
 
