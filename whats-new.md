@@ -4,7 +4,7 @@
 
 This page lists the latest updates to Bot Framework. 
 
-## //BUILD 2019
+## May 2019
 - [Sessions](#Sessions)
 - [What's new](#whats-new)
 
