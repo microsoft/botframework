@@ -42,7 +42,7 @@ The Bot Framework SDK v4 is an [open source SDK][1a] that enable developers to m
 [5]:https://docs.microsoft.com/en-us/azure/bot-service/?view=azure-bot-service-4.0
 [6]:https://github.com/Microsoft/BotBuilder-Samples/tree/master/samples/csharp_dotnetcore
 [7]:https://github.com/Microsoft/BotBuilder-Samples/tree/master/samples/javascript_nodejs
-[8]:https://github.com/Microsoft/BotBuilder-Samples/tree/master/samples/javascript_typescript
+[8]:https://github.com/Microsoft/BotBuilder-Samples/tree/master/samples/typescript_nodejs
 [9]:https://github.com/Microsoft/BotBuilder-Samples/tree/master/samples/javascript_es6
 [10]:https://github.com/Microsoft/BotBuilder-Samples/tree/master/samples/csharp_webapi
 [111]:https://github.com/Microsoft/botbuilder-python/tree/master/samples
