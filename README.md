@@ -115,7 +115,7 @@ Azure Bot Service enables you to host intelligent, enterprise-grade bots with co
 ## Bot Framework Emulator
 The [Bot Framework Emulator][60] is a  cross-platform desktop application that allows bot developers to test and debug bots built using the Bot Framework SDK. You can use the Bot Framework Emulator to test bots running locally on your machine or to connect to bots running remotely.
 
-- [Downlad latest][61] | [Docs][62]
+- [Download latest][61] | [Docs][62]
 
 <a name="Emulator-whats-new"></a>
 ### Bot Inspector (New! - Preview)
