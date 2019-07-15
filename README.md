@@ -119,7 +119,7 @@ The [Bot Framework Emulator][60] is a  cross-platform desktop application that a
 - [Download latest][61] | [Docs][62]
 
 <a name="Emulator-whats-new"></a>
-### Bot Inspector (New! - Preview)
+### Bot Inspector (New! - Public Available)
 The Bot Framework Emulator has released a Beta of the new Bot Inspector feature: a way to debug and test your Bot Framework SDK v4 bots on channels like Microsoft Teams, Slack, Cortana, Facebook Messenger, Skype, etc. As you have the conversation, messages will be mirrored to the Bot Framework Emulator where you can inspect the message data that the bot received. Additionally, a snapshot of the bot state for any given turn between the channel and the bot is rendered as well. You can inspect this data by clicking on the "Bot State" element in the conversation mirror. Read more about [Bot Inspector](https://github.com/Microsoft/BotFramework-Emulator/blob/master/content/CHANNELS.md)
 
 
@@ -128,7 +128,7 @@ The Bot Framework Emulator has released a Beta of the new Bot Inspector feature:
 [62]:https://docs.microsoft.com/en-us/azure/bot-service/bot-service-debug-emulator?view=azure-bot-service-4.0
 
 ## Bot Framework Web Chat
-The Bot Framework [Web Chat][23] is a highly customizable web-based client chat control for Azure Bot Service that provides the ability for users to interact with your bot directly in a web page.
+The Bot Framework [Web Chat][23] is a highly customizable web-based client chat control for Azure Bot Service that provides the ability for users to interact with your bot directly in a web page. Following enterprise customers asks, we put together a Web Chat sample for [single sign-on for enterprise apps using OAuth](https://github.com/microsoft/BotFramework-WebChat/tree/master/samples/19.a.single-sign-on-for-enterprise-apps#single-sign-on-demo-for-enterprise-apps-using-oauth). In this sample, we show how to authorize a user to access resources on an enterprise app with a bot. Two types of resources are used to demonstrate the interoperability of OAuth: Microsoft Graph and GitHub API.
 
 - [Stable release][24] | [Docs][25]  | [Samples][26]
 
