@@ -1,4 +1,3 @@
-# What's new
 The Bot Framework SDK v4 is an [Open Source SDK][1a] that enable developers to model and build sophisticated conversation 
 using their favorite programming language. Click [here](./README.md) to learn more about Microsoft Bot Framework. 
 
