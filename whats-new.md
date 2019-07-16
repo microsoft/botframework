@@ -1,9 +1,10 @@
+# What's new
 The Bot Framework SDK v4 is an [Open Source SDK][1a] that enable developers to model and build sophisticated conversation 
 using their favorite programming language. Click [here](./README.md) to learn more about Microsoft Bot Framework. 
 
 This page summarizes key new features and improvements in Bot Framework and Azure Bot Service. 
 
-# What's new (July 2019)
+# July 2019
 
 |   | C#  | JS  | Python |   
 |---|:---:|:---:|:------:|
@@ -53,7 +54,7 @@ Based on enterprise customers asks, we've added a [web chat sample](https://gith
   
 
 ## 
-## What's new (May 2019)
+## May 2019
 - [Sessions](#Sessions)
 - [What's new](#whats-new)
 
