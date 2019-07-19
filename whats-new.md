@@ -39,7 +39,7 @@ Adaptive Dialog now allow developers to dynamically update conversation flow bas
 ## Bot Framework Testing
 - [Unit Testing](http://aka.ms/bot-test-package) | [docs](https://aka.ms/testing-framework) | [C# sample](https://aka.ms/corebot-test) | [JS sample](https://aka.ms/js-core-test-sample): Addressing customers’ and developers’ ask for better testing tools, the July version of the SDK introduces a new unit testing capability. The Microsoft.Bot.Builder.testing package simplifies the process of unit testing dialogs in your bot. 
 
-- [Channel Testing](https://github.com/Microsoft/BotFramework-Emulator/releases) | [docs](https://aka.ms/channel-testing): 
+- [Channel Testing](https://github.com/Microsoft/BotFramework-Emulator/releases): 
 Introduced at Microsoft Build 2019, the Bot Inspector is a new feature in the Bot Framework Emulator which lets you debug and test bots on channels like Microsoft Teams, Slack, Cortana, and more. As you use the bot on specific channels, messages will be mirrored to the Bot Framework Emulator where you can inspect the message data that the bot received. Additionally, a snapshot of the bot memory state for any given turn between the channel and the bot is rendered as well.
 
 ## Web Chat
