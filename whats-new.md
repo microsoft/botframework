@@ -28,7 +28,7 @@ This page summarizes key new features and improvements in Bot Framework and Azur
 ## Bot Framework Channels
 - [Direct Line Speech (public preview)](https://aka.ms/streaming-extensions) | [docs](https://docs.microsoft.com/azure/bot-service/directline-speech-bot?view=azure-bot-service-4.0): Bot Framework and Microsoft's Speech Services provide a channel that enables streamed speech and text bi-directionally from the client to the bot application using WebSockets.  
 
-- [Better isolation for your bot: Direct Line VNet (public preview)](https://portal.azure.com) | [docs](): A version of Direct Line that allows bots to participate in Azure VNet. A VNet lets you create your own private space in Azure and is crucial to your cloud network as it offers isolation, segmentation, and other key benefits. 
+- [Better isolation for your bot: Direct Line VNet (public preview)](https://portal.azure.com) | [docs](https://aka.ms/directline-ase): A version of Direct Line that allows bots to participate in Azure VNet. A VNet lets you create your own private space in Azure and is crucial to your cloud network as it offers isolation, segmentation, and other key benefits. 
 
 ## Bot Framework SDK
 - [Adaptive Dialog (SDK v4.6 preview)](https://github.com/Microsoft/BotBuilder-Samples/tree/master/experimental/adaptive-dialog#readme) | [docs](https://github.com/Microsoft/BotBuilder-Samples/tree/master/experimental/adaptive-dialog/docs) | [C# samples](https://github.com/Microsoft/BotBuilder-Samples/tree/master/experimental/adaptive-dialog/csharp_dotnetcore): 
