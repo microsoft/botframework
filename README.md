@@ -20,7 +20,6 @@ This repo lists the SDK, tools, and services needed to build a great conversatio
 - [Dispatch](#Dispatch)
 - [Speech Services](#Speech-Services)  
 - [Adaptive cards](#Adaptive-Cards)
-- [Analytics](#Analytics)
 - [Bot Framework SDK v3](#Bot-Framework-SDK-v3)
 
 ## Bot Framework SDK v4
