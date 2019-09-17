@@ -1,10 +1,64 @@
-# What's new
+# What's new (Ignite November 2019)
 The Bot Framework SDK v4 is an [Open Source SDK][1a] that enable developers to model and build sophisticated conversation 
 using their favorite programming language. Click [here](./README.md) to learn more about Microsoft Bot Framework. 
 
 This page summarizes key new features and improvements in Bot Framework and Azure Bot Service. 
 
-# July 2019
+|   | C#  | JS  | Python | Java   |  
+|---|:---:|:---:|:------:|:------:|
+|SDK |[4.6][1] | [4.6][2] | [4.6 (preview)][3] | [4.6 (preview)][4] |
+|Docs | [docs][5] |[docs][5] |  | |
+|Samples |[.NET Core][6], [WebAPI][10] |[Node.js][7] , [TypeScript][8], [es6][9]  | [Python][111] | [Java][112]| 
+
+[1a]:https://github.com/microsoft/botframework-sdk/#readme
+[1]:https://github.com/Microsoft/botbuilder-dotnet/#packages
+[2]:https://github.com/Microsoft/botbuilder-js#packages
+[3]:https://github.com/Microsoft/botbuilder-python#packages
+[4]:https://github.com/Microsoft/botbuilder-java#packages
+[5]:https://docs.microsoft.com/azure/bot-service/?view=azure-bot-service-4.0
+[6]:https://github.com/Microsoft/BotBuilder-Samples/tree/master/samples/csharp_dotnetcore
+[7]:https://github.com/Microsoft/BotBuilder-Samples/tree/master/samples/javascript_nodejs
+[8]:https://github.com/Microsoft/BotBuilder-Samples/tree/master/samples/javascript_typescript
+[9]:https://github.com/Microsoft/BotBuilder-Samples/tree/master/samples/javascript_es6
+[10]:https://github.com/Microsoft/BotBuilder-Samples/tree/master/samples/csharp_webapi
+[111]:https://github.com/Microsoft/botbuilder-python/tree/master/samples
+[112]:https://github.com/microsoft/botbuilder-java/tree/master/samples
+
+## Bot Framework Composer
+[Bot Framework Composer][113] is an integrated development environment (IDE) for building bots and other types of conversational software with the Microsoft Bot Framework technology stack. Inside this web-based tool, you'll find everything you need to build a modern, state-of-the-art conversational experience:
+- A visual dialog Composer
+- Tools to train and manage a language understanding (NLU) component
+- A powerful language generation and templating system
+- A ready-to-use bot runtime executable
+
+[113]:https://github.com/microsoft/BotFramework-Composer/blob/master/README.md
+
+## Bot Framework Channels
+- [Direct Line Speech (public preview)](https://aka.ms/streaming-extensions) | [docs](https://docs.microsoft.com/azure/bot-service/directline-speech-bot?view=azure-bot-service-4.0): Bot Framework and Microsoft's Speech Services provide a channel that enables streamed speech and text bi-directionally from the client to the bot application using WebSockets.  
+
+- [Better isolation for your bot: Direct Line VNet (public preview)](https://portal.azure.com) | [docs](https://aka.ms/directline-ase): A version of Direct Line that allows bots to participate in Azure VNet. A VNet lets you create your own private space in Azure and is crucial to your cloud network as it offers isolation, segmentation, and other key benefits. 
+
+## Bot Framework SDK
+- [Adaptive Dialog (SDK v4.6 preview)](https://github.com/Microsoft/BotBuilder-Samples/tree/master/experimental/adaptive-dialog#readme) | [docs](https://github.com/Microsoft/BotBuilder-Samples/tree/master/experimental/adaptive-dialog/docs) | [C# samples](https://github.com/Microsoft/BotBuilder-Samples/tree/master/experimental/adaptive-dialog/csharp_dotnetcore): 
+Adaptive Dialog now allow developers to dynamically update conversation flow based on context and events. This is especially useful when dealing with conversation context switches and interruptions in the middle of a conversation. 
+  
+- [Bot Framework Python SDK (preview)](https://github.com/microsoft/botbuilder-python) | [samples](https://github.com/Microsoft/botbuilder-python/tree/master/samples): The Python SDK now supports OAuth, Prompts, CosmosDB, and includes all major functionality in SDK 4.5. Plus, samples to help you learn about the new features in the SDK.
+
+## LUIS
+<TODO: Carol>
+
+## QnA
+<TODO: Tulasi>
+  
+## Teams
+<TODO: Kamran>
+
+##
+## July 2019
+The Bot Framework SDK v4 is an [Open Source SDK][1a] that enable developers to model and build sophisticated conversation 
+using their favorite programming language. Click [here](./README.md) to learn more about Microsoft Bot Framework. 
+
+This page summarizes key new features and improvements in Bot Framework and Azure Bot Service. 
 
 |   | C#  | JS  | Python |   
 |---|:---:|:---:|:------:|
