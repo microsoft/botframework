@@ -52,7 +52,7 @@ The Bot Framework SDK v4 is an [open source SDK][1a] that enable developers to m
 The Bot Framework SDK v4 - Version 4.6 new capabilites in preview. 
 
 - [Adaptive Dialog][47] | [docs][48] | [C# samples][49] :: Adaptive Dialogs enable developers to build conversations that can be dynamically changed as the conversation progresses.
-    - An Adaptive dialog now includes trigger to action pairs, recognizer and generator. This makes every adaptive dialog self-contained and easy to compose.
+    - Adaptive dialog now includes trigger to action pairs, recognizer, and generator. This makes every adaptive dialog self-contained and easy to compose.
     - Events have been cleaned up to correspond to activity level events and dialog level events.
     - Regex recognizer now supports 10+ prebuilt entity types
     - Triggers, actions have been refined based on feedback
