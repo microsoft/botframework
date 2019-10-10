@@ -48,14 +48,23 @@ The Bot Framework SDK v4 is an [open source SDK][1a] that enable developers to m
 [111]:https://github.com/Microsoft/botbuilder-python/tree/master/samples
 
 <a name="V4-whats-new"></a>
-### Bot Framework SDK v4 - (New! - version 4.6 preview)
+### Bot Framework SDK v4 - (New! - version 4.7 preview)
 The Bot Framework SDK v4 - Version 4.6 new capabilites in preview. 
 
-- [Adaptive Dialog][47] | [docs][48] | [C# samples][49] :: Adaptive Dialogs enable developers to build conversations that can be dynamically changed as the conversation progresses.  Traditionally developers have mapped out the entire flow of a conversation up front, which limits the flexibility of the conversation.  Adaptive dialogs allow them to be more flexible, to respond to changes in context and insert new steps or entire sub-dialogs into the conversation as it progresses. Additionally as with other SDK V4 concepts, we have defined adaptive dialogs such that they can be defined via [declarative][50] that are interpreted at runtime; which allows us to have tooling on top of this and integrate with services. 
-
-- [Language Generation][43] | [docs][44] | [C# samples][45] :: Learning from our customers experiences and bringing together capabilities first implemented by Cortana and Cognition teams, we are introducing Language Generation; which allows the developer to extract the embedded strings from their code and resource files and manage them through a Language Generation runtime and file format.  Language Generation enable customers to define multiple variations on a phrase, execute simple expressions based on context, refer to conversational memory, and over time will enable us to bring additional capabilities all leading to a more natural conversational experience.
+- [Adaptive Dialog][47] | [docs][48] | [C# samples][49] :: Adaptive Dialogs enable developers to build conversations that can be dynamically changed as the conversation progresses.
+    - An Adaptive dialog now includes trigger to action pairs, recognizer and generator. This makes every adaptive dialog self-contained and easy to compose.
+    - Events have been cleaned up to correspond to activity level events and dialog level events.
+    - Regex recognizer now supports 10+ prebuilt entity types
+    - Triggers, actions have been refined based on feedback
+    - Stability improvements and bug fixes.
+- [Language Generation][43] | [docs][44] | [C# samples][45] :: Language Generation enable developers to separate logic used to generate bot's respones including ability to define multiple variations on a phrase, execute simple expressions based on context, refer to conversational memory.
+    - Structured template support - with this you can now use Langauge Generation for multi-modal responses including spoken response, displayed response as well as UI cards etc.
+    - Ability to import and refer to .lg files. This helps streamline organization of templates, its composability and re-usability.
+    - Stability improvements and bug fixes.
 
 - [Common Expression Language][40] | [api][41] :: Both Adaptive dialogs and Language Generation rely on and use a common expression language to power bot conversations.
+    - New prebuilt functions (jpath, eval)
+    - Stability improvements and bug fixes.
 
 
 [40]:https://github.com/Microsoft/BotBuilder-Samples/tree/master/experimental/common-expression-language#readme
