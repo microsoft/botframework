@@ -50,7 +50,7 @@ The Bot Framework SDK v4 is an [open source SDK][1a] that enable developers to m
 <a name="V4-whats-new"></a>
 
 ### Bot Framework SDK v4 (v4.6 GA)
-TBD
+<< UPDATE SECTION >>
 
 ### The Bot Framework SDK v4 - (version 4.6 preview)
 
@@ -83,7 +83,7 @@ TBD
 
 
 ### Bot Framework SDK v4 - (New! - version 4.7 preview)
-TBD
+<< UPDATE SECTION >>
 
 ## Botkit
 << UPDATE SECTION >>
@@ -108,15 +108,17 @@ Azure Bot Service enables you to host intelligent, enterprise-grade bots with co
 * **Better isolation for your Bot - Direct Line App Service Extension** : The Direct Line App Service Extension can be deployed as part of a VNET, allowing IT administrators to have more control over conversation traffic and improved latency in conversations due to reduction in the number of hops. Get started with Direct Line App Service Extension here. A VNET lets you create your own private space in Azure and is crucial to your cloud network as it offers isolation, segmentation, and other key benefits. 
 
 ## Bot Framework Emulator
-TBD
+<< UPDATE SECTION >>
+
 
 ## Bot Framework Web Chat
-TBD
+<< UPDATE SECTION >>
 
 
 ## Bot Framework CLI Tools
 The Bot Framework SDK tools is an [open source](https://github.com/Microsoft/botbuilder-tools) collection of cross-platform command line tools designed to support building robust end-to-end development workflows.
 
+<< UPDATE SECTION >>
 
 
 ## Related Services
