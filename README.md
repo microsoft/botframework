@@ -10,17 +10,16 @@ The Microsoft Bot Framework is a comprehensive platform for building enterprise-
 This repo lists the SDK, tools, and services needed to build a great conversational AI experience. Its role is to serve as a landing page and one place to find all the information required to get started. 
 
 - [Bot Framework SDK v4](#Bot-Framework-SDK-v4)
-- [Bot Framework Solutions](#Bot-Framework-Solutions)
 - [Azure Bot Service](#Azure-Bot-Service)
 - [Bot Framework Emulator](#Bot-Framework-Emulator)
 - [Bot Framework Web Chat](#Bot-Framework-Web-Chat)
-- [Bot Framework Tools](#bot-framework-cli-tools)
+- [Bot Framework CLI Tools](#bot-framework-cli-tools)
+- [Bot Framework Solutions](#Bot-Framework-Solutions)
 - [Language Understanding](#Language-Understanding)
 - [QnA Maker](#QnA-Maker)
 - [Dispatch](#Dispatch)
 - [Speech Services](#Speech-Services)  
 - [Adaptive cards](#Adaptive-Cards)
-- [Analytics](#Analytics)
 - [Bot Framework SDK v3](#Bot-Framework-SDK-v3)
 
 ## Bot Framework SDK v4
@@ -49,10 +48,10 @@ The Bot Framework SDK v4 is an [open source SDK][1a] that enable developers to m
 
 <a name="V4-whats-new"></a>
 
-### Bot Framework SDK v4 (v4.6 GA)
+### Bot Framework SDK (v4.6 GA)
 - Microsoft Teams support | [docs][00] | [C# sample][00] | [JS sample][00] :: Bot Framework SDK v4.6 adds native support for building Teams bots so that you don't have to install Teams extensions. Teams allows users to bring bots into their channel or group chat conversations. By adding a bot to a team or chat, all users of the conversation can take advantage of the bot functionality right in the conversation. 
 
-### The Bot Framework SDK v4 - (version 4.7 preview)
+### The Bot Framework SDK (v4.7 preview)
 - [Bot Framework Composer][00] :: Bot Framework Composer is an integrated development tool for developers and multi-disciplinary team of professional conversation designers for building bots and other types of conversational software with the Microsoft Bot Framework technology stack. Within this web-based tool, you'll find everything you need to build a modern, state-of-the-art conversational experience.
 
 - [Adaptive Dialog][47] | [docs][48] | [C# samples][49] :: Adaptive Dialogs enable developers to build conversations that can be dynamically changed as the conversation progresses.
@@ -83,12 +82,6 @@ The Bot Framework SDK v4 is an [open source SDK][1a] that enable developers to m
 [50]:https://github.com/Microsoft/BotBuilder-Samples/tree/master/experimental/adaptive-dialog/declarative
 
 [00]:http://docs.microsoft.com
-
-## Botkit
-<< UPDATE SECTION >>
-
-## Bot Framework Solutions 
-<< UPDATE SECTION >>
 
 ## Azure Bot Service
 
@@ -144,6 +137,14 @@ And finally, alongside the release of new features, we plan to add new commands 
 The old tools will be deprecated in subsequent releases. All new investments, bug fixes, and new features will be implemented in the new consolided BF CLI alone.
 
 See more in https://aka.ms/bfcli.
+
+
+## Bot Framework Solutions 
+<< UPDATE SECTION >>
+
+## Botkit
+<< UPDATE SECTION >>
+
 
 ## Related Services
 
