@@ -14,7 +14,7 @@ This repo lists the SDK, tools, and services needed to build a great conversatio
 - [Azure Bot Service](#Azure-Bot-Service)
 - [Bot Framework Emulator](#Bot-Framework-Emulator)
 - [Bot Framework Web Chat](#Bot-Framework-Web-Chat)
-- [Bot Framework Tools](#Bot-Framework-Tools)
+- [Bot Framework Tools](#bot-framework-cli-tools)
 - [Language Understanding](#Language-Understanding)
 - [QnA Maker](#QnA-Maker)
 - [Dispatch](#Dispatch)
@@ -123,10 +123,35 @@ Azure Bot Service enables you to host intelligent, enterprise-grade bots with co
 
 
 ## Bot Framework CLI Tools
-The Bot Framework SDK tools is an [open source](https://github.com/Microsoft/botbuilder-tools) collection of cross-platform command line tools designed to support building robust end-to-end development workflows.
 
-<< UPDATE SECTION >>
 
+## Bot Framework CLI Tools
+The new [BF CLI](https://aka.ms/bfcli) tool replaces legacy standalone tools used to manage Bot Framework bots and related services. We have ported most tools and are in process of porting the rest. BF CLI aggregates the collection of cross-platform tools into one cohesive and consistent interface.
+
+For the 4.6 release, the following commands were ported over:
+
+| BF [New Command]             | Old Tool |
+| ---------------------------- | -------- |
+| Chatdown                     | Chatdown |
+| QnAMaker                     | QnAMaker |
+| luis:convert, luis:translate | LuDown   |
+| luis:convert                 | LuisGen  |
+
+In the next release we will port the following tools: 
+
+* LUIS (API)
+* Dispatch
+
+And finally, alongside the release of new features, we plan to add new commands to BF CLI such as for: 
+
+* Language Generation management
+* Adaptive Dialogs management
+* Microsoft Teams bots configuration
+* Bot Skills configuration management
+
+The old tools will be deprecated in subsequent releases. All new investments, bug fixes, and new features will be implemented in the new consolided BF CLI alone.
+
+See more in https://aka.ms/bfcli.
 
 ## Related Services
 
