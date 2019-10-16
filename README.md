@@ -123,9 +123,6 @@ Azure Bot Service enables you to host intelligent, enterprise-grade bots with co
 
 
 ## Bot Framework CLI Tools
-
-
-## Bot Framework CLI Tools
 The new [BF CLI](https://aka.ms/bfcli) tool replaces legacy standalone tools used to manage Bot Framework bots and related services. We have ported most tools and are in process of porting the rest. BF CLI aggregates the collection of cross-platform tools into one cohesive and consistent interface.
 
 For the 4.6 release, the following commands were ported over:
