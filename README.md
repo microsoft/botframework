@@ -50,10 +50,7 @@ The Bot Framework SDK v4 is an [open source SDK][1a] that enable developers to m
 <a name="V4-whats-new"></a>
 
 ### Bot Framework SDK v4 (v4.6 GA)
-- Microsoft Teams support | [docs][00] | [C# sample][00] | [JS sample][00] :: Bot Framework SDK v4.6 adds native support for building Teams bots so that you don't have to install Teams extensions to develop bots. A bot behaves differently depending on what kind of conversation it is involved in. Bots in Teams support several kinds of conversations:
-  - `teams`: Also called channel conversations
-  - `personal`: Conversations between a bot and a single user
-  - `groupChat`: A conversation between a bot and 2 or more users
+- Microsoft Teams support | [docs][00] | [C# sample][00] | [JS sample][00] :: Teams allows users to bring bots into their channel or group chat conversations. By adding a bot to a team or chat, all users of the conversation can take advantage of the bot functionality right in the conversation. Bot Framework SDK v4.6 adds native support for building Teams bots so that you don't have to install Teams extensions.
   
 - [Bot Framework CLI][00] :: As part of the effort to improve Bot Framework SDK toolset we are introducing of a new command line Interface tool that will eventually replace the suite of tools currently used during Bot development. The new CLI, called BF is being released as an early preview. << UPDATE SECTION >>
 
