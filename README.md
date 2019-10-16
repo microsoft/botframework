@@ -29,7 +29,7 @@ The Bot Framework SDK v4 is an [open source SDK][1a] that enable developers to m
 
 |   | C#  | JS  | Python |  Java | 
 |---|:---:|:---:|:------:|:-----:|
-|Stable Release |[4.5.x][1] | [4.5.x][2] | [4.5.0b2 (preview)][3] | [4.0.0a6 (preview)][3a]|
+|Release |[4.6 GA][1] | [4.6 GA][2] | [Beta 4][3] | [Preview 3][3a]|
 |Docs | [docs][5] |[docs][5] |  | |
 |Samples |[.NET Core][6], [WebAPI][10] |[Node.js][7] , [TypeScript][8], [es6][9]  | [Python][111] | | 
 
@@ -54,8 +54,8 @@ The Bot Framework SDK v4 is an [open source SDK][1a] that enable developers to m
   - `teams`: Also called channel conversations
   - `personal`: Conversations between a bot and a single user
   - `groupChat`: A conversation between a bot and 2 or more users
-
-<< UPDATE SECTION >>
+  
+- [Bot Framework CLI][00] :: As part of the effort to improve Bot Framework SDK toolset we are introducing of a new command line Interface tool that will eventually replace the suite of tools currently used during Bot development. The new CLI, called BF is being released as an early preview. << UPDATE SECTION >>
 
 ### The Bot Framework SDK v4 - (version 4.7 preview)
 - [Bot Framework Composer][00] :: Bot Framework Composer is an integrated development tool for developers and multi-disciplinary team of professional conversation designers for building bots and other types of conversational software with the Microsoft Bot Framework technology stack. Within this web-based tool, you'll find everything you need to build a modern, state-of-the-art conversational experience.
