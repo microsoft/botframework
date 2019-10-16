@@ -13,14 +13,13 @@ This repo lists the SDK, tools, and services needed to build a great conversatio
 - [Azure Bot Service](#Azure-Bot-Service)
 - [Bot Framework Emulator](#Bot-Framework-Emulator)
 - [Bot Framework Web Chat](#Bot-Framework-Web-Chat)
-- [Bot Framework Tools](#bot-framework-cli-tools)
+- [Bot Framework CLI Tools](#bot-framework-cli-tools)
 - [Bot Framework Solutions](#Bot-Framework-Solutions)
 - [Language Understanding](#Language-Understanding)
 - [QnA Maker](#QnA-Maker)
 - [Dispatch](#Dispatch)
 - [Speech Services](#Speech-Services)  
 - [Adaptive cards](#Adaptive-Cards)
-- [Analytics](#Analytics)
 - [Bot Framework SDK v3](#Bot-Framework-SDK-v3)
 
 ## Bot Framework SDK v4
@@ -84,12 +83,6 @@ The Bot Framework SDK v4 is an [open source SDK][1a] that enable developers to m
 
 [00]:http://docs.microsoft.com
 
-## Botkit
-<< UPDATE SECTION >>
-
-## Bot Framework Solutions 
-<< UPDATE SECTION >>
-
 ## Azure Bot Service
 
 << UPDATE SECTION >>
@@ -144,6 +137,14 @@ And finally, alongside the release of new features, we plan to add new commands 
 The old tools will be deprecated in subsequent releases. All new investments, bug fixes, and new features will be implemented in the new consolided BF CLI alone.
 
 See more in https://aka.ms/bfcli.
+
+
+## Bot Framework Solutions 
+<< UPDATE SECTION >>
+
+## Botkit
+<< UPDATE SECTION >>
+
 
 ## Related Services
 
