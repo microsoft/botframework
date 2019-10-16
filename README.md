@@ -52,7 +52,7 @@ The Bot Framework SDK v4 is an [open source SDK][1a] that enable developers to m
 ### Bot Framework SDK v4 (v4.6 GA)
 << UPDATE SECTION >>
 
-### The Bot Framework SDK v4 - (version 4.6 preview)
+### The Bot Framework SDK v4 - (version 4.7 preview)
 
 - [Adaptive Dialog][47] | [docs][48] | [C# samples][49] :: Adaptive Dialogs enable developers to build conversations that can be dynamically changed as the conversation progresses.
     - Adaptive dialog now includes trigger to action pairs, recognizer, and generator. This makes every adaptive dialog self-contained and easy to compose.
@@ -92,6 +92,9 @@ The Bot Framework SDK v4 is an [open source SDK][1a] that enable developers to m
 << UPDATE SECTION >>
 
 ## Azure Bot Service
+
+<< UPDATE SECTION >>
+
 Azure Bot Service enables you to host intelligent, enterprise-grade bots with complete ownership and control of your data. Developers can register and connect their bots to users on Skype, Microsoft Teams, Cortana, Web Chat, and more. [Azure][27]  |  [docs][28] | [connect to channels][29] 
 
 * **Direct Line JS Client**: If you want to use the Direct Line channel in Azure Bot Service and are not using the WebChat client, the Direct Line JS client can be used in your custom application. [Github][30]
