@@ -50,7 +50,7 @@ The Bot Framework SDK v4 is an [open source SDK][1a] that enable developers to m
 <a name="V4-whats-new"></a>
 
 ### Bot Framework SDK v4 (v4.6 GA)
-- Microsoft Teams support | [docs] | [C# sample] | [JS sample] :: Bot Framework SDK v4.6 adds native support for building Teams bots so that you don't have to install Teams extensions to develop bots. A bot behaves differently depending on what kind of conversation it is involved in. Bots in Teams support several kinds of conversations:
+- Microsoft Teams support | [docs][00] | [C# sample][00] | [JS sample][00] :: Bot Framework SDK v4.6 adds native support for building Teams bots so that you don't have to install Teams extensions to develop bots. A bot behaves differently depending on what kind of conversation it is involved in. Bots in Teams support several kinds of conversations:
   - `teams`: Also called channel conversations
   - `personal`: Conversations between a bot and a single user
   - `groupChat`: A conversation between a bot and 2 or more users
@@ -58,6 +58,7 @@ The Bot Framework SDK v4 is an [open source SDK][1a] that enable developers to m
 << UPDATE SECTION >>
 
 ### The Bot Framework SDK v4 - (version 4.7 preview)
+- [Bot Framework Composer][00] :: Bot Framework Composer is an integrated development tool for developers and multi-disciplinary team of professional conversation designers for building bots and other types of conversational software with the Microsoft Bot Framework technology stack. Within this web-based tool, you'll find everything you need to build a modern, state-of-the-art conversational experience.
 
 - [Adaptive Dialog][47] | [docs][48] | [C# samples][49] :: Adaptive Dialogs enable developers to build conversations that can be dynamically changed as the conversation progresses.
     - Adaptive dialog now includes trigger to action pairs, recognizer, and generator. This makes every adaptive dialog self-contained and easy to compose.
@@ -86,6 +87,7 @@ The Bot Framework SDK v4 is an [open source SDK][1a] that enable developers to m
 [49]:https://github.com/Microsoft/BotBuilder-Samples/tree/master/experimental/adaptive-dialog/csharp_dotnetcore
 [50]:https://github.com/Microsoft/BotBuilder-Samples/tree/master/experimental/adaptive-dialog/declarative
 
+[00]:http://docs.microsoft.com
 
 ## Botkit
 << UPDATE SECTION >>
