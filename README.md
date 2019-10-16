@@ -87,9 +87,6 @@ The Bot Framework SDK v4 is an [open source SDK][1a] that enable developers to m
 [50]:https://github.com/Microsoft/BotBuilder-Samples/tree/master/experimental/adaptive-dialog/declarative
 
 
-### Bot Framework SDK v4 - (New! - version 4.7 preview)
-<< UPDATE SECTION >>
-
 ## Botkit
 << UPDATE SECTION >>
 
