@@ -156,7 +156,14 @@ A machine learning-based service to build natural language experiences. Quickly 
 ### QnA Maker
 QnA Maker is a cloud-based API service that creates a conversational, question-and-answer layer over your data. With QnA Maker, you can build, train and publish a simple question and answer bot based on FAQ URLs, structured documents, product manuals or editorial content in minutes.
 
-<< UPDATE SECTION >>
+[Multi-turn Conversations](https://docs.microsoft.com/en-us/azure/cognitive-services/qnamaker/how-to/multiturn-conversation) Multi-turn feature is available to build guided conversational flows. The latest release lets you build multi-turn conversations in a complete no code way. 
+
+[Chit-Chat]() QnA Maker now provides support to add personality to your bots in 8 more languages in addition to English. The new set of languages supported for chit-chat dataset are Chinese, French, German, Japanese, Italian, Korean, Portugese, Spanish. The language support for chit-chat is only present for professional personality. 
+
+[US Government Cloud Support]()
+
+
+Enhanced KB Management Experience - The new KB language settings option lets you explicitly set the KB language for your service. Excel file format support has been added to the import and export actions for easy editing and replacment of the content. [Batch Testing]() allows you to batch test your KB or KBs to analyse the quality and training of your KB data.
 
 ### Speech Services
 [Speech Services][70] convert audio to text, perform speech translation and text-to-speech with the unified Speech services. With the speech services, you can integrate speech into your bot, create custom wake words, and author in multiple languages.
