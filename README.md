@@ -151,7 +151,16 @@ See more in https://aka.ms/bfcli.
 ### Language Understanding 
 A machine learning-based service to build natural language experiences. Quickly create enterprise-ready, custom models that continuously improve. Language Understanding Service(LUIS) allows your application to understand what a person wants in their own words.
 
-<< UPDATE SECTION >>
+**Improve developer productivity** -  General availability of our prediction endpoint V3. Ability to import and export .lu files. This paves the way for an effective CI/CD process. 
+
+**Language expansion** - Supporting Basic support for Arabic and Hindi in public preview.
+
+**Enhance user experience** - revamp labeling experience to enable building and debugging complex models
+
+**Advance language understanding capabilities** - building sophisticated language models with less effort
+
+* Defining machine learning features at the model level and enabling models to be used as signals to other model, like using entities as features to intents and to other entities.
+* Extract information from text in the format of deep hierarchy structure, making conversation applications more powerful.
 
 ### QnA Maker
 QnA Maker is a cloud-based API service that creates a conversational, question-and-answer layer over your data. With QnA Maker, you can build, train and publish a simple question and answer bot based on FAQ URLs, structured documents, product manuals or editorial content in minutes.
