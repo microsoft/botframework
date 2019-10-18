@@ -162,6 +162,8 @@ A machine learning-based service to build natural language experiences. Quickly 
   * Define machine learning features at the model level and enable models to be used as signals to other model, like using entities as features to intents and to other entities.
   * Extract information from text in the format of deep hierarchical structure, making conversation applications more powerful.
 
+Check the [documentation](https://docs.microsoft.com/en-gb/azure/cognitive-services/luis/whats-new#november-4-2019---ignite) to learn more. 
+
 ### QnA Maker
 QnA Maker is a cloud-based API service that creates a conversational, question-and-answer layer over your data. With QnA Maker, you can build, train and publish a simple question and answer bot based on FAQ URLs, structured documents, product manuals or editorial content in minutes.
 
