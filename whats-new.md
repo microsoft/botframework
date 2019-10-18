@@ -53,6 +53,19 @@ Adaptive Dialog now allow developers to dynamically update conversation flow bas
 ## Teams
 <TODO: Kamran>
 
+## Web Chat
+- The demo [Single Sign-On for Microosoft Teams using OAuth](https://microsoft.github.io/BotFramework-WebChat/19.c.single-sign-on-for-teams-apps/) was released, showing user authorization through a bot.
+- The demo [Select Voice for Speech Synthesis](https://github.com/microsoft/BotFramework-WebChat/blob/master/samples/06.g.select-voice/) was released, showing how to select [DNN-based voices](https://docs.microsoft.com/en-us/azure/cognitive-services/speech-service/language-support#neural-voices).
+- React was [bumped](https://github.com/microsoft/BotFramework-WebChat/pull/2322) to 16.8.6 to support [React Hooks](https://reactjs.org/docs/hooks-intro.html) and stateful function components.
+- The accessibility experience was improved for customers utilizing Assistive Technology across [different browsers](https://github.com/microsoft/BotFramework-WebChat/pull/2278).
+- Uploaded image attachments updated to include a [thumbnail](https://github.com/microsoft/BotFramework-WebChat/pull/2433).
+- UI improvements and customizability:
+  - [Bubble nub](https://github.com/Microsoft/BotFramework-WebChat/pull/2137) styling options were added.
+  - [Timestamp format](https://github.com/microsoft/BotFramework-WebChat/pull/2295) were modified to allow absolute and relative time.
+  - [Stylable avatar background colors](https://github.com/microsoft/BotFramework-WebChat/pull/2384) were added.
+- To see the rest of Web Chat's updates for 4.6, peruse through the [changelog](https://github.com/microsoft/BotFramework-WebChat/blob/master/CHANGELOG.md).
+
+
 ##
 ## July 2019
 The Bot Framework SDK v4 is an [Open Source SDK][1a] that enable developers to model and build sophisticated conversation 
