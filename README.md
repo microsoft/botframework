@@ -163,14 +163,13 @@ Check the [documentation](https://docs.microsoft.com/en-gb/azure/cognitive-servi
 ### QnA Maker
 QnA Maker is a cloud-based API service that creates a conversational, question-and-answer layer over your data. With QnA Maker, you can build, train and publish a simple question and answer bot based on FAQ URLs, structured documents, product manuals or editorial content in minutes.
 
-[Multi-turn Conversations](https://docs.microsoft.com/en-us/azure/cognitive-services/qnamaker/how-to/multiturn-conversation) Multi-turn feature is available to build guided conversational flows. The latest release lets you build multi-turn conversations in a complete no code way. 
+[Multi-turn Q&A Conversations:](https://docs.microsoft.com/en-us/azure/cognitive-services/qnamaker/how-to/multiturn-conversation) Multi-turn feature is available to build guided conversational flows. With the latest release, multi-turn moves out of preview, and you can build multi-turn Q&A conversations with no code.
 
-[Chit-Chat]() QnA Maker now provides support to add personality to your bots in 8 more languages in addition to English. The new set of languages supported for chit-chat dataset are Chinese, French, German, Japanese, Italian, Korean, Portugese, Spanish. The language support for chit-chat is only present for professional personality. 
+[Chit-Chat:](https://docs.microsoft.com/en-us/azure/cognitive-services/qnamaker/how-to/chit-chat-knowledge-base) QnA Maker now provides support to add personality to your bots in 8 new languages in addition to English. The new set of languages supported for chit-chat dataset are Chinese, French, German, Japanese, Italian, Korean, Portugese, Spanish. The new languages have chit-chat available for only 1 personality today - the professional personality. 
 
-[US Government Cloud Support]()
+[US Government Cloud Support:](https://docs.microsoft.com/en-us/azure/azure-government/documentation-government-services-aiandcognitiveservices#language) QnA Maker is now available (GA) for US Government cloud. 
 
-
-Enhanced KB Management Experience - The new KB language settings option lets you explicitly set the KB language for your service. Excel file format support has been added to the import and export actions for easy editing and replacment of the content. [Batch Testing]() allows you to batch test your KB or KBs to analyse the quality and training of your KB data.
+Enhanced KB Management Experience: The new KB language settings option lets you explicitly set the KB language for your service. Excel file format support has been added to the import and export actions for easy editing and replacment of the content. [Batch Testing](https://aka.ms/qna_batchtest) allows you to batch test your KB or KBs to analyse the quality and training of your KB data.
 
 ### Speech Services
 [Speech Services][70] convert audio to text, perform speech translation and text-to-speech with the unified Speech services. With the speech services, you can integrate speech into your bot, create custom wake words, and author in multiple languages.
