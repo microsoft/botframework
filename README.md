@@ -89,7 +89,7 @@ The Bot Framework SDK v4 is an [open source SDK][1a] that enable developers to m
   - [Timestamp format](https://github.com/microsoft/BotFramework-WebChat/pull/2295) were modified to allow absolute and relative time.
   - [Stylable avatar background colors](https://github.com/microsoft/BotFramework-WebChat/pull/2384) were added.
 - Following demos were released:
-  - [Single Sign-On for Microosoft Teams using OAuth](https://microsoft.github.io/BotFramework-WebChat/19.c.single-sign-on-for-teams-apps/) shows user authorization through a bot.
+  - [Single Sign-On for Microsoft Teams using OAuth](https://microsoft.github.io/BotFramework-WebChat/19.c.single-sign-on-for-teams-apps/) shows user authorization through a bot.
   - [Select Voice for Speech Synthesis](https://github.com/microsoft/BotFramework-WebChat/blob/master/samples/06.g.select-voice/) shows how to select [DNN-based voices](https://docs.microsoft.com/en-us/azure/cognitive-services/speech-service/language-support#neural-voices).
 - The accessibility experience was improved for customers utilizing Assistive Technology across [different browsers](https://github.com/microsoft/BotFramework-WebChat/pull/2278).
 
