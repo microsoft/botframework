@@ -49,7 +49,7 @@ The Bot Framework SDK v4 is an [open source SDK][1a] that enable developers to m
 - Bot Framework SDK v4.6 adds native support for building Teams bots so that you don't have to install Teams extensions. Teams allows users to bring bots into their channel or group chat conversations. By adding a bot to a team or chat, all users of the conversation can take advantage of the bot functionality right in the conversation. [docs][00] | [C# sample][00] | [JS sample][00]
 
 ### Bot Framework Composer (Preview)
-- [Bot Framework Composer](https://github.com/microsoft/BotFramework-Composer/tree/kaiqb/Ignite2019) :: Bot Framework Composer is an integrated development tool for developers and multi-disciplinary team of professional conversation designers for building bots and other types of conversational software with the Microsoft Bot Framework technology stack. Within this web-based tool, you'll find everything you need to build a modern, state-of-the-art conversational experience.
+- [Bot Framework Composer](https://github.com/microsoft/BotFramework-Composer/tree/kaiqb/Ignite2019) is an integrated development tool for developers and multi-disciplinary team of professional conversation designers for building bots and other types of conversational software with the Microsoft Bot Framework technology stack. Within this web-based tool, you'll find everything you need to build a modern, state-of-the-art conversational experience.
 
 ### Adaptive Dialog (Preview)
 - [Adaptive Dialog][47] | [docs][48] | [C# samples][49] :: Adaptive Dialogs enable developers to build conversations that can be dynamically changed as the conversation progresses.
