@@ -85,7 +85,7 @@ The Bot Framework SDK v4 is an [open source SDK][1a] that enable developers to m
 [00]:http://docs.microsoft.com
 
 ## Bot Framework Channels
-- [Direct Line Speech General Availability](https://aka.ms/streaming-extensions) | [docs](https://docs.microsoft.com/azure/bot-service/directline-speech-bot?view=azure-bot-service-4.0): Bot Framework and Microsoft's Speech Services provide a channel that enables streamed speech and text bi-directionally from the client to the bot application using WebSockets.  
+- [Direct Line Speech (GA)](https://aka.ms/streaming-extensions) | [docs](https://docs.microsoft.com/azure/bot-service/directline-speech-bot?view=azure-bot-service-4.0): Bot Framework and Microsoft's Speech Services provide a channel that enables streamed speech and text bi-directionally from the client to the bot application using WebSockets.  
 
 - [A Private Direct Line: Direct Line App Serive Extension (Preview)](https://portal.azure.com) | [docs](https://aka.ms/directline-ase): A version of Direct Line that isolates your bot from other traffic on the Bot Service by running Direct Line on its Azure App Service. This both improves latency, and allows bots to participate in Azure VNET configuraitons. A VNET lets developers create your own private space in Azure and is crucial to your cloud network as it offers isolation, segmentation, and other key benefits.
 
