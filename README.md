@@ -24,12 +24,11 @@ This repo lists the SDK, tools, and services needed to build a great conversatio
 ## Bot Framework SDK v4
 The Bot Framework SDK v4 is an [open source SDK][1a] that enable developers to model and build sophisticated conversation using their favorite programming language.
 
-
 |   | C#  | JS  | Python |  Java | 
 |---|:---:|:---:|:------:|:-----:|
 |Release |[4.6 GA][1] | [4.6 GA][2] | [Beta 4][3] | [Preview 3][3a]|
 |Docs | [docs][5] |[docs][5] |  | |
-|Samples |[.NET Core][6], [WebAPI][10] |[Node.js][7] , [TypeScript][8], [es6][9]  | [Python][111] | | 
+|Samples |[.NET Core][6], [WebAPI][10] |[Node.js][7] , [TypeScript][8], [es6][9]  | | | 
 
 [1a]:https://github.com/microsoft/botframework-sdk/#readme
 [1]:https://github.com/Microsoft/botbuilder-dotnet/#packages
@@ -43,7 +42,6 @@ The Bot Framework SDK v4 is an [open source SDK][1a] that enable developers to m
 [8]:https://github.com/Microsoft/BotBuilder-Samples/tree/master/samples/typescript_nodejs
 [9]:https://github.com/Microsoft/BotBuilder-Samples/tree/master/samples/javascript_es6
 [10]:https://github.com/Microsoft/BotBuilder-Samples/tree/master/samples/csharp_webapi
-[111]:https://github.com/Microsoft/botbuilder-python/tree/master/samples
 
 <a name="V4-whats-new"></a>
 
@@ -51,19 +49,23 @@ The Bot Framework SDK v4 is an [open source SDK][1a] that enable developers to m
 - Bot Framework SDK v4.6 adds native support for building Teams bots so that you don't have to install Teams extensions. Teams allows users to bring bots into their channel or group chat conversations. By adding a bot to a team or chat, all users of the conversation can take advantage of the bot functionality right in the conversation. [docs][00] | [C# sample][00] | [JS sample][00]
 
 ### Bot Framework Composer (Preview)
-- [Bot Framework Composer][00] :: Bot Framework Composer is an integrated development tool for developers and multi-disciplinary team of professional conversation designers for building bots and other types of conversational software with the Microsoft Bot Framework technology stack. Within this web-based tool, you'll find everything you need to build a modern, state-of-the-art conversational experience.
+- [Bot Framework Composer](https://github.com/microsoft/BotFramework-Composer/tree/kaiqb/Ignite2019) :: Bot Framework Composer is an integrated development tool for developers and multi-disciplinary team of professional conversation designers for building bots and other types of conversational software with the Microsoft Bot Framework technology stack. Within this web-based tool, you'll find everything you need to build a modern, state-of-the-art conversational experience.
 
+### Adaptive Dialog (Preview)
 - [Adaptive Dialog][47] | [docs][48] | [C# samples][49] :: Adaptive Dialogs enable developers to build conversations that can be dynamically changed as the conversation progresses.
     - Adaptive dialog now includes trigger to action pairs, recognizer, and generator. This makes every adaptive dialog self-contained and easy to compose.
     - Events have been cleaned up to correspond to activity level events and dialog level events.
     - Regex recognizer now supports 10+ prebuilt entity types
     - Triggers, actions have been refined based on feedback
     - Stability improvements and bug fixes.
+    
+### Language Generation (Preview)
 - [Language Generation][43] | [docs][44] | [C# samples][45] :: Language Generation enable developers to separate logic used to generate bot's respones including ability to define multiple variations on a phrase, execute simple expressions based on context, refer to conversational memory.
     - Structured template support - with this you can now use Langauge Generation for multi-modal responses including spoken response, displayed response as well as UI cards etc.
     - Ability to import and refer to .lg files. This helps streamline organization of templates, its composability and re-usability.
     - Stability improvements and bug fixes.
 
+### Common Expression Language (Preview)
 - [Common Expression Language][40] | [api][41] :: Both Adaptive dialogs and Language Generation rely on and use a common expression language to power bot conversations.
     - New prebuilt functions (jpath, eval)
     - Stability improvements and bug fixes.
@@ -85,14 +87,14 @@ The Bot Framework SDK v4 is an [open source SDK][1a] that enable developers to m
 ## Bot Framework Channels
 - [Direct Line Speech General Availability](https://aka.ms/streaming-extensions) | [docs](https://docs.microsoft.com/azure/bot-service/directline-speech-bot?view=azure-bot-service-4.0): Bot Framework and Microsoft's Speech Services provide a channel that enables streamed speech and text bi-directionally from the client to the bot application using WebSockets.  
 
-- [A Private Direct Line: Direct Line App Serive Extension (preview)](https://portal.azure.com) | [docs](https://aka.ms/directline-ase): A version of Direct Line that isolates your bot from other traffic on the Bot Service by running Direct Line on its Azure App Service. This both improves latency, and allows bots to participate in Azure VNET configuraitons. A VNET lets developers create your own private space in Azure and is crucial to your cloud network as it offers isolation, segmentation, and other key benefits.
+- [A Private Direct Line: Direct Line App Serive Extension (Preview)](https://portal.azure.com) | [docs](https://aka.ms/directline-ase): A version of Direct Line that isolates your bot from other traffic on the Bot Service by running Direct Line on its Azure App Service. This both improves latency, and allows bots to participate in Azure VNET configuraitons. A VNET lets developers create your own private space in Azure and is crucial to your cloud network as it offers isolation, segmentation, and other key benefits.
 
 [27]:https://azure.microsoft.com/en-us/services/bot-service/
 [28]:https://docs.microsoft.com/en-us/azure/bot-service/bot-service-overview-introduction?view=azure-bot-service-4.0
 [29]:https://docs.microsoft.com/en-us/azure/bot-service/bot-service-manage-channels?view=azure-bot-service-4.0
 [30]:https://github.com/Microsoft/BotFramework-DirectLineJS/blob/master/README.md
 
-## Bot Framework Web Chat
+## Bot Framework Web Chat (GA)
 - React was [upgraded](https://github.com/microsoft/BotFramework-WebChat/pull/2322) to 16.8.6 to support [React Hooks](https://reactjs.org/docs/hooks-intro.html) and stateful function components.
 - Uploaded image attachments can now include a [thumbnail](https://github.com/microsoft/BotFramework-WebChat/pull/2433). Additional UI improvements and customizability include:
   - [Bubble nub](https://github.com/Microsoft/BotFramework-WebChat/pull/2137) styling options were added.
@@ -105,7 +107,7 @@ The Bot Framework SDK v4 is an [open source SDK][1a] that enable developers to m
 
 - To see the rest of Web Chat's updates for 4.6, take a look at the [changelog](https://github.com/microsoft/BotFramework-WebChat/blob/master/CHANGELOG.md).
 
-## Bot Framework CLI Tools
+## Bot Framework CLI Tools (GA)
 The new [BF CLI](https://aka.ms/bfcli) tool replaces legacy standalone tools used to manage Bot Framework bots and related services. We have ported most tools and are in process of porting the rest. BF CLI aggregates the collection of cross-platform tools into one cohesive and consistent interface.
 
 For the 4.6 release, the following commands were ported over:
