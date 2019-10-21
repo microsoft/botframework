@@ -17,7 +17,6 @@ This repo lists the SDK, tools, and services needed to build a great conversatio
 - [Bot Framework Solutions](#Bot-Framework-Solutions)
 - [Language Understanding](#Language-Understanding)
 - [QnA Maker](#QnA-Maker)
-- [Dispatch](#Dispatch)
 - [Speech Services](#Speech-Services)  
 - [Adaptive cards](#Adaptive-Cards)
 - [Bot Framework SDK v3](#Bot-Framework-SDK-v3)
