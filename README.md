@@ -107,21 +107,8 @@ For the 4.6 release, the following commands were ported over:
 | luis:convert, luis:translate | LuDown   |
 | luis:convert                 | LuisGen  |
 
-In the next release we will port the following tools: 
 
-* LUIS (API)
-* Dispatch
-
-And finally, alongside the release of new features, we plan to add new commands to BF CLI such as for: 
-
-* Language Generation management
-* Adaptive Dialogs management
-* Microsoft Teams bots configuration
-* Bot Skills configuration management
-
-The old tools will be deprecated in subsequent releases. All new investments, bug fixes, and new features will be implemented in the new consolided BF CLI alone.
-
-See more in https://aka.ms/bfcli.
+The old tools will be deprecated in subsequent releases. All new investments, bug fixes, and new features will be implemented in the new consolided BF CLI alone. Click [here](https://aka.ms/bfcli) for more information.
 
 
 ## Bot Framework Solutions 
