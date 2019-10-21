@@ -1,25 +1,13 @@
 
 # Microsoft Bot Framework 
 
-### [Click here to find out what's new with Bot Framework](./whats-new.md#whats-new)
-
 The Microsoft Bot Framework is a comprehensive platform for building enterprise-grade conversational AI experiences. It includes a set of open source SDKs, tools, and services which enable developers to **build**, **test**, and **connect** bots that interact naturally with users, wherever they are. With the Microsoft Bot Framework, it is easy to create a bot with the ability to speak, listen, understand, and learn from your users with Azure Cognitive Services. 
 
 ![Bot Framework](./docs/media/Bot-Framework-header.jpg)
 
 This repo lists the SDK, tools, and services needed to build a great conversational AI experience. Its role is to serve as a landing page and one place to find all the information required to get started. 
 
-- [Bot Framework SDK v4](#Bot-Framework-SDK-v4)
-- [Azure Bot Service](#Azure-Bot-Service)
-- [Bot Framework Emulator](#Bot-Framework-Emulator)
-- [Bot Framework Web Chat](#Bot-Framework-Web-Chat)
-- [Bot Framework CLI Tools](#bot-framework-cli-tools)
-- [Bot Framework Solutions](#Bot-Framework-Solutions)
-- [Language Understanding](#Language-Understanding)
-- [QnA Maker](#QnA-Maker)
-- [Speech Services](#Speech-Services)  
-- [Adaptive cards](#Adaptive-Cards)
-- [Bot Framework SDK v3](#Bot-Framework-SDK-v3)
+# What's new (Ignite 2019)
 
 ## Bot Framework SDK v4
 The Bot Framework SDK v4 is an [open source SDK][1a] that enable developers to model and build sophisticated conversation using their favorite programming language.
