@@ -48,10 +48,10 @@ The Bot Framework SDK v4 is an [open source SDK][1a] that enable developers to m
 
 <a name="V4-whats-new"></a>
 
-### Bot Framework SDK (v4.6 GA)
+### Bot Framework SDK (GA v4.6)
 - Microsoft Teams support | [docs][00] | [C# sample][00] | [JS sample][00] :: Bot Framework SDK v4.6 adds native support for building Teams bots so that you don't have to install Teams extensions. Teams allows users to bring bots into their channel or group chat conversations. By adding a bot to a team or chat, all users of the conversation can take advantage of the bot functionality right in the conversation. 
 
-### The Bot Framework SDK (v4.7 preview)
+### The Bot Framework SDK (Preview)
 - [Bot Framework Composer][00] :: Bot Framework Composer is an integrated development tool for developers and multi-disciplinary team of professional conversation designers for building bots and other types of conversational software with the Microsoft Bot Framework technology stack. Within this web-based tool, you'll find everything you need to build a modern, state-of-the-art conversational experience.
 
 - [Adaptive Dialog][47] | [docs][48] | [C# samples][49] :: Adaptive Dialogs enable developers to build conversations that can be dynamically changed as the conversation progresses.
@@ -83,28 +83,15 @@ The Bot Framework SDK v4 is an [open source SDK][1a] that enable developers to m
 
 [00]:http://docs.microsoft.com
 
-## Azure Bot Service
+## Bot Framework Channels
+- [Direct Line Speech General Availability](https://aka.ms/streaming-extensions) | [docs](https://docs.microsoft.com/azure/bot-service/directline-speech-bot?view=azure-bot-service-4.0): Bot Framework and Microsoft's Speech Services provide a channel that enables streamed speech and text bi-directionally from the client to the bot application using WebSockets.  
 
-<< UPDATE SECTION >>
-
-Azure Bot Service enables you to host intelligent, enterprise-grade bots with complete ownership and control of your data. Developers can register and connect their bots to users on Skype, Microsoft Teams, Cortana, Web Chat, and more. [Azure][27]  |  [docs][28] | [connect to channels][29] 
-
-* **Direct Line JS Client**: If you want to use the Direct Line channel in Azure Bot Service and are not using the WebChat client, the Direct Line JS client can be used in your custom application. [Github][30]
-
-<a name="ABS-whats-new"></a>
-
-* **Direct Line Speech Channel**: We are bringing together the Bot Framework and Microsoft's Speech Services to provide a channel that enables streamed speech and text bi-directionally from the client to the bot application.  To sign up, add the 'Direct Line Speech' channel to your Azure Bot Service.
+- [A Private Direct Line: Direct Line App Serive Extension (preview)](https://portal.azure.com) | [docs](https://aka.ms/directline-ase): A version of Direct Line that isolates your bot from other traffic on the Bot Service by running Direct Line on its Azure App Service. This both improves latency, and allows bots to participate in Azure VNET configuraitons. A VNET lets developers create your own private space in Azure and is crucial to your cloud network as it offers isolation, segmentation, and other key benefits.
 
 [27]:https://azure.microsoft.com/en-us/services/bot-service/
 [28]:https://docs.microsoft.com/en-us/azure/bot-service/bot-service-overview-introduction?view=azure-bot-service-4.0
 [29]:https://docs.microsoft.com/en-us/azure/bot-service/bot-service-manage-channels?view=azure-bot-service-4.0
 [30]:https://github.com/Microsoft/BotFramework-DirectLineJS/blob/master/README.md
-
-* **Better isolation for your Bot - Direct Line App Service Extension** : The Direct Line App Service Extension can be deployed as part of a VNET, allowing IT administrators to have more control over conversation traffic and improved latency in conversations due to reduction in the number of hops. Get started with Direct Line App Service Extension here. A VNET lets you create your own private space in Azure and is crucial to your cloud network as it offers isolation, segmentation, and other key benefits. 
-
-## Bot Framework Emulator
-<< UPDATE SECTION >>
-
 
 ## Bot Framework Web Chat
 - React was [upgraded](https://github.com/microsoft/BotFramework-WebChat/pull/2322) to 16.8.6 to support [React Hooks](https://reactjs.org/docs/hooks-intro.html) and stateful function components.
@@ -118,8 +105,6 @@ Azure Bot Service enables you to host intelligent, enterprise-grade bots with co
 - The accessibility experience was improved for customers utilizing Assistive Technology across [different browsers](https://github.com/microsoft/BotFramework-WebChat/pull/2278).
 
 - To see the rest of Web Chat's updates for 4.6, take a look at the [changelog](https://github.com/microsoft/BotFramework-WebChat/blob/master/CHANGELOG.md).
-
-
 
 ## Bot Framework CLI Tools
 The new [BF CLI](https://aka.ms/bfcli) tool replaces legacy standalone tools used to manage Bot Framework bots and related services. We have ported most tools and are in process of porting the rest. BF CLI aggregates the collection of cross-platform tools into one cohesive and consistent interface.
