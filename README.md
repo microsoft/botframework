@@ -107,7 +107,18 @@ Azure Bot Service enables you to host intelligent, enterprise-grade bots with co
 
 
 ## Bot Framework Web Chat
-<< UPDATE SECTION >>
+- React was [upgraded](https://github.com/microsoft/BotFramework-WebChat/pull/2322) to 16.8.6 to support [React Hooks](https://reactjs.org/docs/hooks-intro.html) and stateful function components.
+- Uploaded image attachments can now include a [thumbnail](https://github.com/microsoft/BotFramework-WebChat/pull/2433). Additional UI improvements and customizability include:
+  - [Bubble nub](https://github.com/Microsoft/BotFramework-WebChat/pull/2137) styling options were added.
+  - [Timestamp format](https://github.com/microsoft/BotFramework-WebChat/pull/2295) were modified to allow absolute and relative time.
+  - [Stylable avatar background colors](https://github.com/microsoft/BotFramework-WebChat/pull/2384) were added.
+- Following demos were released:
+  - [Single Sign-On for Microosoft Teams using OAuth](https://microsoft.github.io/BotFramework-WebChat/19.c.single-sign-on-for-teams-apps/) shows user authorization through a bot.
+  - [Select Voice for Speech Synthesis](https://github.com/microsoft/BotFramework-WebChat/blob/master/samples/06.g.select-voice/) shows how to select [DNN-based voices](https://docs.microsoft.com/en-us/azure/cognitive-services/speech-service/language-support#neural-voices).
+- The accessibility experience was improved for customers utilizing Assistive Technology across [different browsers](https://github.com/microsoft/BotFramework-WebChat/pull/2278).
+
+- To see the rest of Web Chat's updates for 4.6, take a look at the [changelog](https://github.com/microsoft/BotFramework-WebChat/blob/master/CHANGELOG.md).
+
 
 
 ## Bot Framework CLI Tools
