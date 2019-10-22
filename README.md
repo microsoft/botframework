@@ -9,11 +9,9 @@ This repo lists the SDK, tools, and services needed to build a great conversatio
 
 # What's new (Ignite 2019)
 
-### Bot Framework Composer (Preview)
+## Bot Framework Composer (Preview)
 - [Bot Framework Composer](https://github.com/microsoft/BotFramework-Composer/tree/kaiqb/Ignite2019) | [docs]() :: is an integrated development tool for developers and multi-disciplinary team of professional conversation designers for building bots and other types of conversational software with the Microsoft Bot Framework technology stack. Within this web-based tool, you'll find everything you need to build a modern, state-of-the-art conversational experience.
 
-## Dynamics 365 Virtual Agent for Customer Service (??)
-Virtual Agent for Customer Service, built on the Microsoft Bot Framework, makes it easy to create bots that address common support issues. It removes the complexity of exposing teams to the nuances of conversational AI and the need to write complex code. It provides exceptional customer service with intelligent, adaptable virtual agents.
 
 ## Bot Framework SDK v4
 The Bot Framework SDK v4 is an [open source SDK][1a] that enable developers to model and build sophisticated conversation using their favorite programming language.
@@ -41,6 +39,10 @@ The Bot Framework SDK v4 is an [open source SDK][1a] that enable developers to m
 
 ### Microsoft Teams support (GA)
 - Microsoft Teams support | [docs][00] | [C# sample][00] | [JS sample][00] :: Bot Framework SDK v4.6 adds native support for building Teams bots so that you don't have to install Teams extensions. Teams allows users to bring bots into their channel or group chat conversations. By adding a bot to a team or chat, all users of the conversation can take advantage of the bot functionality right in the conversation.
+
+### Dynamics 365 Virtual Agent for Customer Service (??)
+Virtual Agent for Customer Service, built on the Microsoft Bot Framework, makes it easy to create bots that address common support issues. It removes the complexity of exposing teams to the nuances of conversational AI and the need to write complex code. It provides exceptional customer service with intelligent, adaptable virtual agents.
+
 
 ### Adaptive Dialog (Preview)
 - [Adaptive Dialog][47] | [docs][48] | [C# samples][49] :: Adaptive Dialogs enable developers to build conversations that can be dynamically changed as the conversation progresses.
@@ -75,7 +77,7 @@ The Bot Framework SDK v4 is an [open source SDK][1a] that enable developers to m
 
 [00]:http://docs.microsoft.com
 
-## Bot Framework Channels
+## Azure Bot Service
 - [Direct Line Speech (GA)](https://aka.ms/streaming-extensions) | [docs](https://docs.microsoft.com/azure/bot-service/directline-speech-bot?view=azure-bot-service-4.0): Bot Framework and Microsoft's Speech Services provide a channel that enables streamed speech and text bi-directionally from the client to the bot application using WebSockets.  
 
 - [A Private Direct Line: Direct Line App Serive Extension (Preview)](https://portal.azure.com) | [docs](https://aka.ms/directline-ase): A version of Direct Line that isolates your bot from other traffic on the Bot Service by running Direct Line on its Azure App Service. This both improves latency, and allows bots to participate in Azure VNET configuraitons. A VNET lets developers create your own private space in Azure and is crucial to your cloud network as it offers isolation, segmentation, and other key benefits.
