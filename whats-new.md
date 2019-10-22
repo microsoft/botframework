@@ -31,19 +31,19 @@ The Bot Framework SDK v4 is an [open source SDK][1a] that enable developers to m
 [10]:https://github.com/Microsoft/BotBuilder-Samples/tree/master/samples/csharp_webapi
 
 ### Bot Framework SDK for Microsoft Teams (GA)
-The Bot Framework SDK v4.6 release fully integrates support for building Teams bots allowing users to use them in channel or group chat conversations. By adding a bot to a team or chat, all users of the conversation can take advantage of the bot functionality right in the conversation.  [[docs][00] | [C# sample][00] | [JS sample][00]]
+The Bot Framework SDK v4.6 release fully integrates support for building Teams bots allowing users to use them in channel or group chat conversations. By adding a bot to a team or chat, all users of the conversation can take advantage of the bot functionality right in the conversation.  [[Docs][00] | [C# sample][00] | [JS sample][00]]
 
 ### Bot Framework SDK Skills (Preview)
-Create a reusable conversational skill to add functionality to a bot. Leverage pre-built skills, such as Calendar, Email, Task, Point of Interest, Automotive, Weather and News skills. Skills include language models, dialogs, QnA, and integration code delivered to customize and extend as required. [[download]()]
+Create a reusable conversational skill to add functionality to a bot. Leverage pre-built skills, such as Calendar, Email, Task, Point of Interest, Automotive, Weather and News skills. Skills include language models, dialogs, QnA, and integration code delivered to customize and extend as required. [Download]()]
 
 ### Adaptive Dialog (Preview)
-Adaptive Dialogs enable developers to build conversations that can be dynamically changed as the conversation progresses. It allows developers to dynamically update conversation flow based on context and events. This is especially handy when dealing with conversation context switches and interruptions in the middle of a conversation. [[docs][48] | [C# samples][49]] 
+Adaptive Dialogs enable developers to build conversations that can be dynamically changed as the conversation progresses. It allows developers to dynamically update conversation flow based on context and events. This is especially handy when dealing with conversation context switches and interruptions in the middle of a conversation. [[Docs][48] | [C# samples][49]] 
 
 ### Language Generation (Preview)
-Language Generation enable developers to separate logic used to generate bot's respones including ability to define multiple variations on a phrase, execute simple expressions based on context, refer to conversational memory. [[docs][44] | [C# samples][45]]
+Language Generation enable developers to separate logic used to generate bot's respones including ability to define multiple variations on a phrase, execute simple expressions based on context, refer to conversational memory. [[Docs][44] | [C# samples][45]]
 
 ### Common Expression Language (Preview)
-Bots, like any other application, require use of expressions to evaluate outcome of a condition based on runtime information available in memory or to the dialog or the language generation system. Common Expression Language addresses this core need as well as provides a common language that can be used across Bot Framework SDK and other conversational AI components that need expressions. Both Adaptive dialogs and Language Generation rely on and use a common expression language to power bot conversations. [[docs][40] | [api][41]]
+Bots, like any other application, require use of expressions to evaluate outcome of a condition based on runtime information available in memory or to the dialog or the language generation system. Common Expression Language addresses this core need as well as provides a common language that can be used across Bot Framework SDK and other conversational AI components that need expressions. Both Adaptive dialogs and Language Generation rely on and use a common expression language to power bot conversations. [[Docs][40] | [Api][41]]
 
 
 [40]:https://github.com/Microsoft/BotBuilder-Samples/tree/master/experimental/common-expression-language#readme
@@ -60,12 +60,12 @@ Bots, like any other application, require use of expressions to evaluate outcome
 [00]:http://docs.microsoft.com
 
 ## Bot Framework Composer (Preview)
-Bot Framework Composer is an integrated development tool for developers and multi-disciplinary teams for building bots and other types of conversational software with the Microsoft Bot Framework. Within this tool, you'll find everything you need to build a sophisticated conversational experience. [[docs](https://github.com/microsoft/BotFramework-Composer/tree/kaiqb/Ignite2019)]
+Bot Framework Composer is an integrated development tool for developers and multi-disciplinary teams for building bots and other types of conversational software with the Microsoft Bot Framework. Within this tool, you'll find everything you need to build a sophisticated conversational experience. [[Docs](https://github.com/microsoft/BotFramework-Composer/tree/kaiqb/Ignite2019)]
 
 ## Azure Bot Service
-- Direct Line Speech (GA): Bot Framework and Microsoft's Speech Services provide a channel that enables streamed speech and text bi-directionally from the client to the bot application using WebSockets. [[docs](https://docs.microsoft.com/azure/bot-service/directline-speech-bot?view=azure-bot-service-4.0)] 
+- Direct Line Speech (GA): Bot Framework and Microsoft's Speech Services provide a channel that enables streamed speech and text bi-directionally from the client to the bot application using WebSockets. [[Docs](https://docs.microsoft.com/azure/bot-service/directline-speech-bot?view=azure-bot-service-4.0)] 
 
-- Direct Line App Serive Extension (Preview): A version of Direct Line that isolates your bot from other traffic on the Bot Service by running Direct Line on its Azure App Service. This both improves latency, and allows bots to participate in Azure VNET configuraitons. A VNET lets developers create your own private space in Azure and is crucial to your cloud network as it offers isolation, segmentation, and other key benefits. [[docs](https://aka.ms/directline-ase)]
+- Direct Line App Serive Extension (Preview): A version of Direct Line that isolates your bot from other traffic on the Bot Service by running Direct Line on its Azure App Service. This both improves latency, and allows bots to participate in Azure VNET configuraitons. A VNET lets developers create your own private space in Azure and is crucial to your cloud network as it offers isolation, segmentation, and other key benefits. [[Docs](https://aka.ms/directline-ase)]
 
 [27]:https://azure.microsoft.com/en-us/services/bot-service/
 [28]:https://docs.microsoft.com/en-us/azure/bot-service/bot-service-overview-introduction?view=azure-bot-service-4.0
@@ -75,14 +75,11 @@ Bot Framework Composer is an integrated development tool for developers and mult
 ## Bot Framework Web Chat (GA)
 - React upgraded to 16.8.6 to support React Hooks and stateful function components.
 - Uploaded image attachments can now include a thumbnail. Additional UI improvements and customizability include bubble nub, timestamp format, and stylable avatar background colors.
-- Following samples were released:
-  - Single Sign-On for Microsoft Teams using OAuth shows user authorization through a bot. [[sample](https://microsoft.github.io/BotFramework-WebChat/19.c.single-sign-on-for-teams-apps/)]
-  - Select Voice for Speech Synthesis shows how to select DNN-based voices. [[sample](https://github.com/microsoft/BotFramework-WebChat/blob/master/samples/06.g.select-voice/)]
 
-- To see the rest of Web Chat's updates for 4.6, take a look at the [changelog](https://github.com/microsoft/BotFramework-WebChat/blob/master/CHANGELOG.md).
+To see the rest of Web Chat's updates for 4.6, take a look at the [changelog](https://github.com/microsoft/BotFramework-WebChat/blob/master/CHANGELOG.md).
 
 ## Bot Framework CLI Tools (GA)
-The new Bot Framework CLI tool replaces legacy standalone tools used to manage bots and related services. We've ported most of the tools and are in the process of porting the rest of them. BF CLI aggregates the collection of cross-platform tools into one cohesive and consistent interface. For the 4.6 release, we've ported Chatdown, QnAMaker, LuDown, and LuisGen. We plan to deprecate older versions of the tool in the future. [[docs](https://aka.ms/bfcli)]
+The new Bot Framework CLI tool replaces legacy standalone tools used to manage bots and related services. We've ported most of the tools and are in the process of porting the rest of them. BF CLI aggregates the collection of cross-platform tools into one cohesive and consistent interface. For the 4.6 release, we've ported Chatdown, QnAMaker, LuDown, and LuisGen. We plan to deprecate older versions of the tool in the future. [[Docs](https://aka.ms/bfcli)]
 
 ## Bot Framework Solutions 
 Virtual Assistan Solution Accelerator for Enterprise (??)
@@ -91,7 +88,7 @@ Virtual Assistan Solution Accelerator for Enterprise (??)
 ## Related Services
 
 ### Language Understanding 
-A machine learning-based service to build natural language experiences. Quickly create enterprise-ready, custom models that continuously improve. Language Understanding Service(LUIS) allows your application to understand what a person wants in their own words.
+A machine learning-based service to build natural language experiences. Quickly create enterprise-ready, custom models that continuously improve. Language Understanding Service(LUIS) allows your application to understand what a person wants in their own words.[[Docs](https://docs.microsoft.com/en-gb/azure/cognitive-services/luis/whats-new#november-4-2019---ignite)] 
 
 **Advanced language understanding capabilities** - build sophisticated language models with less effort
 
@@ -104,16 +101,14 @@ A machine learning-based service to build natural language experiences. Quickly 
 
 **Language expansion** - basic support for Arabic and Hindi (public preview)
 
-[[docs](https://docs.microsoft.com/en-gb/azure/cognitive-services/luis/whats-new#november-4-2019---ignite)] 
-
 ### QnA Maker
 QnA Maker is a cloud-based API service that creates a conversational, question-and-answer layer over your data. With QnA Maker, you can build, train and publish a simple question and answer bot based on FAQ URLs, structured documents, product manuals or editorial content in minutes.
 
-- Multi-turn Q&A Conversations: Multi-turn feature is available to build guided conversational flows. With the latest release, multi-turn moves out of preview, and you can build multi-turn Q&A conversations with no code. [[docs](https://docs.microsoft.com/en-us/azure/cognitive-services/qnamaker/how-to/multiturn-conversation)]
+- Multi-turn Q&A Conversations: Multi-turn feature is available to build guided conversational flows. With the latest release, multi-turn moves out of preview, and you can build multi-turn Q&A conversations with no code. [[Docs](https://docs.microsoft.com/en-us/azure/cognitive-services/qnamaker/how-to/multiturn-conversation)]
 
-- Chit-Chat: The new set of languages supported for chit-chat dataset are Chinese, French, German, Japanese, Italian, Korean, Portugese, Spanish. The new languages have chit-chat available for only 1 personality today - the professional personality. [[docs](https://docs.microsoft.com/en-us/azure/cognitive-services/qnamaker/how-to/chit-chat-knowledge-base)]
+- Chit-Chat: The new set of languages supported for chit-chat dataset are Chinese, French, German, Japanese, Italian, Korean, Portugese, Spanish. The new languages have chit-chat available for only 1 personality today - the professional personality. [[Docs](https://docs.microsoft.com/en-us/azure/cognitive-services/qnamaker/how-to/chit-chat-knowledge-base)]
 
-- US Government Cloud Support: QnA Maker is now available (GA) for US Government cloud. [[docs](https://docs.microsoft.com/en-us/azure/azure-government/documentation-government-services-aiandcognitiveservices#language)]
+- US Government Cloud Support: QnA Maker is now available (GA) for US Government cloud. [[Docs](https://docs.microsoft.com/en-us/azure/azure-government/documentation-government-services-aiandcognitiveservices#language)]
 
 - Enhanced KB Management Experience: The new KB language settings option lets you explicitly set the KB language for your service. Excel file format support has been added to the import and export actions for easy editing and replacment of the content. [Batch Testing](https://aka.ms/qna_batchtest) allows you to batch test your KB or KBs to analyse the quality and training of your KB data.
 
