@@ -22,8 +22,6 @@ The Bot Framework SDK v4 is an [open source SDK][1a] that enable developers to m
 [9]:https://github.com/Microsoft/BotBuilder-Samples/tree/master/samples/javascript_es6
 [10]:https://github.com/Microsoft/BotBuilder-Samples/tree/master/samples/csharp_webapi
 
-<a name="V4-whats-new"></a>
-
 ### Bot Framework SDK for Microsoft Teams (GA)
 The Bot Framework SDK v4.6 release fully integrates support for building Teams bots allowing users to use them in channel or group chat conversations. By adding a bot to a team or chat, all users of the conversation can take advantage of the bot functionality right in the conversation.  [[docs][00] | [C# sample][00] | [JS sample][00]]
 
@@ -58,9 +56,9 @@ Bots, like any other application, require use of expressions to evaluate outcome
 for developers and multi-disciplinary teams for building bots and other types of conversational software with the Microsoft Bot Framework. Within this tool, you'll find everything you need to build a sophisticated conversational experience. [docs]()
 
 ## Azure Bot Service
-- [Direct Line Speech (GA)](https://aka.ms/streaming-extensions) | [docs](https://docs.microsoft.com/azure/bot-service/directline-speech-bot?view=azure-bot-service-4.0): Bot Framework and Microsoft's Speech Services provide a channel that enables streamed speech and text bi-directionally from the client to the bot application using WebSockets.  
+- Direct Line Speech (GA): Bot Framework and Microsoft's Speech Services provide a channel that enables streamed speech and text bi-directionally from the client to the bot application using WebSockets. [[docs](https://docs.microsoft.com/azure/bot-service/directline-speech-bot?view=azure-bot-service-4.0)] 
 
-- [A Private Direct Line: Direct Line App Serive Extension (Preview)](https://portal.azure.com) | [docs](https://aka.ms/directline-ase): A version of Direct Line that isolates your bot from other traffic on the Bot Service by running Direct Line on its Azure App Service. This both improves latency, and allows bots to participate in Azure VNET configuraitons. A VNET lets developers create your own private space in Azure and is crucial to your cloud network as it offers isolation, segmentation, and other key benefits.
+- Direct Line App Serive Extension (Preview): A version of Direct Line that isolates your bot from other traffic on the Bot Service by running Direct Line on its Azure App Service. This both improves latency, and allows bots to participate in Azure VNET configuraitons. A VNET lets developers create your own private space in Azure and is crucial to your cloud network as it offers isolation, segmentation, and other key benefits. [[docs](https://aka.ms/directline-ase)]
 
 [27]:https://azure.microsoft.com/en-us/services/bot-service/
 [28]:https://docs.microsoft.com/en-us/azure/bot-service/bot-service-overview-introduction?view=azure-bot-service-4.0
@@ -81,20 +79,9 @@ for developers and multi-disciplinary teams for building bots and other types of
 - To see the rest of Web Chat's updates for 4.6, take a look at the [changelog](https://github.com/microsoft/BotFramework-WebChat/blob/master/CHANGELOG.md).
 
 ## Bot Framework CLI Tools (GA)
-The new [BF CLI](https://aka.ms/bfcli) tool replaces legacy standalone tools used to manage Bot Framework bots and related services. We have ported most tools and are in process of porting the rest. BF CLI aggregates the collection of cross-platform tools into one cohesive and consistent interface.
+The new Bot Framework CLI tool replaces legacy standalone tools used to manage bots and related services. We've ported most of the tools and are in the process of porting the rest of them. BF CLI aggregates the collection of cross-platform tools into one cohesive and consistent interface. 
 
-For the 4.6 release, the following commands were ported over:
-
-| BF [New Command]             | Old Tool |
-| ---------------------------- | -------- |
-| Chatdown                     | Chatdown |
-| QnAMaker                     | QnAMaker |
-| luis:convert, luis:translate | LuDown   |
-| luis:convert                 | LuisGen  |
-
-
-The old tools will be deprecated in subsequent releases. All new investments, bug fixes, and new features will be implemented in the new consolided BF CLI alone. Click [here](https://aka.ms/bfcli) for more information.
-
+For the 4.6 release, Chatdown, QnAMaker, LuDown, and LuisGen were ported. Older versions of the remaining tools will be deprecated in subsequent releases. [[docs](https://aka.ms/bfcli)]
 
 ## Bot Framework Solutions 
 Virtual Assistan Solution Accelerator for Enterprise (??)
@@ -116,42 +103,20 @@ A machine learning-based service to build natural language experiences. Quickly 
 
 **Language expansion** - basic support for Arabic and Hindi (public preview)
 
-Check the [documentation](https://docs.microsoft.com/en-gb/azure/cognitive-services/luis/whats-new#november-4-2019---ignite) to learn more. 
+[[docs](https://docs.microsoft.com/en-gb/azure/cognitive-services/luis/whats-new#november-4-2019---ignite)] 
 
 ### QnA Maker
 QnA Maker is a cloud-based API service that creates a conversational, question-and-answer layer over your data. With QnA Maker, you can build, train and publish a simple question and answer bot based on FAQ URLs, structured documents, product manuals or editorial content in minutes.
 
-[Multi-turn Q&A Conversations:](https://docs.microsoft.com/en-us/azure/cognitive-services/qnamaker/how-to/multiturn-conversation) Multi-turn feature is available to build guided conversational flows. With the latest release, multi-turn moves out of preview, and you can build multi-turn Q&A conversations with no code.
+- Multi-turn Q&A Conversations: Multi-turn feature is available to build guided conversational flows. With the latest release, multi-turn moves out of preview, and you can build multi-turn Q&A conversations with no code. [[docs](https://docs.microsoft.com/en-us/azure/cognitive-services/qnamaker/how-to/multiturn-conversation)]
 
-[Chit-Chat:](https://docs.microsoft.com/en-us/azure/cognitive-services/qnamaker/how-to/chit-chat-knowledge-base) QnA Maker now provides support to add personality to your bots in 8 new languages in addition to English. The new set of languages supported for chit-chat dataset are Chinese, French, German, Japanese, Italian, Korean, Portugese, Spanish. The new languages have chit-chat available for only 1 personality today - the professional personality. 
+- Chit-Chat: The new set of languages supported for chit-chat dataset are Chinese, French, German, Japanese, Italian, Korean, Portugese, Spanish. The new languages have chit-chat available for only 1 personality today - the professional personality. [[docs](https://docs.microsoft.com/en-us/azure/cognitive-services/qnamaker/how-to/chit-chat-knowledge-base)]
 
 [US Government Cloud Support:](https://docs.microsoft.com/en-us/azure/azure-government/documentation-government-services-aiandcognitiveservices#language) QnA Maker is now available (GA) for US Government cloud. 
 
 Enhanced KB Management Experience: The new KB language settings option lets you explicitly set the KB language for your service. Excel file format support has been added to the import and export actions for easy editing and replacment of the content. [Batch Testing](https://aka.ms/qna_batchtest) allows you to batch test your KB or KBs to analyse the quality and training of your KB data.
 
-### Speech Services
-[Speech Services][70] convert audio to text, perform speech translation and text-to-speech with the unified Speech services. With the speech services, you can integrate speech into your bot, create custom wake words, and author in multiple languages.
-
 [70]:https://azure.microsoft.com/en-us/services/cognitive-services/speech-services/
-
-### Adaptive Cards
-[Adaptive Cards](https://adaptivecards.io) are an open standard for developers to exchange card content in a common and consistent way, 
-and are used by Bot Framework developers to create great cross-channel conversatational experiences.
-
-* **Open framework, native performance** - A simple open card format enables an ecosystem of shared tooling, seamless integration between apps, and native cross-platform performance on any device.
-* **Speech enabled from day one** - We live in an exciting era where users can talk to their devices. Adaptive Cards embrace this new world and were designed from the ground up to support these new experiences.
-
-## Bot Framework SDK v3
-
-> Note: While we actively maintain the v3 SDK, we are focusing out attention on the v4 of the SDK. Read more on [SDK v3 long-term support](https://docs.microsoft.com/en-us/azure/bot-service/bot-service-resources-bot-framework-faq?view=azure-bot-service-3.0#bot-framework-sdk-version-3-lifetime-support).
-
-The Bot Framework SDK v3 includes SDKs that enable developers to model and build sophisticated conversation using their favorite programing language.
-
-|  | C# | JS |  
-|---|:---:|:---:|
-|Stable Release |[3.20.1][11] | [3.16.0][12] | 
-|Docs | [docs][13] |[docs][13] | 
-|Samples |[C#][14] |[Node.js][15] |
 
 [11]:https://www.nuget.org/packages/Microsoft.Bot.Builder/3.20.1
 [12]:https://www.npmjs.com/package/botbuilder/v/3.16.0
