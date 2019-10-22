@@ -24,9 +24,8 @@ The Bot Framework SDK v4 is an [open source SDK][1a] that enable developers to m
 
 <a name="V4-whats-new"></a>
 
-### Microsoft Teams support (GA)
+### Bot Framework SDK for Microsoft Teams (GA)
 Microsoft Teams support | [docs][00] | [C# sample][00] | [JS sample][00] :: Build and connect intelligent bots to interact with Microsoft Teams users naturally through chat. The Bot Framework SDK v4.6 release adds native support for building Teams bots allowing users to bring bots into their channel or group chat conversations. By adding a bot to a team or chat, all users of the conversation can take advantage of the bot functionality right in the conversation.
-
 
 ### Adaptive Dialog (Preview)
 - [Adaptive Dialog][47] | [docs][48] | [C# samples][49] :: Adaptive Dialogs enable developers to build conversations that can be dynamically changed as the conversation progresses.
