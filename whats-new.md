@@ -25,15 +25,16 @@ The Bot Framework SDK v4 is an [open source SDK][1a] that enable developers to m
 <a name="V4-whats-new"></a>
 
 ### Bot Framework SDK for Microsoft Teams (GA)
-Microsoft Teams support | [docs][00] | [C# sample][00] | [JS sample][00] :: Build and connect intelligent bots to interact with Microsoft Teams users naturally through chat. The Bot Framework SDK v4.6 release adds native support for building Teams bots allowing users to bring bots into their channel or group chat conversations. By adding a bot to a team or chat, all users of the conversation can take advantage of the bot functionality right in the conversation.
+The Bot Framework SDK v4.6 release fully integrates support for building Teams bots allowing users to bring bots into their channel or group chat conversations. By adding a bot to a team or chat, all users of the conversation can take advantage of the bot functionality right in the conversation. [docs][00] | [C# sample][00] | [JS sample][00]
+
+### Bot Framework SDK Skills (Preview)
+Create a reusable conversational skill to add functionality to a bot. Leverage pre-buit skills which include: Calendar, Email, Task, Point of Interest, Automotive, Weather and News skills. Skills include language models, dialogs, QnA, and integration code delivered to customize and extend as required. [SDK]()
 
 ### Adaptive Dialog (Preview)
-- [Adaptive Dialog][47] | [docs][48] | [C# samples][49] :: Adaptive Dialogs enable developers to build conversations that can be dynamically changed as the conversation progresses.
-    - Adaptive dialog now includes trigger to action pairs, recognizer, and generator. This makes every adaptive dialog self-contained and easy to compose.
-    - Events have been cleaned up to correspond to activity level events and dialog level events.
-    - Regex recognizer now supports 10+ prebuilt entity types
-    - Triggers, actions have been refined based on feedback
-    - Stability improvements and bug fixes.
+Adaptive Dialogs enable developers to build conversations that can be dynamically changed as the conversation progresses.
+
+    
+- [Adaptive Dialog][47] | [docs][48] | [C# samples][49] 
 
 ### Language Generation (Preview)
 - [Language Generation][43] | [docs][44] | [C# samples][45] :: Language Generation enable developers to separate logic used to generate bot's respones including ability to define multiple variations on a phrase, execute simple expressions based on context, refer to conversational memory.
@@ -134,9 +135,6 @@ QnA Maker is a cloud-based API service that creates a conversational, question-a
 [US Government Cloud Support:](https://docs.microsoft.com/en-us/azure/azure-government/documentation-government-services-aiandcognitiveservices#language) QnA Maker is now available (GA) for US Government cloud. 
 
 Enhanced KB Management Experience: The new KB language settings option lets you explicitly set the KB language for your service. Excel file format support has been added to the import and export actions for easy editing and replacment of the content. [Batch Testing](https://aka.ms/qna_batchtest) allows you to batch test your KB or KBs to analyse the quality and training of your KB data.
-
-### Power Virtual Agent (??)
-<< >>
 
 ### Speech Services
 [Speech Services][70] convert audio to text, perform speech translation and text-to-speech with the unified Speech services. With the speech services, you can integrate speech into your bot, create custom wake words, and author in multiple languages.
