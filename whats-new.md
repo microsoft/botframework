@@ -1,4 +1,10 @@
-# What's new (Ignite November 2019)
+# What's new
+The Bot Framework SDK v4 is an [Open Source SDK][1a] that enable developers to model and build sophisticated conversation 
+using their favorite programming language. Click [here](./README.md) to learn more about Microsoft Bot Framework. 
+
+This page summarizes key new features and improvements in Bot Framework and Azure Bot Service. 
+
+# Ignite November 2019
 
 <a name="V4-whats-new"></a>
 
