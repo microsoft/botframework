@@ -65,12 +65,11 @@ Bot Framework Composer is an integrated development tool for developers and mult
 [30]:https://github.com/Microsoft/BotFramework-DirectLineJS/blob/master/README.md
 
 ## Bot Framework Web Chat (GA)
-- React [upgraded](https://github.com/microsoft/BotFramework-WebChat/pull/2322) to 16.8.6 to support React Hooks and stateful function components.
-- Uploaded image attachments can now include a [thumbnail](https://github.com/microsoft/BotFramework-WebChat/pull/2433). Additional UI improvements and customizability include bubble nub, timestamp format, and stylable avatar background colors.
+- React upgraded to 16.8.6 to support React Hooks and stateful function components.
+- Uploaded image attachments can now include a thumbnail. Additional UI improvements and customizability include bubble nub, timestamp format, and stylable avatar background colors.
 - Following samples were released:
   - Single Sign-On for Microsoft Teams using OAuth shows user authorization through a bot. [[sample](https://microsoft.github.io/BotFramework-WebChat/19.c.single-sign-on-for-teams-apps/)]
   - Select Voice for Speech Synthesis shows how to select DNN-based voices. [[sample](https://github.com/microsoft/BotFramework-WebChat/blob/master/samples/06.g.select-voice/)]
-- The accessibility experience was improved for customers utilizing Assistive Technology across [different browsers](https://github.com/microsoft/BotFramework-WebChat/pull/2278).
 
 - To see the rest of Web Chat's updates for 4.6, take a look at the [changelog](https://github.com/microsoft/BotFramework-WebChat/blob/master/CHANGELOG.md).
 
