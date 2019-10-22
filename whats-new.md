@@ -106,9 +106,9 @@ QnA Maker is a cloud-based API service that creates a conversational, question-a
 
 - Chit-Chat: The new set of languages supported for chit-chat dataset are Chinese, French, German, Japanese, Italian, Korean, Portugese, Spanish. The new languages have chit-chat available for only 1 personality today - the professional personality. [[docs](https://docs.microsoft.com/en-us/azure/cognitive-services/qnamaker/how-to/chit-chat-knowledge-base)]
 
-[US Government Cloud Support:](https://docs.microsoft.com/en-us/azure/azure-government/documentation-government-services-aiandcognitiveservices#language) QnA Maker is now available (GA) for US Government cloud. 
+- US Government Cloud Support: QnA Maker is now available (GA) for US Government cloud. [[docs](https://docs.microsoft.com/en-us/azure/azure-government/documentation-government-services-aiandcognitiveservices#language)]
 
-Enhanced KB Management Experience: The new KB language settings option lets you explicitly set the KB language for your service. Excel file format support has been added to the import and export actions for easy editing and replacment of the content. [Batch Testing](https://aka.ms/qna_batchtest) allows you to batch test your KB or KBs to analyse the quality and training of your KB data.
+- Enhanced KB Management Experience: The new KB language settings option lets you explicitly set the KB language for your service. Excel file format support has been added to the import and export actions for easy editing and replacment of the content. [Batch Testing](https://aka.ms/qna_batchtest) allows you to batch test your KB or KBs to analyse the quality and training of your KB data.
 
 [70]:https://azure.microsoft.com/en-us/services/cognitive-services/speech-services/
 
