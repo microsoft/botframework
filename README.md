@@ -84,7 +84,7 @@ Botkit is part of Microsoft Bot Framework and is released under the [MIT Open So
 [106]:https://github.com/howdyai/botkit/tree/master/packages/botbuilder-adapter-twilio-sms#readme
 [107]:https://github.com/howdyai/botkit/tree/master/packages/botbuilder-adapter-web#readme
 
-## Bot Framework Solutions (New! - preview)
+## Bot Framework Solutions (Preview)
 
 The [Bot Framework Solutions repository](https://github.com/Microsoft/botframework-solutions#readme) provides a set of templates, solution accelerators and skills to help build sophisticated conversational experiences.
 
