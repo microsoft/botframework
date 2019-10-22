@@ -52,8 +52,7 @@ Bots, like any other application, require use of expressions to evaluate outcome
 [00]:http://docs.microsoft.com
 
 ## Bot Framework Composer (Preview)
-[Bot Framework Composer](https://github.com/microsoft/BotFramework-Composer/tree/kaiqb/Ignite2019) is an integrated development tool 
-for developers and multi-disciplinary teams for building bots and other types of conversational software with the Microsoft Bot Framework. Within this tool, you'll find everything you need to build a sophisticated conversational experience. [docs]()
+Bot Framework Composer is an integrated development tool for developers and multi-disciplinary teams for building bots and other types of conversational software with the Microsoft Bot Framework. Within this tool, you'll find everything you need to build a sophisticated conversational experience. [[docs](https://github.com/microsoft/BotFramework-Composer/tree/kaiqb/Ignite2019)]
 
 ## Azure Bot Service
 - Direct Line Speech (GA): Bot Framework and Microsoft's Speech Services provide a channel that enables streamed speech and text bi-directionally from the client to the bot application using WebSockets. [[docs](https://docs.microsoft.com/azure/bot-service/directline-speech-bot?view=azure-bot-service-4.0)] 
