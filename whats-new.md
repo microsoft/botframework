@@ -1,10 +1,5 @@
 # What's new (Ignite November 2019)
 
-## Bot Framework Composer (Preview)
-[Bot Framework Composer](https://github.com/microsoft/BotFramework-Composer/tree/kaiqb/Ignite2019) is an integrated development tool 
-for developers and multi-disciplinary teams for building bots and other types of conversational software with the Microsoft Bot Framework. Within this tool, you'll find everything you need to build a sophisticated conversational experience. [docs]()
-
-
 ## Bot Framework SDK v4
 The Bot Framework SDK v4 is an [open source SDK][1a] that enable developers to model and build sophisticated conversation using their favorite programming language.
 
