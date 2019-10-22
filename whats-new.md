@@ -1,7 +1,8 @@
 # What's new (Ignite November 2019)
 
 ## Bot Framework Composer (Preview)
-[Bot Framework Composer](https://github.com/microsoft/BotFramework-Composer/tree/kaiqb/Ignite2019) | [docs]() :: is an integrated development tool for developers and multi-disciplinary team of professional conversation designers for building bots and other types of conversational software with the Microsoft Bot Framework technology stack. Within this web-based tool, you'll find everything you need to build a modern, state-of-the-art conversational experience.
+[Bot Framework Composer](https://github.com/microsoft/BotFramework-Composer/tree/kaiqb/Ignite2019) is an integrated development tool 
+for developers and multi-disciplinary teams for building bots and other types of conversational software with the Microsoft Bot Framework. Within this tool, you'll find everything you need to build a sophisticated conversational experience. [docs]()
 
 
 ## Bot Framework SDK v4
@@ -31,6 +32,7 @@ The Bot Framework SDK v4 is an [open source SDK][1a] that enable developers to m
 ### Microsoft Teams support (GA)
 Microsoft Teams support | [docs][00] | [C# sample][00] | [JS sample][00] :: Build and connect intelligent bots to interact with Microsoft Teams users naturally through chat. The Bot Framework SDK v4.6 release adds native support for building Teams bots allowing users to bring bots into their channel or group chat conversations. By adding a bot to a team or chat, all users of the conversation can take advantage of the bot functionality right in the conversation.
 
+
 ### Adaptive Dialog (Preview)
 - [Adaptive Dialog][47] | [docs][48] | [C# samples][49] :: Adaptive Dialogs enable developers to build conversations that can be dynamically changed as the conversation progresses.
     - Adaptive dialog now includes trigger to action pairs, recognizer, and generator. This makes every adaptive dialog self-contained and easy to compose.
@@ -38,7 +40,7 @@ Microsoft Teams support | [docs][00] | [C# sample][00] | [JS sample][00] :: Buil
     - Regex recognizer now supports 10+ prebuilt entity types
     - Triggers, actions have been refined based on feedback
     - Stability improvements and bug fixes.
-    
+
 ### Language Generation (Preview)
 - [Language Generation][43] | [docs][44] | [C# samples][45] :: Language Generation enable developers to separate logic used to generate bot's respones including ability to define multiple variations on a phrase, execute simple expressions based on context, refer to conversational memory.
     - Structured template support - with this you can now use Langauge Generation for multi-modal responses including spoken response, displayed response as well as UI cards etc.
@@ -49,7 +51,6 @@ Microsoft Teams support | [docs][00] | [C# sample][00] | [JS sample][00] :: Buil
 - [Common Expression Language][40] | [api][41] :: Both Adaptive dialogs and Language Generation rely on and use a common expression language to power bot conversations.
     - New prebuilt functions (jpath, eval)
     - Stability improvements and bug fixes.
-
 
 [40]:https://github.com/Microsoft/BotBuilder-Samples/tree/master/experimental/common-expression-language#readme
 [41]:https://github.com/Microsoft/BotBuilder-Samples/blob/master/experimental/common-expression-language/api-reference.md
@@ -63,6 +64,10 @@ Microsoft Teams support | [docs][00] | [C# sample][00] | [JS sample][00] :: Buil
 [50]:https://github.com/Microsoft/BotBuilder-Samples/tree/master/experimental/adaptive-dialog/declarative
 
 [00]:http://docs.microsoft.com
+
+## Bot Framework Composer (Preview)
+[Bot Framework Composer](https://github.com/microsoft/BotFramework-Composer/tree/kaiqb/Ignite2019) is an integrated development tool 
+for developers and multi-disciplinary teams for building bots and other types of conversational software with the Microsoft Bot Framework. Within this tool, you'll find everything you need to build a sophisticated conversational experience. [docs]()
 
 ## Azure Bot Service
 - [Direct Line Speech (GA)](https://aka.ms/streaming-extensions) | [docs](https://docs.microsoft.com/azure/bot-service/directline-speech-bot?view=azure-bot-service-4.0): Bot Framework and Microsoft's Speech Services provide a channel that enables streamed speech and text bi-directionally from the client to the bot application using WebSockets.  
