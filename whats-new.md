@@ -25,22 +25,16 @@ The Bot Framework SDK v4 is an [open source SDK][1a] that enable developers to m
 <a name="V4-whats-new"></a>
 
 ### Bot Framework SDK for Microsoft Teams (GA)
-The Bot Framework SDK v4.6 release fully integrates support for building Teams bots allowing users to bring bots into their channel or group chat conversations. By adding a bot to a team or chat, all users of the conversation can take advantage of the bot functionality right in the conversation. [docs][00] | [C# sample][00] | [JS sample][00]
+The Bot Framework SDK v4.6 release fully integrates support for building Teams bots allowing users to use them in channel or group chat conversations. By adding a bot to a team or chat, all users of the conversation can take advantage of the bot functionality right in the conversation.  [[docs][00] | [C# sample][00] | [JS sample][00]]
 
 ### Bot Framework SDK Skills (Preview)
-Create a reusable conversational skill to add functionality to a bot. Leverage pre-buit skills which include: Calendar, Email, Task, Point of Interest, Automotive, Weather and News skills. Skills include language models, dialogs, QnA, and integration code delivered to customize and extend as required. [SDK]()
+Create a reusable conversational skill to add functionality to a bot. Leverage pre-buit skills which include: Calendar, Email, Task, Point of Interest, Automotive, Weather and News skills. Skills include language models, dialogs, QnA, and integration code delivered to customize and extend as required. [[SDK Link]()]
 
 ### Adaptive Dialog (Preview)
-Adaptive Dialogs enable developers to build conversations that can be dynamically changed as the conversation progresses.
-
-    
-- [Adaptive Dialog][47] | [docs][48] | [C# samples][49] 
+Adaptive Dialogs enable developers to build conversations that can be dynamically changed as the conversation progresses. It allows developers to dynamically update conversation flow based on context and events. This is especially handy when dealing with conversation context switches and interruptions in the middle of a conversation. [[docs][48] | [C# samples][49]] 
 
 ### Language Generation (Preview)
-- [Language Generation][43] | [docs][44] | [C# samples][45] :: Language Generation enable developers to separate logic used to generate bot's respones including ability to define multiple variations on a phrase, execute simple expressions based on context, refer to conversational memory.
-    - Structured template support - with this you can now use Langauge Generation for multi-modal responses including spoken response, displayed response as well as UI cards etc.
-    - Ability to import and refer to .lg files. This helps streamline organization of templates, its composability and re-usability.
-    - Stability improvements and bug fixes.
+Language Generation enable developers to separate logic used to generate bot's respones including ability to define multiple variations on a phrase, execute simple expressions based on context, refer to conversational memory. [[docs][44] | [C# samples][45]]
 
 ### Common Expression Language (Preview)
 - [Common Expression Language][40] | [api][41] :: Both Adaptive dialogs and Language Generation rely on and use a common expression language to power bot conversations.
