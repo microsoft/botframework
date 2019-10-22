@@ -154,13 +154,8 @@ The Bot Framework SDK tools is an [open source](https://github.com/Microsoft/bot
 ## Related Services
 
 ### Language Understanding 
-A machine learning-based service to build natural language experiences. Quickly create enterprise-ready, custom models that continuously improve. [Language Understanding Service(LUIS)][30] allows your application to understand what a person wants in their own words.
+A machine learning-based service to build natural language experiences. Quickly create enterprise-ready, custom models that continuously improve. Language Understanding Service(LUIS) allows your application to understand what a person wants in their own words. [[Docs][31] | [Add language understanding to your bot][32]]
 
-<a name="LUIS-whats-new"></a>
-
-- **Roles, External Entities and Dynamic Entities** :: LUIS has added several features that let developers extract more detailed information from text, so users can now build more intelligent solutions with less effort. LUIS also extended roles to all entity types, which allows the same entities to be classified with different subtypes based on context. Developers now have more granular control of what they can do with LUIS, including being able to identify and update models at runtime through dynamic lists and external entities. Dynamic lists are used to append to list entities at prediction time, permitting user-specific information to get matched exactly. Separate supplementary entity extractors are run with external entities, and that information can be appended to LUIS as strong signals for other models.
-
-- **Analytics dashboard** :: LUIS is releasing a more detailed, visually-rich comprehensive analytics dashboard. Its user-friendly design highlights common issues most users face when designing applications, by providing simple explanations on how to resolve them to help users gain more insight into their models’ quality, potential data problems, and guidance to adopt best practices. [[Docs][31] | [Add language understanding to your bot][32]]
 [18]:https://github.com/Microsoft/botbuilder-tools/tree/master/packages/LUIS#readme
 [19]:https://github.com/Microsoft/botbuilder-tools/tree/master/packages/QnAMaker#readme
 [30]:https://www.luis.ai
@@ -168,29 +163,17 @@ A machine learning-based service to build natural language experiences. Quickly 
 [32]:https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-howto-v4-luis?view=azure-bot-service-4.0&branch=pr-en-us-1325&tabs=csharp
 
 ### QnA Maker
-[QnA Maker][33] is a cloud-based API service that creates a conversational, question-and-answer layer over your data. With QnA Maker, you can build, train and publish a simple question and answer bot based on FAQ URLs, structured documents, product manuals or editorial content in minutes.
-
-<a name="QnA-whats-new"></a>
-
-- **Extraction pipeline**: Now you can extract hierarchical information from URLs, files and sharepoint
-- **Intelligence**: Contextual ranking models, active learning suggestions
-- **Conversation**: Multi-turn conversations in QnA Maker.
-
-[Docs][34]  | [add qnamaker to your bot][35] | use [LUDdown][17] and [QnAMaker][19] command line tools
+[QnA Maker][33] is a cloud-based API service that creates a conversational, question-and-answer layer over your data. With QnA Maker, you can build, train and publish a simple question and answer bot based on FAQ URLs, structured documents, product manuals or editorial content in minutes. [[Docs][34]  | [Add qnamaker to your bot][35]]
 
 [33]:https://www.qnamaker.ai/
 [34]:https://aka.ms/qnamaker-docs-home
 [35]:https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-howto-qna?view=azure-bot-service-4.0&branch=pr-en-us-1325&tabs=cs
 
 ### Dispatch
-[Dispatch][20] lets you build language models that allow you to dispatch between disparate components (such as QnA, LUIS and custom code).
-
-[20]:https://github.com/Microsoft/botbuilder-tools/blob/master/packages/Dispatch#readme
+Dispatch tool lets you build language models that allow you to dispatch between disparate components (such as QnA, LUIS and custom code). [[Readme](https://github.com/Microsoft/botbuilder-tools/blob/master/packages/Dispatch#readme)]
 
 ### Speech Services
-[Speech Services][70] convert audio to text, perform speech translation and text-to-speech with the unified Speech services. With the speech services, you can integrate speech into your bot, create custom wake words, and author in multiple languages.
-
-[70]:https://azure.microsoft.com/en-us/services/cognitive-services/speech-services/
+Speech Services convert audio to text, perform speech translation and text-to-speech with the unified Speech services. With the speech services, you can integrate speech into your bot, create custom wake words, and author in multiple languages. [[Docs](https://azure.microsoft.com/en-us/services/cognitive-services/speech-services/)]
 
 ### Adaptive Cards
 [Adaptive Cards](https://adaptivecards.io) are an open standard for developers to exchange card content in a common and consistent way, 
