@@ -9,6 +9,12 @@ This repo lists the SDK, tools, and services needed to build a great conversatio
 
 # What's new (Ignite 2019)
 
+### Bot Framework Composer (Preview)
+- [Bot Framework Composer](https://github.com/microsoft/BotFramework-Composer/tree/kaiqb/Ignite2019) | [docs]() :: is an integrated development tool for developers and multi-disciplinary team of professional conversation designers for building bots and other types of conversational software with the Microsoft Bot Framework technology stack. Within this web-based tool, you'll find everything you need to build a modern, state-of-the-art conversational experience.
+
+## Dynamics 365 Virtual Agent for Customer Service (??)
+Virtual Agent for Customer Service, built on the Microsoft Bot Framework, makes it easy to create bots that address common support issues. It removes the complexity of exposing teams to the nuances of conversational AI and the need to write complex code. It provides exceptional customer service with intelligent, adaptable virtual agents.
+
 ## Bot Framework SDK v4
 The Bot Framework SDK v4 is an [open source SDK][1a] that enable developers to model and build sophisticated conversation using their favorite programming language.
 
@@ -34,10 +40,7 @@ The Bot Framework SDK v4 is an [open source SDK][1a] that enable developers to m
 <a name="V4-whats-new"></a>
 
 ### Microsoft Teams support (GA)
-- Microsoft Teams support | [docs][00] | [C# sample][00] | [JS sample][00]:: Bot Framework SDK v4.6 adds native support for building Teams bots so that you don't have to install Teams extensions. Teams allows users to bring bots into their channel or group chat conversations. By adding a bot to a team or chat, all users of the conversation can take advantage of the bot functionality right in the conversation.
-
-### Bot Framework Composer (Preview)
-- [Bot Framework Composer](https://github.com/microsoft/BotFramework-Composer/tree/kaiqb/Ignite2019) is an integrated development tool for developers and multi-disciplinary team of professional conversation designers for building bots and other types of conversational software with the Microsoft Bot Framework technology stack. Within this web-based tool, you'll find everything you need to build a modern, state-of-the-art conversational experience.
+- Microsoft Teams support | [docs][00] | [C# sample][00] | [JS sample][00] :: Bot Framework SDK v4.6 adds native support for building Teams bots so that you don't have to install Teams extensions. Teams allows users to bring bots into their channel or group chat conversations. By adding a bot to a team or chat, all users of the conversation can take advantage of the bot functionality right in the conversation.
 
 ### Adaptive Dialog (Preview)
 - [Adaptive Dialog][47] | [docs][48] | [C# samples][49] :: Adaptive Dialogs enable developers to build conversations that can be dynamically changed as the conversation progresses.
@@ -112,7 +115,7 @@ The old tools will be deprecated in subsequent releases. All new investments, bu
 
 
 ## Bot Framework Solutions 
-<< UPDATE SECTION >>
+Virtual Assistan Solution Accelerator for Enterprise (??)
 
 
 ## Related Services
@@ -120,16 +123,16 @@ The old tools will be deprecated in subsequent releases. All new investments, bu
 ### Language Understanding 
 A machine learning-based service to build natural language experiences. Quickly create enterprise-ready, custom models that continuously improve. Language Understanding Service(LUIS) allows your application to understand what a person wants in their own words.
 
-**Improved developer productivity** -  General availability of prediction endpoint V3. Ability to import and export .lu files paves the way for an effective CI/CD process. 
-
-**Language expansion** - basic support for Arabic and Hindi (public preview)
-
-**Enhanced user experience** - labeling experience enables building and debugging complex models
-
 **Advanced language understanding capabilities** - build sophisticated language models with less effort
 
   * Define machine learning features at the model level and enable models to be used as signals to other model, like using entities as features to intents and to other entities.
   * Extract information from text in the format of deep hierarchical structure, making conversation applications more powerful.
+
+**Improved developer productivity** -  General availability of prediction endpoint V3. Ability to import and export .lu files paves the way for an effective CI/CD process. 
+
+**Enhanced user experience** - labeling experience enables building and debugging complex models
+
+**Language expansion** - basic support for Arabic and Hindi (public preview)
 
 Check the [documentation](https://docs.microsoft.com/en-gb/azure/cognitive-services/luis/whats-new#november-4-2019---ignite) to learn more. 
 
