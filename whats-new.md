@@ -1,5 +1,7 @@
 # What's new (Ignite November 2019)
 
+<a name="V4-whats-new"></a>
+
 ## Bot Framework SDK v4
 The Bot Framework SDK v4 is an [open source SDK][1a] that enable developers to model and build sophisticated conversation using their favorite programming language.
 
