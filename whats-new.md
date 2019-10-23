@@ -4,12 +4,14 @@ using their favorite programming language. Click [here](./README.md) to learn mo
 
 This page summarizes key new features and improvements in Bot Framework and Azure Bot Service. 
 
-## Ignite November 2019
+## November 2019 (Ignite)
 
 <a name="V4-whats-new"></a>
 
 ### Bot Framework SDK v4
 The Bot Framework SDK v4 is an [open source SDK][1a] that enable developers to model and build sophisticated conversation using their favorite programming language.
+
+The November release includes a new SDK version - 4.6.
 
 |   | C#  | JS  | Python |  Java | 
 |---|:---:|:---:|:------:|:-----:|
@@ -63,9 +65,9 @@ Bots, like any other application, require use of expressions to evaluate outcome
 Bot Framework Composer is an integrated development tool for developers and multi-disciplinary teams for building bots and other types of conversational software with the Microsoft Bot Framework. Within this tool, you'll find everything you need to build a sophisticated conversational experience. [[Docs](https://github.com/microsoft/BotFramework-Composer/tree/kaiqb/Ignite2019)]
 
 ### Azure Bot Service
-- Direct Line Speech (GA): Bot Framework and Microsoft's Speech Services provide a channel that enables streamed speech and text bi-directionally from the client to the bot application using WebSockets. [[Docs](https://docs.microsoft.com/azure/bot-service/directline-speech-bot?view=azure-bot-service-4.0)] 
+- **Direct Line Speech (GA)**: Bot Framework and Microsoft's Speech Services provide a channel that enables streamed speech and text bi-directionally from the client to the bot application using WebSockets. [[Docs](https://docs.microsoft.com/azure/bot-service/directline-speech-bot?view=azure-bot-service-4.0)] 
 
-- Direct Line App Serive Extension (Preview): A version of Direct Line that isolates your bot from other traffic on the Bot Service by running Direct Line on its Azure App Service. This both improves latency, and allows bots to participate in Azure VNET configuraitons. A VNET lets developers create your own private space in Azure and is crucial to your cloud network as it offers isolation, segmentation, and other key benefits. [[Docs](https://aka.ms/directline-ase)]
+- **Direct Line App Serive Extension (Preview)**: A version of Direct Line that isolates your bot from other traffic on the Bot Service by running Direct Line on its Azure App Service. This both improves latency, and allows bots to participate in Azure VNET configuraitons. A VNET lets developers create your own private space in Azure and is crucial to your cloud network as it offers isolation, segmentation, and other key benefits. [[Docs](https://aka.ms/directline-ase)]
 
 [27]:https://azure.microsoft.com/en-us/services/bot-service/
 [28]:https://docs.microsoft.com/en-us/azure/bot-service/bot-service-overview-introduction?view=azure-bot-service-4.0
@@ -90,27 +92,26 @@ Virtual Assistan Solution Accelerator for Enterprise (??)
 ### Language Understanding 
 A machine learning-based service to build natural language experiences. Quickly create enterprise-ready, custom models that continuously improve. Language Understanding Service(LUIS) allows your application to understand what a person wants in their own words.[[Docs](https://docs.microsoft.com/en-gb/azure/cognitive-services/luis/whats-new#november-4-2019---ignite)] 
 
-**Advanced language understanding capabilities** - build sophisticated language models with less effort
+- **Advanced language understanding capabilities** - build sophisticated language models with less effort
+  - Define machine learning features at the model level and enable models to be used as signals to other model, like using entities as features to intents and to other entities.
+  - Extract information from text in the format of deep hierarchical structure, making conversation applications more powerful.
 
-  * Define machine learning features at the model level and enable models to be used as signals to other model, like using entities as features to intents and to other entities.
-  * Extract information from text in the format of deep hierarchical structure, making conversation applications more powerful.
+- **Improved developer productivity** -  General availability of prediction endpoint V3. Ability to import and export .lu files paves the way for an effective CI/CD process. 
 
-**Improved developer productivity** -  General availability of prediction endpoint V3. Ability to import and export .lu files paves the way for an effective CI/CD process. 
+- **Enhanced user experience** - labeling experience enables building and debugging complex models
 
-**Enhanced user experience** - labeling experience enables building and debugging complex models
-
-**Language expansion** - basic support for Arabic and Hindi (public preview)
+- **Language expansion** - basic support for Arabic and Hindi (public preview)
 
 ### QnA Maker
 QnA Maker is a cloud-based API service that creates a conversational, question-and-answer layer over your data. With QnA Maker, you can build, train and publish a simple question and answer bot based on FAQ URLs, structured documents, product manuals or editorial content in minutes.
 
-- Multi-turn Q&A Conversations: Multi-turn feature is available to build guided conversational flows. With the latest release, multi-turn moves out of preview, and you can build multi-turn Q&A conversations with no code. [[Docs](https://docs.microsoft.com/en-us/azure/cognitive-services/qnamaker/how-to/multiturn-conversation)]
+- **Multi-turn Q&A Conversations**: Multi-turn feature is available to build guided conversational flows. With the latest release, multi-turn moves out of preview, and you can build multi-turn Q&A conversations with no code. [[Docs](https://docs.microsoft.com/en-us/azure/cognitive-services/qnamaker/how-to/multiturn-conversation)]
 
-- Chit-Chat: The new set of languages supported for chit-chat dataset are Chinese, French, German, Japanese, Italian, Korean, Portugese, Spanish. The new languages have chit-chat available for only 1 personality today - the professional personality. [[Docs](https://docs.microsoft.com/en-us/azure/cognitive-services/qnamaker/how-to/chit-chat-knowledge-base)]
+- **Chit-Chat**: The new set of languages supported for chit-chat dataset are Chinese, French, German, Japanese, Italian, Korean, Portugese, Spanish. The new languages have chit-chat available for only 1 personality today - the professional personality. [[Docs](https://docs.microsoft.com/en-us/azure/cognitive-services/qnamaker/how-to/chit-chat-knowledge-base)]
 
-- US Government Cloud Support: QnA Maker is now available (GA) for US Government cloud. [[Docs](https://docs.microsoft.com/en-us/azure/azure-government/documentation-government-services-aiandcognitiveservices#language)]
+- **US Government Cloud Support**: QnA Maker is now available (GA) for US Government cloud. [[Docs](https://docs.microsoft.com/en-us/azure/azure-government/documentation-government-services-aiandcognitiveservices#language)]
 
-- Enhanced KB Management Experience: The new KB language settings option lets you explicitly set the KB language for your service. Excel file format support has been added to the import and export actions for easy editing and replacment of the content. [Batch Testing](https://aka.ms/qna_batchtest) allows you to batch test your KB or KBs to analyse the quality and training of your KB data.
+- **Enhanced KB Management Experience**: The new KB language settings option lets you explicitly set the KB language for your service. Excel file format support has been added to the import and export actions for easy editing and replacment of the content. [Batch Testing](https://aka.ms/qna_batchtest) allows you to batch test your KB or KBs to analyse the quality and training of your KB data.
 
 [70]:https://azure.microsoft.com/en-us/services/cognitive-services/speech-services/
 
