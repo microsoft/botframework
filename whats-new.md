@@ -122,7 +122,7 @@ QnA Maker is a cloud-based API service that creates a conversational, question-a
 
 
 ##
-## July 2019
+# July 2019
 The Bot Framework SDK v4 is an [Open Source SDK][1a] that enable developers to model and build sophisticated conversation 
 using their favorite programming language. Click [here](./README.md) to learn more about Microsoft Bot Framework. 
 
@@ -176,7 +176,7 @@ Based on enterprise customers asks, we've added a [web chat sample](https://gith
   
 
 ## 
-## May 2019
+# May 2019
 - [Sessions](#Sessions)
 - [What's new](#whats-new)
 
