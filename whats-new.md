@@ -4,11 +4,11 @@ using their favorite programming language. Click [here](./README.md) to learn mo
 
 This page summarizes key new features and improvements in Bot Framework and Azure Bot Service. 
 
-# Ignite November 2019
+## Ignite November 2019
 
 <a name="V4-whats-new"></a>
 
-## Bot Framework SDK v4
+### Bot Framework SDK v4
 The Bot Framework SDK v4 is an [open source SDK][1a] that enable developers to model and build sophisticated conversation using their favorite programming language.
 
 |   | C#  | JS  | Python |  Java | 
@@ -30,19 +30,19 @@ The Bot Framework SDK v4 is an [open source SDK][1a] that enable developers to m
 [9]:https://github.com/Microsoft/BotBuilder-Samples/tree/master/samples/javascript_es6
 [10]:https://github.com/Microsoft/BotBuilder-Samples/tree/master/samples/csharp_webapi
 
-### Bot Framework SDK for Microsoft Teams (GA)
+#### Bot Framework SDK for Microsoft Teams (GA)
 The Bot Framework SDK v4.6 release fully integrates support for building Teams bots allowing users to use them in channel or group chat conversations. By adding a bot to a team or chat, all users of the conversation can take advantage of the bot functionality right in the conversation.  [[Docs][00] | [C# sample][00] | [JS sample][00]]
 
-### Bot Framework SDK Skills (Preview)
+#### Bot Framework SDK Skills (Preview)
 Create a reusable conversational skill to add functionality to a bot. Leverage pre-built skills, such as Calendar, Email, Task, Point of Interest, Automotive, Weather and News skills. Skills include language models, dialogs, QnA, and integration code delivered to customize and extend as required. [[Download]()]
 
-### Adaptive Dialog (Preview)
+#### Adaptive Dialog (Preview)
 Adaptive Dialogs enable developers to build conversations that can be dynamically changed as the conversation progresses. It allows developers to dynamically update conversation flow based on context and events. This is especially handy when dealing with conversation context switches and interruptions in the middle of a conversation. [[Docs][48] | [C# samples][49]] 
 
-### Language Generation (Preview)
+#### Language Generation (Preview)
 Language Generation enable developers to separate logic used to generate bot's respones including ability to define multiple variations on a phrase, execute simple expressions based on context, refer to conversational memory. [[Docs][44] | [C# samples][45]]
 
-### Common Expression Language (Preview)
+#### Common Expression Language (Preview)
 Bots, like any other application, require use of expressions to evaluate outcome of a condition based on runtime information available in memory or to the dialog or the language generation system. Common Expression Language addresses this core need as well as provides a common language that can be used across Bot Framework SDK and other conversational AI components that need expressions. Both Adaptive dialogs and Language Generation rely on and use a common expression language to power bot conversations. [[Docs][40] | [Api][41]]
 
 
@@ -59,10 +59,10 @@ Bots, like any other application, require use of expressions to evaluate outcome
 
 [00]:http://docs.microsoft.com
 
-## Bot Framework Composer (Preview)
+### Bot Framework Composer (Preview)
 Bot Framework Composer is an integrated development tool for developers and multi-disciplinary teams for building bots and other types of conversational software with the Microsoft Bot Framework. Within this tool, you'll find everything you need to build a sophisticated conversational experience. [[Docs](https://github.com/microsoft/BotFramework-Composer/tree/kaiqb/Ignite2019)]
 
-## Azure Bot Service
+### Azure Bot Service
 - Direct Line Speech (GA): Bot Framework and Microsoft's Speech Services provide a channel that enables streamed speech and text bi-directionally from the client to the bot application using WebSockets. [[Docs](https://docs.microsoft.com/azure/bot-service/directline-speech-bot?view=azure-bot-service-4.0)] 
 
 - Direct Line App Serive Extension (Preview): A version of Direct Line that isolates your bot from other traffic on the Bot Service by running Direct Line on its Azure App Service. This both improves latency, and allows bots to participate in Azure VNET configuraitons. A VNET lets developers create your own private space in Azure and is crucial to your cloud network as it offers isolation, segmentation, and other key benefits. [[Docs](https://aka.ms/directline-ase)]
@@ -72,16 +72,16 @@ Bot Framework Composer is an integrated development tool for developers and mult
 [29]:https://docs.microsoft.com/en-us/azure/bot-service/bot-service-manage-channels?view=azure-bot-service-4.0
 [30]:https://github.com/Microsoft/BotFramework-DirectLineJS/blob/master/README.md
 
-## Bot Framework Web Chat (GA)
+### Bot Framework Web Chat (GA)
 - React upgraded to 16.8.6 to support React Hooks and stateful function components.
 - Uploaded image attachments can now include a thumbnail. Additional UI improvements and customizability include bubble nub, timestamp format, and stylable avatar background colors.
 
 To see the rest of Web Chat's updates for 4.6, take a look at the [changelog](https://github.com/microsoft/BotFramework-WebChat/blob/master/CHANGELOG.md).
 
-## Bot Framework CLI Tools (GA)
+### Bot Framework CLI Tools (GA)
 The new Bot Framework CLI tool replaces legacy standalone tools used to manage bots and related services. We've ported most of the tools and are in the process of porting the rest of them. BF CLI aggregates the collection of cross-platform tools into one cohesive and consistent interface. For the 4.6 release, we've ported Chatdown, QnAMaker, LuDown, and LuisGen. We plan to deprecate older versions of the tool in the future. [[Docs](https://aka.ms/bfcli)]
 
-## Bot Framework Solutions 
+### Bot Framework Solutions 
 Virtual Assistan Solution Accelerator for Enterprise (??)
 
 
