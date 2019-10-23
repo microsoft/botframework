@@ -14,7 +14,7 @@ This repo lists the SDK, tools, and services needed to build a great conversatio
 - [Azure Bot Service](#Azure-Bot-Service)
 - [Bot Framework Emulator](#Bot-Framework-Emulator)
 - [Bot Framework Web Chat](#Bot-Framework-Web-Chat)
-- [Bot Framework Tools](#Bot-Framework-Tools)
+- [Bot Framework Tools](#Bot-Framework-CLI-Tools)
 - [Language Understanding](#Language-Understanding)
 - [QnA Maker](#QnA-Maker)
 - [Dispatch](#Dispatch)
@@ -50,11 +50,11 @@ The Bot Framework SDK v4 is an [open source SDK][1a] that enable developers to m
 <a name="V4-whats-new"></a>
 ### Bot Framework SDK v4 - (Preview)
 
-- Adaptive Dialogs enable developers to build conversations that can be dynamically changed as the conversation progresses.  Traditionally developers have mapped out the entire flow of a conversation up front, which limits the flexibility of the conversation.  Adaptive dialogs allow them to be more flexible, to respond to changes in context and insert new steps or entire sub-dialogs into the conversation as it progresses. Additionally as with other SDK V4 concepts, we have defined adaptive dialogs such that they can be defined via [declarative][50] that are interpreted at runtime; which allows us to have tooling on top of this and integrate with services. [[Docs][48] | [C# samples][49]]
+- **Adaptive Dialogs** enable developers to build conversations that can be dynamically changed as the conversation progresses.  Traditionally developers have mapped out the entire flow of a conversation up front, which limits the flexibility of the conversation.  Adaptive dialogs allow them to be more flexible, to respond to changes in context and insert new steps or entire sub-dialogs into the conversation as it progresses. Additionally as with other SDK V4 concepts, we have defined adaptive dialogs such that they can be defined via [declarative][50] that are interpreted at runtime; which allows us to have tooling on top of this and integrate with services. [[Docs][48] | [C# samples][49]]
 
-- Language Generation: Learning from our customers' experiences and bringing together capabilities first implemented by Cortana and Cognition teams, we are introducing Language Generation. It allows the developer to extract the embedded strings from their code and resource files and manage them through a Language Generation runtime and file format.  Language Generation enable customers to define multiple variations on a phrase, execute simple expressions based on context, refer to conversational memory, and over time will enable us to bring additional capabilities all leading to a more natural conversational experience. [[Docs][44] | [C# samples][45]]
+- **Language Generation**: Learning from our customers' experiences and bringing together capabilities first implemented by Cortana and Cognition teams, we are introducing Language Generation. It allows the developer to extract the embedded strings from their code and resource files and manage them through a Language Generation runtime and file format.  Language Generation enable customers to define multiple variations on a phrase, execute simple expressions based on context, refer to conversational memory, and over time will enable us to bring additional capabilities all leading to a more natural conversational experience. [[Docs][44] | [C# samples][45]]
 
-- Common Expression Language: Both Adaptive dialogs and Language Generation rely on and use a common expression language to power bot conversations. [[API][41]] 
+- **Common Expression Language**: Both Adaptive dialogs and Language Generation rely on and use a common expression language to power bot conversations. [[API][41]] 
 
 
 [40]:https://github.com/Microsoft/BotBuilder-Samples/tree/master/experimental/common-expression-language#readme
@@ -128,28 +128,9 @@ The Bot Framework [Web Chat][23] is a highly customizable web-based client chat 
 [26]:https://github.com/Microsoft/BotFramework-WebChat/tree/master/samples
 
 
-## Bot Framework Tools
-The Bot Framework SDK tools is an [open source](https://github.com/Microsoft/botbuilder-tools) collection of cross-platform command line tools designed to support building robust end-to-end development workflows.
+## Bot Framework CLI Tools
+The Bot Framework CLI Tools is an [open source](https://github.com/microsoft/botframework-cli) collection of cross-platform command line tools designed to support building robust end-to-end development workflows. The new Bot Framework CLI tool replaces legacy standalone tools used to manage bots and related services. We've ported most of the tools and are in the process of porting the rest of them. BF CLI aggregates the collection of cross-platform tools into one cohesive and consistent interface. For the 4.6 release, we've ported Chatdown, QnAMaker, LuDown, and LuisGen. We plan to deprecate older versions of the tool in the future. [Docs]
 
-| Tool | Description |
-|------|--------------|
-| [Chatdown][16] | Prototype mock conversations in markdown and convert the markdown to transcripts you can load and view in the new V4 Bot Framework Emulator |
-| [LUDown][17]| Build LUIS language understanding models using markdown files|
-| [LUISGen][21] | Auto generate backing C# / Typescript classes for your LUIS intents and entities.|
-| [az bot][36] | Manage Azure Bot Service using Azure CLI|
-|[LUIS][LUISCLI] | Create and manage your [LUIS.ai](http://luis.ai) applications |
-|[QnAMaker][QNACLI] | Create and manage [QnAMaker.ai](http://qnamaker.ai) Knowledge Bases. |
-| [Dispatch][DispatchCLI] | Build language models allowing you to dispatch between disparate components (such as QnA, LUIS and custom code)|
-| [MSBot][22]| Create and manage connected services in your bot configuration file|
-
-[16]:https://github.com/Microsoft/botbuilder-tools/blob/master/packages/Chatdown#readme
-[17]:https://github.com/Microsoft/botbuilder-tools/blob/master/packages/Ludown#readme
-[21]:https://github.com/Microsoft/botbuilder-tools/blob/master/packages/LUISGen#readme
-[22]:https://github.com/Microsoft/botbuilder-tools/blob/master/packages/MSBot#readme
-[36]:https://docs.microsoft.com/en-us/cli/azure/bot?view=azure-cli-latest
-[LUISCLI]:https://github.com/Microsoft/botbuilder-tools/blob/master/packages/LUIS#readme
-[QNACLI]:https://github.com/Microsoft/botbuilder-tools/blob/master/packages/QnAMaker#readme
-[DispatchCLI]:https://github.com/Microsoft/botbuilder-tools/tree/master/packages/Dispatch#readme
 
 ## Related Services
 
