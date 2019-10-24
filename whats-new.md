@@ -60,12 +60,12 @@ Common Expression Language allows you to evaluate the outcome of a condition-bas
 [00]:http://docs.microsoft.com
 
 ### Bot Framework Composer (Preview)
-Bot Framework Composer is an integrated development tool for developers and multi-disciplinary teams for building bots and other types of conversational software with the Microsoft Bot Framework. Within this tool, you'll find everything you need to build a sophisticated conversational experience. [[Docs](https://github.com/microsoft/BotFramework-Composer/tree/kaiqb/Ignite2019)]
+Bot Framework Composer is an integrated development tool for developers and multi-disciplinary teams to build bots and conversational experiences with the Microsoft Bot Framework. Within this tool, you'll find everything you need to build a sophisticated conversational experience. [[Docs](https://github.com/microsoft/BotFramework-Composer/tree/kaiqb/Ignite2019)]
 
 ### Azure Bot Service
-- **Direct Line Speech (GA)**: Bot Framework and Microsoft's Speech Services provide a channel that enables streamed speech and text bi-directionally from the client to the bot application using WebSockets. [[Docs](https://docs.microsoft.com/azure/bot-service/directline-speech-bot?view=azure-bot-service-4.0)] 
+- **Direct Line Speech (GA)**: Bot Framework and Microsoft's Speech Services provide a channel that enables streamed speech and text bi-directionally from the client to the bot application using WebSockets on Azure Bot Service. [[Docs](https://docs.microsoft.com/azure/bot-service/directline-speech-bot?view=azure-bot-service-4.0)] 
 
-- **Direct Line App Serive Extension (Preview)**: A version of Direct Line that isolates your bot from other traffic on the Bot Service by running Direct Line on its Azure App Service. This both improves latency, and allows bots to participate in Azure VNET configuraitons. A VNET lets developers create your own private space in Azure and is crucial to your cloud network as it offers isolation, segmentation, and other key benefits. [[Docs](https://aka.ms/directline-ase)]
+- **Direct Line App Service Extension (Preview)**: A version of Direct Line App Service Extension that isolates your bot from other traffic on the Bot Service by running Direct Line on your dedicated Azure App Service. This also allows bots to participate in Azure VNET configurations. A VNET lets developers create your own private space in Azure and is crucial to your cloud network as it offers isolation, segmentation, and other key benefits. [[Docs](https://aka.ms/directline-ase)]
 
 [27]:https://azure.microsoft.com/en-us/services/bot-service/
 [28]:https://docs.microsoft.com/en-us/azure/bot-service/bot-service-overview-introduction?view=azure-bot-service-4.0
@@ -73,6 +73,7 @@ Bot Framework Composer is an integrated development tool for developers and mult
 [30]:https://github.com/Microsoft/BotFramework-DirectLineJS/blob/master/README.md
 
 ### Bot Framework Web Chat (GA)
+[Add what is w
 - React upgraded to 16.8.6 to support React Hooks and stateful function components.
 - Uploaded image attachments can now include a thumbnail. Additional UI improvements and customizability include bubble nub, timestamp format, and stylable avatar background colors.
 
