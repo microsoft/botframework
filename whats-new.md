@@ -83,10 +83,6 @@ To see the rest of Web Chat's updates for 4.6, take a look at the [changelog](ht
 ### Bot Framework CLI Tools (GA)
 The new Bot Framework CLI tool replaces legacy standalone tools used to manage bots and related services. We've ported most of the tools and are in the process of porting the rest of them. BF CLI aggregates the collection of cross-platform tools into one cohesive and consistent interface. For the 4.6 release, we've ported Chatdown, QnAMaker, LuDown, and LuisGen. We plan to deprecate older versions of the tool in the future. [[Docs](https://aka.ms/bfcli)]
 
-### Bot Framework Solutions 
-Virtual Assistan Solution Accelerator for Enterprise (??)
-
-
 ## Related Services
 
 ### Language Understanding 
