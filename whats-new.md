@@ -9,8 +9,6 @@ This page summarizes key new features and improvements in Bot Framework and Azur
 <a name="V4-whats-new"></a>
 
 ### Bot Framework SDK v4
-The Bot Framework SDK v4 is an [open source SDK][1a] that enable developers to model and build sophisticated conversation using their favorite programming language.
-
 The November release includes a new SDK version - 4.6.
 
 |   | C#  | JS  | Python |  Java | 
@@ -45,7 +43,7 @@ Adaptive Dialogs enable developers to build conversations that can be dynamicall
 Language Generation enable developers to separate logic used to generate bot's respones including ability to define multiple variations on a phrase, execute simple expressions based on context, refer to conversational memory. [[Docs][44] | [C# samples][45]]
 
 #### Common Expression Language (Preview)
-Bots, like any other application, require use of expressions to evaluate outcome of a condition based on runtime information available in memory or to the dialog or the language generation system. Common Expression Language addresses this core need as well as provides a common language that can be used across Bot Framework SDK and other conversational AI components that need expressions. Both Adaptive dialogs and Language Generation rely on and use a common expression language to power bot conversations. [[Docs][40] | [Api][41]]
+Common Expression Language allows you to evaluate the outcome of a condition-based logic at runtime information. We provide a common language that can be used across the Bot Framework SDK and conversational AI components, such as Adaptive Dialogs and Language Generation. [[Docs][40] | [Api][41]]
 
 
 [40]:https://github.com/Microsoft/BotBuilder-Samples/tree/master/experimental/common-expression-language#readme
