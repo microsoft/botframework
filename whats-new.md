@@ -73,26 +73,27 @@ Bot Framework Composer is an integrated development tool for developers and mult
 [30]:https://github.com/Microsoft/BotFramework-DirectLineJS/blob/master/README.md
 
 ### Bot Framework Web Chat (GA)
-[Add what is w
+Bot Framework Web Chat component is a highly customizable web-based client for the Bot Framework V4 SDK. Updates include:
 - React upgraded to 16.8.6 to support React Hooks and stateful function components.
-- Uploaded image attachments can now include a thumbnail. Additional UI improvements and customizability include bubble nub, timestamp format, and stylable avatar background colors.
 
-To see the rest of Web Chat's updates for 4.6, take a look at the [changelog](https://github.com/microsoft/BotFramework-WebChat/blob/master/CHANGELOG.md).
+- uploaded image attachments can now include a thumbnail 
+- UI improvements and customizability include bubble nub, timestamp format, and customizable user and bot icons
+[[Docs]](https://github.com/microsoft/BotFramework-WebChat/blob/master/CHANGELOG.md). TODO>>
 
-### Bot Framework CLI Tools (GA)
-The new Bot Framework CLI tool replaces legacy standalone tools used to manage bots and related services. We've ported most of the tools and are in the process of porting the rest of them. BF CLI aggregates the collection of cross-platform tools into one cohesive and consistent interface. For the 4.6 release, we've ported Chatdown, QnAMaker, LuDown, and LuisGen. We plan to deprecate older versions of the tool in the future. [[Docs](https://aka.ms/bfcli)]
+### Bot Framework CLI (GA)
+BF CLI aggregates the collection of cross-platform tools into one cohesive and consistent interface. For the 4.6 release, we've ported Chatdown, QnAMaker, LuDown, and LuisGen. [[Docs](https://aka.ms/bfcli)]
 
 ## Related Services
 
 ### Language Understanding 
-A machine learning-based service to build natural language experiences. Quickly create enterprise-ready, custom models that continuously improve. Language Understanding Service(LUIS) allows your application to understand what a person wants in their own words.[[Docs](https://docs.microsoft.com/en-gb/azure/cognitive-services/luis/whats-new#november-4-2019---ignite)] 
+A machine learning-based Azure service to build natural language experiences. Quickly create enterprise-ready, custom models that continuously improve. Updates include: build sophisticated, hierarchical language models with less effort, ability to import and export .lu files paves the way for an effective CI/CD process. 
 
-- **Advanced language understanding capabilities** - build sophisticated language models with less effort
-  - Define machine learning features at the model level and enable models to be used as signals to other model, like using entities as features to intents and to other entities.
-  - Extract information from text in the format of deep hierarchical structure, making conversation applications more powerful.
 
-- **Improved developer productivity** -  General availability of prediction endpoint V3. Ability to import and export .lu files paves the way for an effective CI/CD process. 
+[[Docs](https://docs.microsoft.com/en-gb/azure/cognitive-services/luis/whats-new#november-4-2019---ignite)] 
 
+- **Advanced language understanding capabilities** - 
+
+- **Improved developer productivity** -  
 - **Enhanced user experience** - labeling experience enables building and debugging complex models
 
 - **Language expansion** - basic support for Arabic and Hindi (public preview)
