@@ -33,6 +33,9 @@ The November release includes a new SDK version - 4.6.
 #### Bot Framework SDK for Microsoft Teams (GA)
 The Bot Framework SDK v4.6 release fully integrates support for building Teams bots allowing users to use them in channel or group chat conversations. By adding a bot to a team or chat, all users of the conversation can take advantage of the bot functionality right in the conversation.  [[Docs][00] | [C# sample][00] | [JS sample][00]]
 
+#### Streaming support (GA)
+Enable streaming to allow the use of the WebSockets protocol with supported channels. This allows for full-duplex streaming of conversations which is very useful for scenarios that benefit lower latency like using Direct Line Speech. [[Docs][00] | [C# sample][00] | [JS sample][00]]
+
 #### Bot Framework SDK Skills (Preview)
 Create a reusable conversational skill to add functionality to a bot. Leverage pre-built skills, such as Calendar, Email, Task, Point of Interest, Automotive, Weather and News skills. Skills include language models, dialogs, QnA, and integration code delivered to customize and extend as required. [[Download]()]
 
