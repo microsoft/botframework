@@ -40,7 +40,7 @@ Create a reusable conversational skill to add functionality to a bot. Leverage p
 Adaptive Dialogs enable developers to build conversations that can be dynamically changed as the conversation progresses. It allows developers to dynamically update conversation flow based on context and events. This is especially handy when dealing with conversation context switches and interruptions in the middle of a conversation. [[Docs][48] | [C# samples][49]] 
 
 #### Language Generation (Preview)
-Language Generation enable developers to separate logic used to generate bot's respones including ability to define multiple variations on a phrase, execute simple expressions based on context, refer to conversational memory. [[Docs][44] | [C# samples][45]]
+Language Generation enables developers to separate logic used to generate bot's respones including ability to define multiple variations on a phrase, execute simple expressions based on context, refer to conversational memory. [[Docs][44] | [C# samples][45]]
 
 #### Common Expression Language (Preview)
 Common Expression Language allows you to evaluate the outcome of a condition-based logic at runtime information. We provide a common language that can be used across the Bot Framework SDK and conversational AI components, such as Adaptive Dialogs and Language Generation. [[Docs][40] | [Api][41]]
@@ -86,17 +86,7 @@ BF CLI aggregates the collection of cross-platform tools into one cohesive and c
 ## Related Services
 
 ### Language Understanding 
-A machine learning-based Azure service to build natural language experiences. Quickly create enterprise-ready, custom models that continuously improve. Updates include: build sophisticated, hierarchical language models with less effort, ability to import and export .lu files paves the way for an effective CI/CD process. 
-
-
-[[Docs](https://docs.microsoft.com/en-gb/azure/cognitive-services/luis/whats-new#november-4-2019---ignite)] 
-
-- **Advanced language understanding capabilities** - 
-
-- **Improved developer productivity** -  
-- **Enhanced user experience** - labeling experience enables building and debugging complex models
-
-- **Language expansion** - basic support for Arabic and Hindi (public preview)
+A machine learning-based Azure service to build natural language experiences. Quickly create enterprise-ready, custom models that continuously improve. Updates include: build sophisticated, hierarchical language models with less effort, import and export .lu files for an effective CI/CD process, and basic support for Arabic and Hindi (public preview). [[Docs](https://docs.microsoft.com/en-gb/azure/cognitive-services/luis/whats-new#november-4-2019---ignite)] 
 
 ### QnA Maker
 QnA Maker is a cloud-based API service that creates a conversational, question-and-answer layer over your data. With QnA Maker, you can build, train and publish a simple question and answer bot based on FAQ URLs, structured documents, product manuals or editorial content in minutes.
