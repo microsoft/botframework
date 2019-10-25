@@ -81,18 +81,11 @@ BF CLI aggregates the collection of cross-platform tools into one cohesive and c
 ## Related Services
 
 ### Language Understanding 
-A machine learning-based Azure service to build natural language experiences. Quickly create enterprise-ready, custom models that continuously improve. Updates include: build sophisticated, hierarchical language models with less effort, import and export .lu files for an effective CI/CD process, and basic support for Arabic and Hindi (public preview). [[Docs](https://docs.microsoft.com/en-gb/azure/cognitive-services/luis/whats-new#november-4-2019---ignite)] 
+Language Understadning is an Azure service for building natural language experiences. You can quickly create enterprise-ready, custom models that continuously improve. Updates include: create sophisticated, hierarchical language models with less effort, import and export .lu files for an effective CI/CD process, and basic support for Arabic and Hindi (public preview). [[Docs](https://docs.microsoft.com/en-gb/azure/cognitive-services/luis/whats-new#november-4-2019---ignite)] 
 
 ### QnA Maker
-QnA Maker is a cloud-based API service that creates a conversational, question-and-answer layer over your data. With QnA Maker, you can build, train and publish a simple question and answer bot based on FAQ URLs, structured documents, product manuals or editorial content in minutes.
+QnA Maker is an Azure service that can be used to find the most appropriate answer for any given natural language input, from your custom knowledge base (KB) of information. Updates include: multi-turn Q&A conversations, new set of languages supported for chit-chat dataset, US Government Cloud Support, and the ability to set the KB language for your service. [[Docs](https://docs.microsoft.com/en-us/azure/cognitive-services/qnamaker/whats-new)]
 
-- **Multi-turn Q&A Conversations**: Multi-turn feature is available to build guided conversational flows. With the latest release, multi-turn moves out of preview, and you can build multi-turn Q&A conversations with no code. [[Docs](https://docs.microsoft.com/en-us/azure/cognitive-services/qnamaker/how-to/multiturn-conversation)]
-
-- **Chit-Chat**: The new set of languages supported for chit-chat dataset are Chinese, French, German, Japanese, Italian, Korean, Portugese, Spanish. The new languages have chit-chat available for only 1 personality today - the professional personality. [[Docs](https://docs.microsoft.com/en-us/azure/cognitive-services/qnamaker/how-to/chit-chat-knowledge-base)]
-
-- **US Government Cloud Support**: QnA Maker is now available (GA) for US Government cloud. [[Docs](https://docs.microsoft.com/en-us/azure/azure-government/documentation-government-services-aiandcognitiveservices#language)]
-
-- **Enhanced KB Management Experience**: The new KB language settings option lets you explicitly set the KB language for your service. Excel file format support has been added to the import and export actions for easy editing and replacment of the content. [Batch Testing](https://aka.ms/qna_batchtest) allows you to batch test your KB or KBs to analyse the quality and training of your KB data.
 
 [70]:https://azure.microsoft.com/en-us/services/cognitive-services/speech-services/
 
