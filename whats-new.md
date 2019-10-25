@@ -73,7 +73,7 @@ Bot Framework Composer is an integrated development tool for developers and mult
 [30]:https://github.com/Microsoft/BotFramework-DirectLineJS/blob/master/README.md
 
 ### Bot Framework Web Chat (GA)
-Bot Framework Web Chat component is a highly customizable web-based client for the Bot Framework V4 SDK. Updates include: React upgrade to 16.8.6 to support React Hooks and stateful function components, uploaded image attachments can now include a thumbnail, and UI improvements and customizability include bubble nub, timestamp format, and customizable user and bot icons. [[Docs]](https://github.com/microsoft/BotFramework-WebChat/blob/master/CHANGELOG.md). <<TODO: UPDATE LINK>>
+Bot Framework Web Chat component is a highly customizable web-based client for the Bot Framework V4 SDK. Updates include: React upgrade to 16.8.6 to support React Hooks and stateful function components, uploaded image attachments can now include a thumbnail, and UI improvements and customizability include bubble nub, timestamp format, and customizable user and bot icons. [[Docs](https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-webchat-overview?view=azure-bot-service-4.0)]
 
 ### Bot Framework CLI (GA)
 BF CLI aggregates the collection of cross-platform tools into one cohesive and consistent interface. For the 4.6 release, we've ported Chatdown, QnAMaker, LuDown, and LuisGen. [[Docs](https://aka.ms/bfcli)]
