@@ -81,7 +81,7 @@ BF CLI aggregates the collection of cross-platform tools into one cohesive and c
 ## Related Services
 
 ### Language Understanding 
-Language Understadning (LUIS) is an Azure service for building natural language experiences. You can quickly create enterprise-ready, custom models that continuously improve. Updates include: sophisticated hierarchical language models, import and export .lu files for an effective CI/CD process, and basic support for Arabic and Hindi (public preview). [[Docs](https://docs.microsoft.com/en-gb/azure/cognitive-services/luis/whats-new#november-4-2019---ignite)] 
+Language Understanding (LUIS) is an Azure service for building natural language experiences. You can quickly create enterprise-ready, custom models that continuously improve. Updates include: sophisticated hierarchical language models, import and export .lu files for an effective CI/CD process, and basic support for Arabic and Hindi (public preview). [[Docs](https://docs.microsoft.com/en-gb/azure/cognitive-services/luis/whats-new#november-4-2019---ignite)] 
 
 ### QnA Maker
 QnA Maker is an Azure service that can be used to find the most appropriate answer from your custom knowledge base (KB). Updates include: multi-turn Q&A conversations, new set of languages supported for chit-chat dataset, US Government cloud support, and the ability to set the KB language for your service. [[Docs](https://docs.microsoft.com/en-us/azure/cognitive-services/qnamaker/whats-new)]
