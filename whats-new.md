@@ -87,10 +87,9 @@ Language Understanding (LUIS) is an Azure service for building natural language 
 QnA Maker is an Azure service that can be used to find the most appropriate answer from your custom knowledge base (KB). Updates include: multi-turn Q&A conversations, new set of languages supported for chit-chat dataset, US Government cloud support, and the ability to set the KB language for your service. [[Docs](https://docs.microsoft.com/en-us/azure/cognitive-services/qnamaker/whats-new)]
 
 ### Speech
-Speech Services on Azure converts speech <-> text and integrates into your bot. You can use the Direct Line Speech channel in the Azure Bot Service to stream speech, create transcipt files from audio files, and neural-text-to-speech which can make the voice of your bot nearly indistinguishable from voices of the people. [[Docs]]
+Speech Services on Azure converts speech <-> text and integrates into your bot. You can use the Direct Line Speech channel in the Azure Bot Service to stream speech, create transcipt files from audio files, and neural-text-to-speech which can make the voice of your bot nearly indistinguishable from voices of the people. [[Docs](https://docs.microsoft.com/en-us/azure/cognitive-services/speech-service/overview)]
 
 [70]:https://azure.microsoft.com/en-us/services/cognitive-services/speech-services/
-
 [11]:https://www.nuget.org/packages/Microsoft.Bot.Builder/3.20.1
 [12]:https://www.npmjs.com/package/botbuilder/v/3.16.0
 [13]:https://docs.microsoft.com/en-us/azure/bot-service/?view=azure-bot-service-3.0
