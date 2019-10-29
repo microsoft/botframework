@@ -43,7 +43,7 @@ Adaptive Dialogs enable developers to build conversations that can be dynamicall
 Language Generation enables developers to separate logic used to generate bot's respones including ability to define multiple variations on a phrase, execute simple expressions based on context, refer to conversational memory. [[Docs][44] | [C# samples][45]]
 
 #### Common Expression Language (Preview)
-Common Expression Language allows you to evaluate the outcome of a condition-based logic at runtime information. We provide a common language that can be used across the Bot Framework SDK and conversational AI components, such as Adaptive Dialogs and Language Generation. [[Docs][40] | [Api][41]]
+Common Expression Language allows you to evaluate the outcome of a condition-based logic at runtime information. We provide a common language that can be used across the Bot Framework SDK and conversational AI components, such as Adaptive Dialogs and Language Generation. [[Docs][40] | [API][41]]
 
 
 [40]:https://github.com/Microsoft/BotBuilder-Samples/tree/master/experimental/common-expression-language#readme
@@ -86,6 +86,8 @@ Language Understanding (LUIS) is an Azure service for building natural language 
 ### QnA Maker
 QnA Maker is an Azure service that can be used to find the most appropriate answer from your custom knowledge base (KB). Updates include: multi-turn Q&A conversations, new set of languages supported for chit-chat dataset, US Government cloud support, and the ability to set the KB language for your service. [[Docs](https://docs.microsoft.com/en-us/azure/cognitive-services/qnamaker/whats-new)]
 
+### Speech
+Speech Services on Azure converts speech <-> text and integrates into your bot. You can use the Direct Line Speech channel in the Azure Bot Service to stream speech, create transcipt files from audio files, and neural-text-to-speech which can make the voice of your bot nearly indistinguishable from voices of the people. [[Docs]]
 
 [70]:https://azure.microsoft.com/en-us/services/cognitive-services/speech-services/
 
