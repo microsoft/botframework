@@ -40,7 +40,7 @@ Power Virtual Agents is designed to enable business users to create bots within 
 
 - **Skills for bots**: Create a reusable conversational skill to add functionality to a bot. Leverage pre-built skills, such as Calendar, Email, Task, Point of Interest, Automotive, Weather and News skills. Skills include language models, dialogs, QnA, and integration code delivered to customize and extend as required. [[Docs](https://microsoft.github.io/botframework-solutions/overview/skills/)]
 
-- **Skills for Power Virtual Agent**: For bots built with Power Virtual Agents, you can build new skills for these bots using Bot Framework and Azure Cognitive Services without needing to build a new bot from scratch. [[Docs](https://docs.microsoft.com/en-us/dynamics365/ai/customer-service-virtual-agent/overview)]  
+- **Skills for Power Virtual Agent - Coming!**: For bots built with Power Virtual Agents, you can build new skills for these bots using Bot Framework and Azure Cognitive Services without needing to build a new bot from scratch. 
 
 #### Adaptive Dialog (Preview)
 Adaptive Dialogs enable developers to build conversations that can be dynamically changed as the conversation progresses. It allows developers to dynamically update conversation flow based on context and events. This is especially handy when dealing with conversation context switches and interruptions in the middle of a conversation. [[Docs][48] | [C# samples][49]] 
