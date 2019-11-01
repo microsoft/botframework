@@ -4,7 +4,111 @@ using their favorite programming language. Click [here](./README.md) to learn mo
 
 This page summarizes key new features and improvements in Bot Framework and Azure Bot Service. 
 
+## November 2019 (Ignite)
+
+<a name="V4-whats-new"></a>
+
+### Bot Framework SDK v4
+The November release includes a new SDK version - 4.6.
+
+|   | C#  | JS  | Python |  Java | 
+|---|:---:|:---:|:------:|:-----:|
+|Release |[4.6 GA][1] | [4.6 GA][2] | [Beta 4][3] | [Preview 3][3a]|
+|Docs | [docs][5] |[docs][5] |  | |
+|Samples |[.NET Core][6], [WebAPI][10] |[Node.js][7], [TypeScript][8], [es6][9]  | | | 
+
+[1a]:https://github.com/microsoft/botframework-sdk/#readme
+[1]:https://github.com/Microsoft/botbuilder-dotnet/#packages
+[2]:https://github.com/Microsoft/botbuilder-js#packages
+[3]:https://github.com/Microsoft/botbuilder-python#packages
+[3a]:https://github.com/Microsoft/botbuilder-java#packages
+[4]:https://github.com/Microsoft/botbuilder-java#packages
+[5]:https://docs.microsoft.com/en-us/azure/bot-service/?view=azure-bot-service-4.0
+[6]:https://github.com/Microsoft/BotBuilder-Samples/tree/master/samples/csharp_dotnetcore
+[7]:https://github.com/Microsoft/BotBuilder-Samples/tree/master/samples/javascript_nodejs
+[8]:https://github.com/Microsoft/BotBuilder-Samples/tree/master/samples/typescript_nodejs
+[9]:https://github.com/Microsoft/BotBuilder-Samples/tree/master/samples/javascript_es6
+[10]:https://github.com/Microsoft/BotBuilder-Samples/tree/master/samples/csharp_webapi
+
+#### Bot Framework SDK for Microsoft Teams (GA)
+The Bot Framework SDK v4.6 release fully integrates support for building Teams bots allowing users to use them in channel or group chat conversations. By adding a bot to a team or chat, all users of the conversation can take advantage of the bot functionality right in the conversation.  [[Docs](https://docs.microsoft.com/azure/bot-service/bot-builder-basics-teams)]
+
+#### Bot Framework for Power Virtual Agent (Preview)
+Power Virtual Agent is designed to enable business users to create bots within a UI-based bot building SaaS experience, without having to code or manage specific AI services. Power Virtual Agents can be extended with the Microsoft Bot Framework, allowing developers and business users to collaborate in building bots for their organizations. [[Docs](https://docs.microsoft.com/en-us/dynamics365/ai/customer-service-virtual-agent/overview)]
+
+#### Bot Framework SDK for Skills (GA)
+
+- **Skills for bots**: Create reusable conversational skills to add functionality to a bot. Leverage pre-built skills, such as Calendar, Email, Task, Point of Interest, Automotive, Weather and News skills. Skills include language models, dialogs, QnA, and integration code delivered to customize and extend as required. [[Docs](https://microsoft.github.io/botframework-solutions/overview/skills/)]
+
+- **Skills for Power Virtual Agent - Coming!**: For bots built with Power Virtual Agents, you can build new skills for these bots using Bot Framework and Azure Cognitive Services without needing to build a new bot from scratch. 
+
+#### Adaptive Dialogs (Preview)
+Adaptive Dialogs enable developers to dynamically update conversation flow based on context and events. This is especially handy when dealing with conversation context switches and interruptions in the middle of a conversation. [[Docs][48] | [C# samples][49]] 
+
+#### Language Generation (Preview)
+Language Generation enables developers to separate logic used to generate bot's respones including the ability to define multiple variations on a phrase, execute simple expressions based on context, refer to conversational memory. [[Docs][44] | [C# samples][45]]
+
+#### Common Expression Language (Preview)
+Common Expression Language allows you to evaluate the outcome of a condition-based logic at runtime. Common language can be used across the Bot Framework SDK and conversational AI components, such as Adaptive Dialogs and Language Generation. [[Docs][40] | [API][41]]
+
+
+[40]:https://github.com/Microsoft/BotBuilder-Samples/tree/master/experimental/common-expression-language#readme
+[41]:https://github.com/Microsoft/BotBuilder-Samples/blob/master/experimental/common-expression-language/api-reference.md
+[43]:https://github.com/Microsoft/BotBuilder-Samples/tree/master/experimental/language-generation#readme
+[44]:https://github.com/Microsoft/BotBuilder-Samples/tree/master/experimental/language-generation/docs
+[45]:https://github.com/Microsoft/BotBuilder-Samples/tree/master/experimental/language-generation/csharp_dotnetcore
+[46]:https://github.com/Microsoft/BotBuilder-Samples/tree/master/experimental/language-generation/javascript_nodejs/13.core-bot
+[47]:https://github.com/Microsoft/BotBuilder-Samples/tree/master/experimental/adaptive-dialog#readme
+[48]:https://github.com/Microsoft/BotBuilder-Samples/tree/master/experimental/adaptive-dialog/docs
+[49]:https://github.com/Microsoft/BotBuilder-Samples/tree/master/experimental/adaptive-dialog/csharp_dotnetcore
+[50]:https://github.com/Microsoft/BotBuilder-Samples/tree/master/experimental/adaptive-dialog/declarative
+
+[00]:http://docs.microsoft.com
+
+### Bot Framework Composer (Preview)
+Bot Framework Composer is an integrated development tool for developers and multi-disciplinary teams to build bots and conversational experiences with the Microsoft Bot Framework. Within this tool, you'll find everything you need to build a sophisticated conversational experience. [[Docs](https://github.com/microsoft/BotFramework-Composer/tree/kaiqb/Ignite2019)]
+
+### Azure Bot Service
+- **Direct Line Speech (GA)**: Bot Framework and Microsoft's Speech Services provide a channel that enables streamed speech and text bi-directionally from the client to the bot application using WebSockets on Azure Bot Service. [[Docs](https://docs.microsoft.com/azure/bot-service/directline-speech-bot?view=azure-bot-service-4.0)] 
+
+- **Direct Line App Service Extension (Preview)**: A version of Direct Line App Service Extension that isolates your bot from other traffic on the Bot Service by running Direct Line on your dedicated Azure App Service. This also allows bots to participate in Azure VNET configurations. A VNET lets developers create your own private space in Azure and is crucial to your cloud network as it offers isolation, segmentation, and other key benefits. [[Docs](https://aka.ms/directline-ase)]
+
+[27]:https://azure.microsoft.com/en-us/services/bot-service/
+[28]:https://docs.microsoft.com/en-us/azure/bot-service/bot-service-overview-introduction?view=azure-bot-service-4.0
+[29]:https://docs.microsoft.com/en-us/azure/bot-service/bot-service-manage-channels?view=azure-bot-service-4.0
+[30]:https://github.com/Microsoft/BotFramework-DirectLineJS/blob/master/README.md
+
+### Bot Framework Web Chat (GA)
+Bot Framework Web Chat component is a highly customizable web-based client for the Bot Framework V4 SDK. Updates include: React upgrade to 16.8.6 to support React Hooks and stateful function components, uploaded image attachments can now include a thumbnail, and UI improvements and customizability include bubble nub, timestamp format, and customizable user and bot icons. [[Docs](https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-webchat-overview?view=azure-bot-service-4.0)]
+
+### Bot Framework CLI (GA)
+BF CLI aggregates the collection of cross-platform tools into one cohesive and consistent interface. For the 4.6 release, we've ported Chatdown, QnAMaker, LuDown, and LuisGen. [[Docs](https://aka.ms/bfcli)]
+
+## Related Services
+
+### Language Understanding 
+Language Understanding (LUIS) is an Azure service for building natural language experiences. You can quickly create enterprise-ready, custom models that continuously improve. Updates include: sophisticated hierarchical language models, import and export .lu files for an effective CI/CD process, and basic support for Arabic and Hindi (public preview). [[Docs](https://docs.microsoft.com/en-gb/azure/cognitive-services/luis/whats-new#november-4-2019---ignite)] 
+
+### QnA Maker
+QnA Maker is an Azure service that can be used to find the most appropriate answer from your custom knowledge base (KB). Updates include: multi-turn Q&A conversations, new set of languages supported for chit-chat dataset, US Government cloud support, and the ability to set the KB language for your service. [[Docs](https://docs.microsoft.com/en-us/azure/cognitive-services/qnamaker/whats-new)]
+
+### Speech
+Speech Services on Azure converts speech <-> text and integrates into your bot. You can use the Direct Line Speech channel in the Azure Bot Service to stream speech, create transcipt files from audio files, and neural-text-to-speech which can make the voice of your bot nearly indistinguishable from voices of the people. [[Docs](https://docs.microsoft.com/en-us/azure/cognitive-services/speech-service/overview)]
+
+[70]:https://azure.microsoft.com/en-us/services/cognitive-services/speech-services/
+[11]:https://www.nuget.org/packages/Microsoft.Bot.Builder/3.20.1
+[12]:https://www.npmjs.com/package/botbuilder/v/3.16.0
+[13]:https://docs.microsoft.com/en-us/azure/bot-service/?view=azure-bot-service-3.0
+[14]:https://github.com/Microsoft/BotBuilder-V3/tree/master/CSharp/Samples
+[15]:https://github.com/Microsoft/BotBuilder-V3/tree/master/Node/examples
+
+
+##
 # July 2019
+The Bot Framework SDK v4 is an [Open Source SDK][1a] that enable developers to model and build sophisticated conversation 
+using their favorite programming language. Click [here](./README.md) to learn more about Microsoft Bot Framework. 
+
+This page summarizes key new features and improvements in Bot Framework and Azure Bot Service. 
 
 |   | C#  | JS  | Python |   
 |---|:---:|:---:|:------:|
@@ -54,7 +158,7 @@ Based on enterprise customers asks, we've added a [web chat sample](https://gith
   
 
 ## 
-## May 2019
+# May 2019
 - [Sessions](#Sessions)
 - [What's new](#whats-new)
 
