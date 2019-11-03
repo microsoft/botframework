@@ -34,9 +34,9 @@ The November release includes a new SDK version - 4.6.
 The Bot Framework SDK v4.6 release fully integrates support for building Teams bots allowing users to use them in channel or group chat conversations. By adding a bot to a team or chat, all users of the conversation can take advantage of the bot functionality right in the conversation.  [[Docs](https://docs.microsoft.com/azure/bot-service/bot-builder-basics-teams)]
 
 #### Bot Framework for Power Virtual Agent (Preview)
-Power Virtual Agent is designed to enable business users to create bots within a UI-based bot building SaaS experience, without having to code or manage specific AI services. Power Virtual Agents can be extended with the Microsoft Bot Framework, allowing developers and business users to collaborate in building bots for their organizations. [[Docs](https://docs.microsoft.com/en-us/dynamics365/ai/customer-service-virtual-agent/overview)]
+Power Virtual Agent is designed to enable business users to create bots within a UI-based bot building SaaS experience, without having to code or manage specific AI services. Power Virtual Agents can be extended with the Microsoft Bot Framework through Skills, allowing developers and business users to collaborate in building bots for their organizations. [[Docs](https://docs.microsoft.com/en-us/dynamics365/ai/customer-service-virtual-agent/overview)]
 
-#### Bot Framework SDK for Skills (GA)
+#### Bot Framework SDK for Skills (Preview)
 
 - **Skills for bots**: Create reusable conversational skills to add functionality to a bot. Leverage pre-built skills, such as Calendar, Email, Task, Point of Interest, Automotive, Weather and News skills. Skills include language models, dialogs, QnA, and integration code delivered to customize and extend as required. [[Docs](https://microsoft.github.io/botframework-solutions/overview/skills/)]
 
@@ -50,7 +50,6 @@ Language Generation enables developers to separate logic used to generate bot's 
 
 #### Common Expression Language (Preview)
 Common Expression Language allows you to evaluate the outcome of a condition-based logic at runtime. Common language can be used across the Bot Framework SDK and conversational AI components, such as Adaptive Dialogs and Language Generation. [[Docs][40] | [API][41]]
-
 
 [40]:https://github.com/Microsoft/BotBuilder-Samples/tree/master/experimental/common-expression-language#readme
 [41]:https://github.com/Microsoft/BotBuilder-Samples/blob/master/experimental/common-expression-language/api-reference.md
@@ -77,6 +76,23 @@ Bot Framework Composer is an integrated development tool for developers and mult
 [28]:https://docs.microsoft.com/en-us/azure/bot-service/bot-service-overview-introduction?view=azure-bot-service-4.0
 [29]:https://docs.microsoft.com/en-us/azure/bot-service/bot-service-manage-channels?view=azure-bot-service-4.0
 [30]:https://github.com/Microsoft/BotFramework-DirectLineJS/blob/master/README.md
+
+### Bot Framework Solutions
+
+#### Virtual Assistant Core
+
+[Virtual Assistant Core](https://github.com/Microsoft/botframework-solutions#readme) : Provides a set of templates, solution accelerators and skills to help build sophisticated conversational experiences. 
+
+New for Ignite:
+- Bot Framework 4.6 support. Language Generation support enabling more natural, flexible responses.
+- Context switching, Speech support, [New documentation site](http://aka.ms/virtualassistantdocs), Teams support, Multi-turn QnAMaker, 
+- Android Virtual Assistant cient integrating Speech, Bot Framework and Adaptive Cards.
+
+#### Enterprise Assistant (Preview)
+
+Many organizations are looking to provide a centralized conversational experience across many conversational canvases for employees. This concept allows for a consolidation of many disparate bots across the organization to a more centralized solution where a master bot handles finding the right bot to handle the conversation, thus avoiding bot explosion through parent bot / skills approach. This in turn gets employees more productive and allows for a true Enterprise Virtual Assistant Experience.
+
+The [Enterprise Assistant Sample](http://aka.ms/virtualassistantdocs)is an example of a Virtual Assistant that helps conceptualize and demonstrate how an assistant could be used in common enterprise scenarios. It also provides a starting point for those interested in creating an assistant customized for this scenario including Enterprise knowledgebase templates, productivity skills and an experimental IT Service Management (Servicenow) skill.
 
 ### Bot Framework Web Chat (GA)
 Bot Framework Web Chat component is a highly customizable web-based client for the Bot Framework V4 SDK. Updates include: React upgrade to 16.8.6 to support React Hooks and stateful function components, uploaded image attachments can now include a thumbnail, and UI improvements and customizability include bubble nub, timestamp format, and customizable user and bot icons. [[Docs](https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-webchat-overview?view=azure-bot-service-4.0)]
@@ -150,7 +166,6 @@ Introduced at Microsoft Build 2019, the Bot Inspector is a new feature in the Bo
 Based on enterprise customers asks, we've added a [web chat sample](https://github.com/microsoft/BotFramework-WebChat/tree/master/samples/19.a.single-sign-on-for-enterprise-apps#single-sign-on-demo-for-enterprise-apps-using-oauth) that shows how to authorize a user to access resources on an enterprise app with a bot. Two types of resources are used to demonstrate the interoperability of OAuth with Microsoft Graph and GitHub API.
 
 ## Solutions
-- [Virtual Assistant Solution Acclerator](https://github.com/Microsoft/botframework-solutions#readme) : Provides a set of templates, solution accelerators and skills to help build sophisticated conversational experiences. New Android app client for Virtual Assistant that integrates with Direct-Line Speech and Virtual Assistant demonstrating how a device client can interact with your Virtual Assistant and render Adaptive Cards. Updates also include support for Direct-Line Speech and Microsoft Teams.
   
 - [Dynamics 365 Virtual Agent for Customer Service (public preview)](https://dynamics.microsoft.com/en-us/ai/virtual-agent-for-customer-service/): With the public preview, you can provide exceptional customer service with intelligent, adaptable virtual agents. Customer service experts can easily create and enhance bots with AI-driven insights.
   
