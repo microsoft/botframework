@@ -24,6 +24,9 @@ This repo lists the SDK, tools, and services needed to build a great conversatio
 - [Analytics](#Analytics)
 - [Bot Framework SDK v3](#Bot-Framework-SDK-v3)
 
+## Bot Framework Composer - (Preview)
+Bot Framework Composer is an integrated development tool for developers and multi-disciplinary teams to build bots and conversational experiences with the Microsoft Bot Framework. Within this tool, you'll find everything you need to build a sophisticated conversational experience.
+
 ## Bot Framework SDK v4
 The Bot Framework SDK v4 is an [open source SDK][1a] that enable developers to model and build sophisticated conversation using their favorite programming language.
 
@@ -49,9 +52,6 @@ The Bot Framework SDK v4 is an [open source SDK][1a] that enable developers to m
 
 
 <a name="V4-whats-new"></a>
-
-### Bot Framework Composer - (Preview)
-Bot Framework Composer is an integrated development tool for developers and multi-disciplinary teams to build bots and conversational experiences with the Microsoft Bot Framework. Within this tool, you'll find everything you need to build a sophisticated conversational experience.
 
 ### Bot Framework SDK v4 - (Preview)
 
