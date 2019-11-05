@@ -9,6 +9,7 @@ The Microsoft Bot Framework is a comprehensive platform for building enterprise-
 
 This repo lists the SDK, tools, and services needed to build a great conversational AI experience. Its role is to serve as a landing page and one place to find all the information required to get started. 
 
+- [Bot Framework Composer](#Bot-Framework-Composer)
 - [Bot Framework SDK v4](#Bot-Framework-SDK-v4)
 - [Bot Framework Solutions](#Bot-Framework-Solutions)
 - [Azure Bot Service](#Azure-Bot-Service)
@@ -48,6 +49,10 @@ The Bot Framework SDK v4 is an [open source SDK][1a] that enable developers to m
 
 
 <a name="V4-whats-new"></a>
+
+### Bot Framework Composer - (Preview)
+Bot Framework Composer is an integrated development tool for developers and multi-disciplinary teams to build bots and conversational experiences with the Microsoft Bot Framework. Within this tool, you'll find everything you need to build a sophisticated conversational experience.
+
 ### Bot Framework SDK v4 - (Preview)
 
 - **Adaptive Dialogs** enable developers to build conversations that can be dynamically changed as the conversation progresses.  Traditionally developers have mapped out the entire flow of a conversation up front, which limits the flexibility of the conversation.  Adaptive dialogs allow them to be more flexible, to respond to changes in context and insert new steps or entire sub-dialogs into the conversation as it progresses. Additionally as with other SDK V4 concepts, we have defined adaptive dialogs such that they can be defined via [declarative][50] that are interpreted at runtime; which allows us to have tooling on top of this and integrate with services. [[Docs][48] | [C# samples][49]]
