@@ -33,9 +33,9 @@ The Bot Framework SDK v4 is an [open source SDK][1a] that enable developers to m
 
 |   | C#  | JS  | Python |  Java | 
 |---|:---:|:---:|:------:|:-----:|
-|Stable Release |[4.6][1] | [4.6][2] | [Beta 4][3] | [Preview 3][3a]|
-|Docs | [docs][5] |[docs][5] |  | |
-|Samples |[.NET Core][6], [WebAPI][10] |[Node.js][7] , [TypeScript][8], [es6][9]  | | | 
+|Stable Release |[4.7][1] | [4.7][2] | [4.7][3] | [Preview 3][3a]|
+|Docs | [docs][5] |[docs][5] |[docs][5]  | |
+|Samples |[.NET Core][6], [WebAPI][10] |[Node.js][7] , [TypeScript][8], [es6][9]  | [Python][11] | | 
 
 [1a]:https://github.com/microsoft/botframework-sdk/#readme
 [1]:https://github.com/Microsoft/botbuilder-dotnet/#packages
@@ -49,18 +49,17 @@ The Bot Framework SDK v4 is an [open source SDK][1a] that enable developers to m
 [8]:https://github.com/Microsoft/BotBuilder-Samples/tree/master/samples/typescript_nodejs
 [9]:https://github.com/Microsoft/BotBuilder-Samples/tree/master/samples/javascript_es6
 [10]:https://github.com/Microsoft/BotBuilder-Samples/tree/master/samples/csharp_webapi
-
+[11]:https://github.com/microsoft/BotBuilder-Samples/tree/master/samples/python
 
 <a name="V4-whats-new"></a>
 
-### Bot Framework SDK v4 - (Preview)
+### Bot Framework SDK v4 preview features
 
 - **Adaptive Dialogs** enable developers to build conversations that can be dynamically changed as the conversation progresses.  Traditionally developers have mapped out the entire flow of a conversation up front, which limits the flexibility of the conversation.  Adaptive dialogs allow them to be more flexible, to respond to changes in context and insert new steps or entire sub-dialogs into the conversation as it progresses. Additionally as with other SDK V4 concepts, we have defined adaptive dialogs such that they can be defined via [declarative][50] that are interpreted at runtime; which allows us to have tooling on top of this and integrate with services. [[Docs][48] | [C# samples][49]]
 
 - **Language Generation**: Learning from our customers' experiences and bringing together capabilities first implemented by Cortana and Cognition teams, we are introducing Language Generation. It allows the developer to extract the embedded strings from their code and resource files and manage them through a Language Generation runtime and file format.  Language Generation enable customers to define multiple variations on a phrase, execute simple expressions based on context, refer to conversational memory, and over time will enable us to bring additional capabilities all leading to a more natural conversational experience. [[Docs][44] | [C# samples][45]]
 
 - **Common Expression Language**: Both Adaptive dialogs and Language Generation rely on and use a common expression language to power bot conversations. [[API][41]] 
-
 
 [40]:https://github.com/Microsoft/BotBuilder-Samples/tree/master/experimental/common-expression-language#readme
 [41]:https://github.com/Microsoft/BotBuilder-Samples/blob/master/experimental/common-expression-language/api-reference.md
@@ -73,7 +72,7 @@ The Bot Framework SDK v4 is an [open source SDK][1a] that enable developers to m
 [49]:https://github.com/Microsoft/BotBuilder-Samples/tree/master/experimental/adaptive-dialog/csharp_dotnetcore
 [50]:https://github.com/Microsoft/BotBuilder-Samples/tree/master/experimental/adaptive-dialog/declarative
 
-#### Botkit
+### Botkit
 [Botkit][100] is a developer tool and SDK for building chat bots, apps and custom integrations for major messaging platforms. Botkit bots `hear()` triggers, `ask()` questions and `say()` replies. Developers can use this syntax to build dialogs - now cross compatible with the latest version of Bot Framework SDK. 
 
 In addition, Botkit brings with it 6 platform adapters allowing Javascript bot applications to communicate directly with messaging platforms: [Slack][102], [Webex Teams][103], [Google Hangouts][104], [Facebook Messenger][105], [Twilio][106], and [Web chat][107].
